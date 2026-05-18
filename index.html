@@ -505,15 +505,7 @@
       </p>
     </section>
 
-    <section class="footer-card">
-      <h2>Submission notes</h2>
-      <p>
-        The project keeps the original fifteen Vega-Lite visualisations as the core evidence, with page-level grouping,
-        captions, method notes, and navigation added to support a coherent narrative reading.
-      </p>
-    </section>
-
-    <section class="footer-card">
+    <section class="footer-card footer-card--wide">
       <h2>What this page shows</h2>
       <p>
         Australia's domestic aviation network is concentrated, resilient, and regionally uneven. The largest corridors
@@ -522,6 +514,36 @@
     </section>
 
     <section class="footer-card footer-card--wide">
+      <h2>Data files</h2>
+      <p>
+        Cleaned CSV extracts are provided for transparency. They group the real source workbooks into the same route,
+        airport, and population-intensity families used by the story.
+      </p>
+      <div class="data-list" aria-label="Cleaned data file links">
+        <a href="data/routes_dec2025.csv">
+          <strong>routes_dec2025.csv</strong>
+          <span>December 2025 route passengers, seats, load factor, and trips.</span>
+        </a>
+        <a href="data/routes_monthly_2014_2026.csv">
+          <strong>routes_monthly_2014_2026.csv</strong>
+          <span>Monthly city-pair route records from July 2014 to February 2026.</span>
+        </a>
+        <a href="data/airports_nov2025.csv">
+          <strong>airports_nov2025.csv</strong>
+          <span>November 2025 airport passengers, movements, and year-ended totals.</span>
+        </a>
+        <a href="data/airport_intensity_population.csv">
+          <strong>airport_intensity_population.csv</strong>
+          <span>Passenger intensity by resident population for the airport-city pairings.</span>
+        </a>
+        <a href="data/README_data.md">
+          <strong>README_data.md</strong>
+          <span>Source notes and chart support mapping for each public data file.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="footer-card footer-card--full">
       <h2>Vega-Lite specifications</h2>
       <div class="spec-list" aria-label="JSON specification links">
         <a href="specs/01_route_map.vl.json">01 Route map</a>

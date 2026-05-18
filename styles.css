@@ -651,6 +651,10 @@ h1 {
   grid-column: span 2;
 }
 
+.footer-card--full {
+  grid-column: 1 / -1;
+}
+
 .footer-card--hero {
   background: linear-gradient(135deg, #ffffff 0%, #eef6fa 100%);
 }
@@ -664,6 +668,33 @@ h1 {
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 12px;
+}
+
+.data-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.data-list a {
+  display: grid;
+  gap: 3px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.76);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.data-list a:hover {
+  border-color: var(--accent-soft);
+  background: #f7fbfd;
+}
+
+.data-list span {
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .back-to-top {
