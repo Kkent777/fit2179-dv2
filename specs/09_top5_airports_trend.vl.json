@@ -1,0 +1,5145 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 420,
+  "title": {
+    "text": "Top 5 Airports Over Time",
+    "subtitle": "Monthly total passengers, January 2009 to November 2025",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-01-01",
+        "total_passengers": 562745
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-02-01",
+        "total_passengers": 503104
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-03-01",
+        "total_passengers": 602881
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-04-01",
+        "total_passengers": 596962
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-05-01",
+        "total_passengers": 553609
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-06-01",
+        "total_passengers": 522002
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-07-01",
+        "total_passengers": 587518
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-08-01",
+        "total_passengers": 579462
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-09-01",
+        "total_passengers": 576599
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-10-01",
+        "total_passengers": 608506
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-11-01",
+        "total_passengers": 574967
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2009-12-01",
+        "total_passengers": 573392
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-01-01",
+        "total_passengers": 567868
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-02-01",
+        "total_passengers": 538101
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-03-01",
+        "total_passengers": 629641
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-04-01",
+        "total_passengers": 632130
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-05-01",
+        "total_passengers": 581309
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-06-01",
+        "total_passengers": 566016
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-07-01",
+        "total_passengers": 637854
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-08-01",
+        "total_passengers": 610715
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-09-01",
+        "total_passengers": 615725
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-10-01",
+        "total_passengers": 661786
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-11-01",
+        "total_passengers": 612434
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2010-12-01",
+        "total_passengers": 637064
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-01-01",
+        "total_passengers": 598735
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-02-01",
+        "total_passengers": 540863
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-03-01",
+        "total_passengers": 632227
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-04-01",
+        "total_passengers": 618337
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-05-01",
+        "total_passengers": 593412
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-06-01",
+        "total_passengers": 519653
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-07-01",
+        "total_passengers": 604209
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-08-01",
+        "total_passengers": 576137
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-09-01",
+        "total_passengers": 575054
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-10-01",
+        "total_passengers": 603135
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-11-01",
+        "total_passengers": 579467
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2011-12-01",
+        "total_passengers": 580178
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-01-01",
+        "total_passengers": 581221
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-02-01",
+        "total_passengers": 539297
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-03-01",
+        "total_passengers": 610966
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-04-01",
+        "total_passengers": 582957
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-05-01",
+        "total_passengers": 571349
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-06-01",
+        "total_passengers": 543022
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-07-01",
+        "total_passengers": 601822
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-08-01",
+        "total_passengers": 577768
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-09-01",
+        "total_passengers": 595516
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-10-01",
+        "total_passengers": 622418
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-11-01",
+        "total_passengers": 627250
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2012-12-01",
+        "total_passengers": 613306
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-01-01",
+        "total_passengers": 598874
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-02-01",
+        "total_passengers": 540283
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-03-01",
+        "total_passengers": 628167
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-04-01",
+        "total_passengers": 631379
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-05-01",
+        "total_passengers": 578332
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-06-01",
+        "total_passengers": 555582
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-07-01",
+        "total_passengers": 648677
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-08-01",
+        "total_passengers": 603981
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-09-01",
+        "total_passengers": 614880
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-10-01",
+        "total_passengers": 675940
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-11-01",
+        "total_passengers": 626951
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2013-12-01",
+        "total_passengers": 670828
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-01-01",
+        "total_passengers": 651897
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-02-01",
+        "total_passengers": 573857
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-03-01",
+        "total_passengers": 652515
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-04-01",
+        "total_passengers": 650475
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-05-01",
+        "total_passengers": 610743
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-06-01",
+        "total_passengers": 596644
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-07-01",
+        "total_passengers": 669353
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-08-01",
+        "total_passengers": 642031
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-09-01",
+        "total_passengers": 638194
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-10-01",
+        "total_passengers": 710166
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-11-01",
+        "total_passengers": 627753
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2014-12-01",
+        "total_passengers": 675236
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-01-01",
+        "total_passengers": 635469
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-02-01",
+        "total_passengers": 573004
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-03-01",
+        "total_passengers": 655983
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-04-01",
+        "total_passengers": 656615
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-05-01",
+        "total_passengers": 610415
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-06-01",
+        "total_passengers": 575982
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-07-01",
+        "total_passengers": 675280
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-08-01",
+        "total_passengers": 630720
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-09-01",
+        "total_passengers": 634195
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-10-01",
+        "total_passengers": 692916
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-11-01",
+        "total_passengers": 651429
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2015-12-01",
+        "total_passengers": 679161
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-01-01",
+        "total_passengers": 651089
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-02-01",
+        "total_passengers": 591678
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-03-01",
+        "total_passengers": 671019
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-04-01",
+        "total_passengers": 661909
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-05-01",
+        "total_passengers": 632987
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-06-01",
+        "total_passengers": 605352
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-07-01",
+        "total_passengers": 698637
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-08-01",
+        "total_passengers": 643500
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-09-01",
+        "total_passengers": 665481
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-10-01",
+        "total_passengers": 718039
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-11-01",
+        "total_passengers": 681624
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2016-12-01",
+        "total_passengers": 698858
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-01-01",
+        "total_passengers": 682114
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-02-01",
+        "total_passengers": 592560
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-03-01",
+        "total_passengers": 692194
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-04-01",
+        "total_passengers": 664951
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-05-01",
+        "total_passengers": 642003
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-06-01",
+        "total_passengers": 619419
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-07-01",
+        "total_passengers": 708820
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-08-01",
+        "total_passengers": 657527
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-09-01",
+        "total_passengers": 678585
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-10-01",
+        "total_passengers": 736180
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-11-01",
+        "total_passengers": 702337
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2017-12-01",
+        "total_passengers": 735244
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-01-01",
+        "total_passengers": 710449
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-02-01",
+        "total_passengers": 621056
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-03-01",
+        "total_passengers": 716470
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-04-01",
+        "total_passengers": 705927
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-05-01",
+        "total_passengers": 664038
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-06-01",
+        "total_passengers": 636942
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-07-01",
+        "total_passengers": 729595
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-08-01",
+        "total_passengers": 690507
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-09-01",
+        "total_passengers": 690724
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-10-01",
+        "total_passengers": 745468
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-11-01",
+        "total_passengers": 716252
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2018-12-01",
+        "total_passengers": 718875
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-01-01",
+        "total_passengers": 700427
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-02-01",
+        "total_passengers": 631605
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-03-01",
+        "total_passengers": 711385
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-04-01",
+        "total_passengers": 718048
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-05-01",
+        "total_passengers": 672228
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-06-01",
+        "total_passengers": 643063
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-07-01",
+        "total_passengers": 751443
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-08-01",
+        "total_passengers": 716714
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-09-01",
+        "total_passengers": 721207
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-10-01",
+        "total_passengers": 788252
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-11-01",
+        "total_passengers": 729672
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2019-12-01",
+        "total_passengers": 732127
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-01-01",
+        "total_passengers": 710550
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-02-01",
+        "total_passengers": 613852
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-03-01",
+        "total_passengers": 428787
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-04-01",
+        "total_passengers": 11845
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-05-01",
+        "total_passengers": 15739
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-06-01",
+        "total_passengers": 25334
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-07-01",
+        "total_passengers": 53928
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-08-01",
+        "total_passengers": 75977
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-09-01",
+        "total_passengers": 101196
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-10-01",
+        "total_passengers": 183943
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-11-01",
+        "total_passengers": 145393
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2020-12-01",
+        "total_passengers": 222869
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-01-01",
+        "total_passengers": 236170
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-02-01",
+        "total_passengers": 197675
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-03-01",
+        "total_passengers": 346385
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-04-01",
+        "total_passengers": 460210
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-05-01",
+        "total_passengers": 424791
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-06-01",
+        "total_passengers": 302879
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-07-01",
+        "total_passengers": 136357
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-08-01",
+        "total_passengers": 81013
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-09-01",
+        "total_passengers": 162345
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-10-01",
+        "total_passengers": 187323
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-11-01",
+        "total_passengers": 233221
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2021-12-01",
+        "total_passengers": 298426
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-01-01",
+        "total_passengers": 265220
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-02-01",
+        "total_passengers": 285165
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-03-01",
+        "total_passengers": 458156
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-04-01",
+        "total_passengers": 589339
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-05-01",
+        "total_passengers": 559398
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-06-01",
+        "total_passengers": 552873
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-07-01",
+        "total_passengers": 623400
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-08-01",
+        "total_passengers": 572479
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-09-01",
+        "total_passengers": 594792
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-10-01",
+        "total_passengers": 653606
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-11-01",
+        "total_passengers": 631204
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2022-12-01",
+        "total_passengers": 631204
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-01-01",
+        "total_passengers": 629570
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-02-01",
+        "total_passengers": 561508
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-03-01",
+        "total_passengers": 681445
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-04-01",
+        "total_passengers": 675521
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-05-01",
+        "total_passengers": 651737
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-06-01",
+        "total_passengers": 615749
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-07-01",
+        "total_passengers": 693000
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-08-01",
+        "total_passengers": 663667
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-09-01",
+        "total_passengers": 675167
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-10-01",
+        "total_passengers": 739163
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-11-01",
+        "total_passengers": 709330
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2023-12-01",
+        "total_passengers": 701629
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-01-01",
+        "total_passengers": 703831
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-02-01",
+        "total_passengers": 645836
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-03-01",
+        "total_passengers": 701038
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-04-01",
+        "total_passengers": 733634
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-05-01",
+        "total_passengers": 655392
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-06-01",
+        "total_passengers": 627074
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-07-01",
+        "total_passengers": 712049
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-08-01",
+        "total_passengers": 672261
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-09-01",
+        "total_passengers": 681239
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-10-01",
+        "total_passengers": 752425
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-11-01",
+        "total_passengers": 730068
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2024-12-01",
+        "total_passengers": 736789
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-01-01",
+        "total_passengers": 725247
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-02-01",
+        "total_passengers": 633248
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-03-01",
+        "total_passengers": 710095
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-04-01",
+        "total_passengers": 730332
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-05-01",
+        "total_passengers": 675413
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-06-01",
+        "total_passengers": 654611
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-07-01",
+        "total_passengers": 737128
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-08-01",
+        "total_passengers": 709676
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-09-01",
+        "total_passengers": 717780
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-10-01",
+        "total_passengers": 790616
+      },
+      {
+        "airport": "ADELAIDE",
+        "date": "2025-11-01",
+        "total_passengers": 765167
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-01-01",
+        "total_passengers": 1637137
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-02-01",
+        "total_passengers": 1339961
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-03-01",
+        "total_passengers": 1502667
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-04-01",
+        "total_passengers": 1547454
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-05-01",
+        "total_passengers": 1467767
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-06-01",
+        "total_passengers": 1461865
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-07-01",
+        "total_passengers": 1653107
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-08-01",
+        "total_passengers": 1577010
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-09-01",
+        "total_passengers": 1627241
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-10-01",
+        "total_passengers": 1695116
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-11-01",
+        "total_passengers": 1566556
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2009-12-01",
+        "total_passengers": 1637214
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-01-01",
+        "total_passengers": 1556191
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-02-01",
+        "total_passengers": 1398496
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-03-01",
+        "total_passengers": 1539983
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-04-01",
+        "total_passengers": 1577004
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-05-01",
+        "total_passengers": 1496204
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-06-01",
+        "total_passengers": 1572834
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-07-01",
+        "total_passengers": 1779578
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-08-01",
+        "total_passengers": 1702253
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-09-01",
+        "total_passengers": 1747179
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-10-01",
+        "total_passengers": 1793703
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-11-01",
+        "total_passengers": 1679959
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2010-12-01",
+        "total_passengers": 1777064
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-01-01",
+        "total_passengers": 1579514
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-02-01",
+        "total_passengers": 1411855
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-03-01",
+        "total_passengers": 1589459
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-04-01",
+        "total_passengers": 1674166
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-05-01",
+        "total_passengers": 1626057
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-06-01",
+        "total_passengers": 1613998
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-07-01",
+        "total_passengers": 1854250
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-08-01",
+        "total_passengers": 1776653
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-09-01",
+        "total_passengers": 1793859
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-10-01",
+        "total_passengers": 1834174
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-11-01",
+        "total_passengers": 1749949
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2011-12-01",
+        "total_passengers": 1829916
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-01-01",
+        "total_passengers": 1742435
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-02-01",
+        "total_passengers": 1521481
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-03-01",
+        "total_passengers": 1709901
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-04-01",
+        "total_passengers": 1707424
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-05-01",
+        "total_passengers": 1660415
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-06-01",
+        "total_passengers": 1693161
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-07-01",
+        "total_passengers": 1865278
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-08-01",
+        "total_passengers": 1807303
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-09-01",
+        "total_passengers": 1821804
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-10-01",
+        "total_passengers": 1907154
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-11-01",
+        "total_passengers": 1802149
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2012-12-01",
+        "total_passengers": 1834257
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-01-01",
+        "total_passengers": 1732368
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-02-01",
+        "total_passengers": 1533482
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-03-01",
+        "total_passengers": 1709951
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-04-01",
+        "total_passengers": 1714243
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-05-01",
+        "total_passengers": 1676243
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-06-01",
+        "total_passengers": 1740493
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-07-01",
+        "total_passengers": 1933394
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-08-01",
+        "total_passengers": 1862590
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-09-01",
+        "total_passengers": 1848124
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-10-01",
+        "total_passengers": 1957331
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-11-01",
+        "total_passengers": 1813458
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2013-12-01",
+        "total_passengers": 1923161
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-01-01",
+        "total_passengers": 1813715
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-02-01",
+        "total_passengers": 1578028
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-03-01",
+        "total_passengers": 1755209
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-04-01",
+        "total_passengers": 1837114
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-05-01",
+        "total_passengers": 1744558
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-06-01",
+        "total_passengers": 1754616
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-07-01",
+        "total_passengers": 1979914
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-08-01",
+        "total_passengers": 1881055
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-09-01",
+        "total_passengers": 1878130
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-10-01",
+        "total_passengers": 1996384
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-11-01",
+        "total_passengers": 1794382
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2014-12-01",
+        "total_passengers": 1934712
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-01-01",
+        "total_passengers": 1796865
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-02-01",
+        "total_passengers": 1579254
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-03-01",
+        "total_passengers": 1804641
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-04-01",
+        "total_passengers": 1805547
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-05-01",
+        "total_passengers": 1721060
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-06-01",
+        "total_passengers": 1745990
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-07-01",
+        "total_passengers": 1991419
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-08-01",
+        "total_passengers": 1855265
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-09-01",
+        "total_passengers": 1907675
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-10-01",
+        "total_passengers": 1972094
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-11-01",
+        "total_passengers": 1857069
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2015-12-01",
+        "total_passengers": 1988617
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-01-01",
+        "total_passengers": 1858983
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-02-01",
+        "total_passengers": 1665040
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-03-01",
+        "total_passengers": 1855293
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-04-01",
+        "total_passengers": 1808359
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-05-01",
+        "total_passengers": 1758420
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-06-01",
+        "total_passengers": 1801937
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-07-01",
+        "total_passengers": 2025545
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-08-01",
+        "total_passengers": 1896281
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-09-01",
+        "total_passengers": 1962859
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-10-01",
+        "total_passengers": 1986468
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-11-01",
+        "total_passengers": 1876629
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2016-12-01",
+        "total_passengers": 2009782
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-01-01",
+        "total_passengers": 1902999
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-02-01",
+        "total_passengers": 1622991
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-03-01",
+        "total_passengers": 1845706
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-04-01",
+        "total_passengers": 1879113
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-05-01",
+        "total_passengers": 1800561
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-06-01",
+        "total_passengers": 1844272
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-07-01",
+        "total_passengers": 2073055
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-08-01",
+        "total_passengers": 1951472
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-09-01",
+        "total_passengers": 1988622
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-10-01",
+        "total_passengers": 2049057
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-11-01",
+        "total_passengers": 1938366
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2017-12-01",
+        "total_passengers": 2053053
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-01-01",
+        "total_passengers": 1923374
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-02-01",
+        "total_passengers": 1702868
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-03-01",
+        "total_passengers": 1944782
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-04-01",
+        "total_passengers": 1894468
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-05-01",
+        "total_passengers": 1866543
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-06-01",
+        "total_passengers": 1852597
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-07-01",
+        "total_passengers": 2149349
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-08-01",
+        "total_passengers": 2046092
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-09-01",
+        "total_passengers": 1983400
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-10-01",
+        "total_passengers": 2095825
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-11-01",
+        "total_passengers": 1968943
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2018-12-01",
+        "total_passengers": 2038522
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-01-01",
+        "total_passengers": 1960439
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-02-01",
+        "total_passengers": 1698607
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-03-01",
+        "total_passengers": 1903367
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-04-01",
+        "total_passengers": 1981057
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-05-01",
+        "total_passengers": 1904833
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-06-01",
+        "total_passengers": 1892811
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-07-01",
+        "total_passengers": 2179902
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-08-01",
+        "total_passengers": 2095732
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-09-01",
+        "total_passengers": 2058486
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-10-01",
+        "total_passengers": 2179748
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-11-01",
+        "total_passengers": 2021253
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2019-12-01",
+        "total_passengers": 2129471
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-01-01",
+        "total_passengers": 2059500
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-02-01",
+        "total_passengers": 1640823
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-03-01",
+        "total_passengers": 1149016
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-04-01",
+        "total_passengers": 63861
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-05-01",
+        "total_passengers": 69784
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-06-01",
+        "total_passengers": 157426
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-07-01",
+        "total_passengers": 362469
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-08-01",
+        "total_passengers": 298122
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-09-01",
+        "total_passengers": 319449
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-10-01",
+        "total_passengers": 390375
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-11-01",
+        "total_passengers": 451397
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2020-12-01",
+        "total_passengers": 812866
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-01-01",
+        "total_passengers": 561752
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-02-01",
+        "total_passengers": 607329
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-03-01",
+        "total_passengers": 863948
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-04-01",
+        "total_passengers": 888432
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-05-01",
+        "total_passengers": 1062989
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-06-01",
+        "total_passengers": 916068
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-07-01",
+        "total_passengers": 535774
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-08-01",
+        "total_passengers": 254008
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-09-01",
+        "total_passengers": 450021
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-10-01",
+        "total_passengers": 470875
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-11-01",
+        "total_passengers": 514718
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2021-12-01",
+        "total_passengers": 780739
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-01-01",
+        "total_passengers": 724609
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-02-01",
+        "total_passengers": 757123
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-03-01",
+        "total_passengers": 1117384
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-04-01",
+        "total_passengers": 1467432
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-05-01",
+        "total_passengers": 1437105
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-06-01",
+        "total_passengers": 1520328
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-07-01",
+        "total_passengers": 1659822
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-08-01",
+        "total_passengers": 1559380
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-09-01",
+        "total_passengers": 1636966
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-10-01",
+        "total_passengers": 1702532
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-11-01",
+        "total_passengers": 1661185
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2022-12-01",
+        "total_passengers": 1659902
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-01-01",
+        "total_passengers": 1616020
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-02-01",
+        "total_passengers": 1454426
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-03-01",
+        "total_passengers": 1727718
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-04-01",
+        "total_passengers": 1683921
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-05-01",
+        "total_passengers": 1691690
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-06-01",
+        "total_passengers": 1739544
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-07-01",
+        "total_passengers": 1870708
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-08-01",
+        "total_passengers": 1838023
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-09-01",
+        "total_passengers": 1883453
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-10-01",
+        "total_passengers": 1901896
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-11-01",
+        "total_passengers": 1871816
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2023-12-01",
+        "total_passengers": 1909350
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-01-01",
+        "total_passengers": 1780656
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-02-01",
+        "total_passengers": 1733687
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-03-01",
+        "total_passengers": 1870242
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-04-01",
+        "total_passengers": 1818997
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-05-01",
+        "total_passengers": 1859308
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-06-01",
+        "total_passengers": 1896448
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-07-01",
+        "total_passengers": 2048221
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-08-01",
+        "total_passengers": 1986025
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-09-01",
+        "total_passengers": 2024557
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-10-01",
+        "total_passengers": 2106975
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-11-01",
+        "total_passengers": 2027139
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2024-12-01",
+        "total_passengers": 2101066
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-01-01",
+        "total_passengers": 2045598
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-02-01",
+        "total_passengers": 1748448
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-03-01",
+        "total_passengers": 1775492
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-04-01",
+        "total_passengers": 2029014
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-05-01",
+        "total_passengers": 1971467
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-06-01",
+        "total_passengers": 1962689
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-07-01",
+        "total_passengers": 2198975
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-08-01",
+        "total_passengers": 2090963
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-09-01",
+        "total_passengers": 2103123
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-10-01",
+        "total_passengers": 2243182
+      },
+      {
+        "airport": "BRISBANE",
+        "date": "2025-11-01",
+        "total_passengers": 2114314
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-01-01",
+        "total_passengers": 2153621
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-02-01",
+        "total_passengers": 1864888
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-03-01",
+        "total_passengers": 2096617
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-04-01",
+        "total_passengers": 2062161
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-05-01",
+        "total_passengers": 1922695
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-06-01",
+        "total_passengers": 1876659
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-07-01",
+        "total_passengers": 2085121
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-08-01",
+        "total_passengers": 2060091
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-09-01",
+        "total_passengers": 2129408
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-10-01",
+        "total_passengers": 2233310
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-11-01",
+        "total_passengers": 2187773
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2009-12-01",
+        "total_passengers": 2213226
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-01-01",
+        "total_passengers": 2212250
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-02-01",
+        "total_passengers": 2059498
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-03-01",
+        "total_passengers": 2297264
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-04-01",
+        "total_passengers": 2210667
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-05-01",
+        "total_passengers": 2092579
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-06-01",
+        "total_passengers": 2136805
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-07-01",
+        "total_passengers": 2373418
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-08-01",
+        "total_passengers": 2307052
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-09-01",
+        "total_passengers": 2391723
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-10-01",
+        "total_passengers": 2482066
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-11-01",
+        "total_passengers": 2353972
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2010-12-01",
+        "total_passengers": 2477470
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-01-01",
+        "total_passengers": 2455380
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-02-01",
+        "total_passengers": 2105298
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-03-01",
+        "total_passengers": 2334848
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-04-01",
+        "total_passengers": 2355646
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-05-01",
+        "total_passengers": 2227363
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-06-01",
+        "total_passengers": 2098598
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-07-01",
+        "total_passengers": 2380599
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-08-01",
+        "total_passengers": 2273562
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-09-01",
+        "total_passengers": 2290394
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-10-01",
+        "total_passengers": 2398198
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-11-01",
+        "total_passengers": 2332126
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2011-12-01",
+        "total_passengers": 2415492
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-01-01",
+        "total_passengers": 2472457
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-02-01",
+        "total_passengers": 2176205
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-03-01",
+        "total_passengers": 2415686
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-04-01",
+        "total_passengers": 2328814
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-05-01",
+        "total_passengers": 2235023
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-06-01",
+        "total_passengers": 2237937
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-07-01",
+        "total_passengers": 2476933
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-08-01",
+        "total_passengers": 2412091
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-09-01",
+        "total_passengers": 2462653
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-10-01",
+        "total_passengers": 2569683
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-11-01",
+        "total_passengers": 2562556
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2012-12-01",
+        "total_passengers": 2567554
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-01-01",
+        "total_passengers": 2582721
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-02-01",
+        "total_passengers": 2235097
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-03-01",
+        "total_passengers": 2536525
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-04-01",
+        "total_passengers": 2444809
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-05-01",
+        "total_passengers": 2315041
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-06-01",
+        "total_passengers": 2326595
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-07-01",
+        "total_passengers": 2684305
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-08-01",
+        "total_passengers": 2575986
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-09-01",
+        "total_passengers": 2524521
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-10-01",
+        "total_passengers": 2694409
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-11-01",
+        "total_passengers": 2565512
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2013-12-01",
+        "total_passengers": 2734906
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-01-01",
+        "total_passengers": 2739790
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-02-01",
+        "total_passengers": 2343673
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-03-01",
+        "total_passengers": 2571469
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-04-01",
+        "total_passengers": 2581957
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-05-01",
+        "total_passengers": 2432889
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-06-01",
+        "total_passengers": 2446602
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-07-01",
+        "total_passengers": 2741442
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-08-01",
+        "total_passengers": 2619543
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-09-01",
+        "total_passengers": 2618518
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-10-01",
+        "total_passengers": 2843105
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-11-01",
+        "total_passengers": 2660170
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2014-12-01",
+        "total_passengers": 2787635
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-01-01",
+        "total_passengers": 2761136
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-02-01",
+        "total_passengers": 2470962
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-03-01",
+        "total_passengers": 2761467
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-04-01",
+        "total_passengers": 2645955
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-05-01",
+        "total_passengers": 2509777
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-06-01",
+        "total_passengers": 2515890
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-07-01",
+        "total_passengers": 2910121
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-08-01",
+        "total_passengers": 2714899
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-09-01",
+        "total_passengers": 2750804
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-10-01",
+        "total_passengers": 2944991
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-11-01",
+        "total_passengers": 2815638
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2015-12-01",
+        "total_passengers": 2988573
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-01-01",
+        "total_passengers": 2937096
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-02-01",
+        "total_passengers": 2685198
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-03-01",
+        "total_passengers": 2887695
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-04-01",
+        "total_passengers": 2751937
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-05-01",
+        "total_passengers": 2635376
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-06-01",
+        "total_passengers": 2682632
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-07-01",
+        "total_passengers": 3027651
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-08-01",
+        "total_passengers": 2796120
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-09-01",
+        "total_passengers": 2918473
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-10-01",
+        "total_passengers": 3007157
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-11-01",
+        "total_passengers": 2928097
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2016-12-01",
+        "total_passengers": 3117757
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-01-01",
+        "total_passengers": 3108187
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-02-01",
+        "total_passengers": 2640167
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-03-01",
+        "total_passengers": 2922567
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-04-01",
+        "total_passengers": 2932916
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-05-01",
+        "total_passengers": 2716526
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-06-01",
+        "total_passengers": 2761888
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-07-01",
+        "total_passengers": 3137542
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-08-01",
+        "total_passengers": 2899739
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-09-01",
+        "total_passengers": 2976505
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-10-01",
+        "total_passengers": 3173580
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-11-01",
+        "total_passengers": 3072597
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2017-12-01",
+        "total_passengers": 3217306
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-01-01",
+        "total_passengers": 3191692
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-02-01",
+        "total_passengers": 2798735
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-03-01",
+        "total_passengers": 3136491
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-04-01",
+        "total_passengers": 3030280
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-05-01",
+        "total_passengers": 2808631
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-06-01",
+        "total_passengers": 2875571
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-07-01",
+        "total_passengers": 3259664
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-08-01",
+        "total_passengers": 3081117
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-09-01",
+        "total_passengers": 3083139
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-10-01",
+        "total_passengers": 3269371
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-11-01",
+        "total_passengers": 3159920
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2018-12-01",
+        "total_passengers": 3222018
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-01-01",
+        "total_passengers": 3258151
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-02-01",
+        "total_passengers": 2842067
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-03-01",
+        "total_passengers": 3065002
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-04-01",
+        "total_passengers": 3109429
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-05-01",
+        "total_passengers": 2860588
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-06-01",
+        "total_passengers": 2846724
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-07-01",
+        "total_passengers": 3245407
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-08-01",
+        "total_passengers": 3097512
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-09-01",
+        "total_passengers": 3089035
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-10-01",
+        "total_passengers": 3277997
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-11-01",
+        "total_passengers": 3148480
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2019-12-01",
+        "total_passengers": 3293899
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-01-01",
+        "total_passengers": 3266053
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-02-01",
+        "total_passengers": 2598779
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-03-01",
+        "total_passengers": 1716071
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-04-01",
+        "total_passengers": 59561
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-05-01",
+        "total_passengers": 72174
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-06-01",
+        "total_passengers": 138405
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-07-01",
+        "total_passengers": 73927
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-08-01",
+        "total_passengers": 35059
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-09-01",
+        "total_passengers": 35691
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-10-01",
+        "total_passengers": 37977
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-11-01",
+        "total_passengers": 107779
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2020-12-01",
+        "total_passengers": 755916
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-01-01",
+        "total_passengers": 642116
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-02-01",
+        "total_passengers": 414418
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-03-01",
+        "total_passengers": 983585
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-04-01",
+        "total_passengers": 1421268
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-05-01",
+        "total_passengers": 1251993
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-06-01",
+        "total_passengers": 346235
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-07-01",
+        "total_passengers": 458660
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-08-01",
+        "total_passengers": 70382
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-09-01",
+        "total_passengers": 41068
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-10-01",
+        "total_passengers": 48853
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-11-01",
+        "total_passengers": 380188
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2021-12-01",
+        "total_passengers": 1101510
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-01-01",
+        "total_passengers": 1230668
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-02-01",
+        "total_passengers": 1144032
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-03-01",
+        "total_passengers": 1708306
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-04-01",
+        "total_passengers": 2245924
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-05-01",
+        "total_passengers": 2093432
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-06-01",
+        "total_passengers": 2294372
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-07-01",
+        "total_passengers": 2510151
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-08-01",
+        "total_passengers": 2305612
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-09-01",
+        "total_passengers": 2465826
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-10-01",
+        "total_passengers": 2551840
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-11-01",
+        "total_passengers": 2535758
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2022-12-01",
+        "total_passengers": 2631437
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-01-01",
+        "total_passengers": 2706006
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-02-01",
+        "total_passengers": 2307501
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-03-01",
+        "total_passengers": 2699660
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-04-01",
+        "total_passengers": 2698826
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-05-01",
+        "total_passengers": 2587497
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-06-01",
+        "total_passengers": 2651381
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-07-01",
+        "total_passengers": 2906600
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-08-01",
+        "total_passengers": 2803170
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-09-01",
+        "total_passengers": 2883436
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-10-01",
+        "total_passengers": 2986215
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-11-01",
+        "total_passengers": 2943990
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2023-12-01",
+        "total_passengers": 3058280
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-01-01",
+        "total_passengers": 3113681
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-02-01",
+        "total_passengers": 2836405
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-03-01",
+        "total_passengers": 2987996
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-04-01",
+        "total_passengers": 2872406
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-05-01",
+        "total_passengers": 2711538
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-06-01",
+        "total_passengers": 2748611
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-07-01",
+        "total_passengers": 3025955
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-08-01",
+        "total_passengers": 2873786
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-09-01",
+        "total_passengers": 2982163
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-10-01",
+        "total_passengers": 3120852
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-11-01",
+        "total_passengers": 3016794
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2024-12-01",
+        "total_passengers": 3229825
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-01-01",
+        "total_passengers": 3384398
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-02-01",
+        "total_passengers": 2723472
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-03-01",
+        "total_passengers": 2921349
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-04-01",
+        "total_passengers": 3084766
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-05-01",
+        "total_passengers": 2820650
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-06-01",
+        "total_passengers": 2778724
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-07-01",
+        "total_passengers": 3168864
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-08-01",
+        "total_passengers": 2968794
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-09-01",
+        "total_passengers": 3041129
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-10-01",
+        "total_passengers": 3255741
+      },
+      {
+        "airport": "MELBOURNE",
+        "date": "2025-11-01",
+        "total_passengers": 3142586
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-01-01",
+        "total_passengers": 833408
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-02-01",
+        "total_passengers": 678181
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-03-01",
+        "total_passengers": 783818
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-04-01",
+        "total_passengers": 801729
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-05-01",
+        "total_passengers": 747332
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-06-01",
+        "total_passengers": 737297
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-07-01",
+        "total_passengers": 844447
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-08-01",
+        "total_passengers": 790968
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-09-01",
+        "total_passengers": 831817
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-10-01",
+        "total_passengers": 874764
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-11-01",
+        "total_passengers": 820965
+      },
+      {
+        "airport": "PERTH",
+        "date": "2009-12-01",
+        "total_passengers": 871048
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-01-01",
+        "total_passengers": 870281
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-02-01",
+        "total_passengers": 744398
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-03-01",
+        "total_passengers": 871092
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-04-01",
+        "total_passengers": 850177
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-05-01",
+        "total_passengers": 792862
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-06-01",
+        "total_passengers": 829769
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-07-01",
+        "total_passengers": 922278
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-08-01",
+        "total_passengers": 862619
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-09-01",
+        "total_passengers": 906620
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-10-01",
+        "total_passengers": 952947
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-11-01",
+        "total_passengers": 889806
+      },
+      {
+        "airport": "PERTH",
+        "date": "2010-12-01",
+        "total_passengers": 960713
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-01-01",
+        "total_passengers": 957236
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-02-01",
+        "total_passengers": 792080
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-03-01",
+        "total_passengers": 909714
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-04-01",
+        "total_passengers": 935622
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-05-01",
+        "total_passengers": 919018
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-06-01",
+        "total_passengers": 880950
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-07-01",
+        "total_passengers": 1013834
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-08-01",
+        "total_passengers": 963201
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-09-01",
+        "total_passengers": 976883
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-10-01",
+        "total_passengers": 1010419
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-11-01",
+        "total_passengers": 986468
+      },
+      {
+        "airport": "PERTH",
+        "date": "2011-12-01",
+        "total_passengers": 1020075
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-01-01",
+        "total_passengers": 1050402
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-02-01",
+        "total_passengers": 915343
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-03-01",
+        "total_passengers": 1023623
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-04-01",
+        "total_passengers": 1036255
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-05-01",
+        "total_passengers": 996155
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-06-01",
+        "total_passengers": 1004136
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-07-01",
+        "total_passengers": 1122271
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-08-01",
+        "total_passengers": 1061831
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-09-01",
+        "total_passengers": 1074596
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-10-01",
+        "total_passengers": 1162757
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-11-01",
+        "total_passengers": 1063922
+      },
+      {
+        "airport": "PERTH",
+        "date": "2012-12-01",
+        "total_passengers": 1107048
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-01-01",
+        "total_passengers": 1124826
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-02-01",
+        "total_passengers": 920835
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-03-01",
+        "total_passengers": 1064842
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-04-01",
+        "total_passengers": 1081628
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-05-01",
+        "total_passengers": 1044803
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-06-01",
+        "total_passengers": 1002510
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-07-01",
+        "total_passengers": 1167837
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-08-01",
+        "total_passengers": 1067962
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-09-01",
+        "total_passengers": 1082978
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-10-01",
+        "total_passengers": 1156293
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-11-01",
+        "total_passengers": 1036100
+      },
+      {
+        "airport": "PERTH",
+        "date": "2013-12-01",
+        "total_passengers": 1151098
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-01-01",
+        "total_passengers": 1191921
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-02-01",
+        "total_passengers": 955440
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-03-01",
+        "total_passengers": 1046824
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-04-01",
+        "total_passengers": 1126040
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-05-01",
+        "total_passengers": 1007389
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-06-01",
+        "total_passengers": 989828
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-07-01",
+        "total_passengers": 1154083
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-08-01",
+        "total_passengers": 1050259
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-09-01",
+        "total_passengers": 1090572
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-10-01",
+        "total_passengers": 1163689
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-11-01",
+        "total_passengers": 1027395
+      },
+      {
+        "airport": "PERTH",
+        "date": "2014-12-01",
+        "total_passengers": 1135486
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-01-01",
+        "total_passengers": 1133052
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-02-01",
+        "total_passengers": 929116
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-03-01",
+        "total_passengers": 1038399
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-04-01",
+        "total_passengers": 1065541
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-05-01",
+        "total_passengers": 966755
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-06-01",
+        "total_passengers": 975771
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-07-01",
+        "total_passengers": 1151145
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-08-01",
+        "total_passengers": 1020257
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-09-01",
+        "total_passengers": 1053970
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-10-01",
+        "total_passengers": 1109350
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-11-01",
+        "total_passengers": 1017149
+      },
+      {
+        "airport": "PERTH",
+        "date": "2015-12-01",
+        "total_passengers": 1133860
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-01-01",
+        "total_passengers": 1122583
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-02-01",
+        "total_passengers": 939225
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-03-01",
+        "total_passengers": 1039280
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-04-01",
+        "total_passengers": 1036602
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-05-01",
+        "total_passengers": 956091
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-06-01",
+        "total_passengers": 976538
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-07-01",
+        "total_passengers": 1108324
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-08-01",
+        "total_passengers": 1005953
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-09-01",
+        "total_passengers": 1072661
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-10-01",
+        "total_passengers": 1091243
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-11-01",
+        "total_passengers": 1018529
+      },
+      {
+        "airport": "PERTH",
+        "date": "2016-12-01",
+        "total_passengers": 1137632
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-01-01",
+        "total_passengers": 1127293
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-02-01",
+        "total_passengers": 897848
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-03-01",
+        "total_passengers": 1007198
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-04-01",
+        "total_passengers": 1048448
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-05-01",
+        "total_passengers": 963760
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-06-01",
+        "total_passengers": 971036
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-07-01",
+        "total_passengers": 1095708
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-08-01",
+        "total_passengers": 1003707
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-09-01",
+        "total_passengers": 1037945
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-10-01",
+        "total_passengers": 1091450
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-11-01",
+        "total_passengers": 1011795
+      },
+      {
+        "airport": "PERTH",
+        "date": "2017-12-01",
+        "total_passengers": 1114344
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-01-01",
+        "total_passengers": 1114422
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-02-01",
+        "total_passengers": 908155
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-03-01",
+        "total_passengers": 1038429
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-04-01",
+        "total_passengers": 1040257
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-05-01",
+        "total_passengers": 986386
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-06-01",
+        "total_passengers": 976161
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-07-01",
+        "total_passengers": 1113105
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-08-01",
+        "total_passengers": 1020526
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-09-01",
+        "total_passengers": 1055669
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-10-01",
+        "total_passengers": 1091395
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-11-01",
+        "total_passengers": 1025377
+      },
+      {
+        "airport": "PERTH",
+        "date": "2018-12-01",
+        "total_passengers": 1107837
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-01-01",
+        "total_passengers": 1110861
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-02-01",
+        "total_passengers": 907537
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-03-01",
+        "total_passengers": 985075
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-04-01",
+        "total_passengers": 1049108
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-05-01",
+        "total_passengers": 981164
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-06-01",
+        "total_passengers": 957727
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-07-01",
+        "total_passengers": 1116590
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-08-01",
+        "total_passengers": 1038200
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-09-01",
+        "total_passengers": 1045683
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-10-01",
+        "total_passengers": 1131042
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-11-01",
+        "total_passengers": 1049212
+      },
+      {
+        "airport": "PERTH",
+        "date": "2019-12-01",
+        "total_passengers": 1141317
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-01-01",
+        "total_passengers": 1138686
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-02-01",
+        "total_passengers": 903118
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-03-01",
+        "total_passengers": 638537
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-04-01",
+        "total_passengers": 41849
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-05-01",
+        "total_passengers": 36410
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-06-01",
+        "total_passengers": 65764
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-07-01",
+        "total_passengers": 115284
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-08-01",
+        "total_passengers": 123348
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-09-01",
+        "total_passengers": 158500
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-10-01",
+        "total_passengers": 181000
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-11-01",
+        "total_passengers": 212135
+      },
+      {
+        "airport": "PERTH",
+        "date": "2020-12-01",
+        "total_passengers": 311447
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-01-01",
+        "total_passengers": 260296
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-02-01",
+        "total_passengers": 187833
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-03-01",
+        "total_passengers": 384191
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-04-01",
+        "total_passengers": 446071
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-05-01",
+        "total_passengers": 464895
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-06-01",
+        "total_passengers": 417294
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-07-01",
+        "total_passengers": 286065
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-08-01",
+        "total_passengers": 275055
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-09-01",
+        "total_passengers": 314485
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-10-01",
+        "total_passengers": 317233
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-11-01",
+        "total_passengers": 335413
+      },
+      {
+        "airport": "PERTH",
+        "date": "2021-12-01",
+        "total_passengers": 255958
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-01-01",
+        "total_passengers": 188707
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-02-01",
+        "total_passengers": 212039
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-03-01",
+        "total_passengers": 432879
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-04-01",
+        "total_passengers": 654788
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-05-01",
+        "total_passengers": 701731
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-06-01",
+        "total_passengers": 782276
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-07-01",
+        "total_passengers": 870035
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-08-01",
+        "total_passengers": 845673
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-09-01",
+        "total_passengers": 896462
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-10-01",
+        "total_passengers": 925167
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-11-01",
+        "total_passengers": 928840
+      },
+      {
+        "airport": "PERTH",
+        "date": "2022-12-01",
+        "total_passengers": 971606
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-01-01",
+        "total_passengers": 998003
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-02-01",
+        "total_passengers": 859804
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-03-01",
+        "total_passengers": 1007811
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-04-01",
+        "total_passengers": 981608
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-05-01",
+        "total_passengers": 972894
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-06-01",
+        "total_passengers": 958490
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-07-01",
+        "total_passengers": 1043214
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-08-01",
+        "total_passengers": 1027205
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-09-01",
+        "total_passengers": 1047011
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-10-01",
+        "total_passengers": 1097643
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-11-01",
+        "total_passengers": 1080885
+      },
+      {
+        "airport": "PERTH",
+        "date": "2023-12-01",
+        "total_passengers": 1089909
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-01-01",
+        "total_passengers": 1107023
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-02-01",
+        "total_passengers": 986751
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-03-01",
+        "total_passengers": 1069706
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-04-01",
+        "total_passengers": 1101061
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-05-01",
+        "total_passengers": 1073351
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-06-01",
+        "total_passengers": 1063284
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-07-01",
+        "total_passengers": 1193615
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-08-01",
+        "total_passengers": 1141379
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-09-01",
+        "total_passengers": 1195161
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-10-01",
+        "total_passengers": 1240213
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-11-01",
+        "total_passengers": 1169235
+      },
+      {
+        "airport": "PERTH",
+        "date": "2024-12-01",
+        "total_passengers": 1241518
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-01-01",
+        "total_passengers": 1289470
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-02-01",
+        "total_passengers": 1049464
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-03-01",
+        "total_passengers": 1130850
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-04-01",
+        "total_passengers": 1241755
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-05-01",
+        "total_passengers": 1158203
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-06-01",
+        "total_passengers": 1149637
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-07-01",
+        "total_passengers": 1290634
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-08-01",
+        "total_passengers": 1179265
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-09-01",
+        "total_passengers": 1241431
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-10-01",
+        "total_passengers": 1345882
+      },
+      {
+        "airport": "PERTH",
+        "date": "2025-11-01",
+        "total_passengers": 1232092
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-01-01",
+        "total_passengers": 2843970
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-02-01",
+        "total_passengers": 2475529
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-03-01",
+        "total_passengers": 2696525
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-04-01",
+        "total_passengers": 2711943
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-05-01",
+        "total_passengers": 2477568
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-06-01",
+        "total_passengers": 2415928
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-07-01",
+        "total_passengers": 2832503
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-08-01",
+        "total_passengers": 2746188
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-09-01",
+        "total_passengers": 2792110
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-10-01",
+        "total_passengers": 3073273
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-11-01",
+        "total_passengers": 2896761
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2009-12-01",
+        "total_passengers": 3035744
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-01-01",
+        "total_passengers": 3002821
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-02-01",
+        "total_passengers": 2776412
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-03-01",
+        "total_passengers": 2977829
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-04-01",
+        "total_passengers": 2885086
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-05-01",
+        "total_passengers": 2707431
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-06-01",
+        "total_passengers": 2735289
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-07-01",
+        "total_passengers": 3098523
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-08-01",
+        "total_passengers": 2961726
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-09-01",
+        "total_passengers": 3022007
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-10-01",
+        "total_passengers": 3198834
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-11-01",
+        "total_passengers": 3052913
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2010-12-01",
+        "total_passengers": 3231470
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-01-01",
+        "total_passengers": 3146394
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-02-01",
+        "total_passengers": 2771145
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-03-01",
+        "total_passengers": 2976744
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-04-01",
+        "total_passengers": 3005582
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-05-01",
+        "total_passengers": 2801294
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-06-01",
+        "total_passengers": 2691735
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-07-01",
+        "total_passengers": 3104336
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-08-01",
+        "total_passengers": 2942304
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-09-01",
+        "total_passengers": 3003735
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-10-01",
+        "total_passengers": 3090237
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-11-01",
+        "total_passengers": 2995276
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2011-12-01",
+        "total_passengers": 3145151
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-01-01",
+        "total_passengers": 3152180
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-02-01",
+        "total_passengers": 2795922
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-03-01",
+        "total_passengers": 3049284
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-04-01",
+        "total_passengers": 3005651
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-05-01",
+        "total_passengers": 2833328
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-06-01",
+        "total_passengers": 2869395
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-07-01",
+        "total_passengers": 3191228
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-08-01",
+        "total_passengers": 3106916
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-09-01",
+        "total_passengers": 3179592
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-10-01",
+        "total_passengers": 3282291
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-11-01",
+        "total_passengers": 3217905
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2012-12-01",
+        "total_passengers": 3324378
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-01-01",
+        "total_passengers": 3272748
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-02-01",
+        "total_passengers": 2853024
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-03-01",
+        "total_passengers": 3154998
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-04-01",
+        "total_passengers": 3131368
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-05-01",
+        "total_passengers": 2931804
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-06-01",
+        "total_passengers": 2956253
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-07-01",
+        "total_passengers": 3343443
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-08-01",
+        "total_passengers": 3200250
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-09-01",
+        "total_passengers": 3201058
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-10-01",
+        "total_passengers": 3402579
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-11-01",
+        "total_passengers": 3242198
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2013-12-01",
+        "total_passengers": 3460823
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-01-01",
+        "total_passengers": 3455808
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-02-01",
+        "total_passengers": 2957150
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-03-01",
+        "total_passengers": 3184630
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-04-01",
+        "total_passengers": 3194542
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-05-01",
+        "total_passengers": 3011684
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-06-01",
+        "total_passengers": 2975139
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-07-01",
+        "total_passengers": 3320236
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-08-01",
+        "total_passengers": 3205122
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-09-01",
+        "total_passengers": 3217122
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-10-01",
+        "total_passengers": 3482862
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-11-01",
+        "total_passengers": 3259834
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2014-12-01",
+        "total_passengers": 3468813
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-01-01",
+        "total_passengers": 3412810
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-02-01",
+        "total_passengers": 3010057
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-03-01",
+        "total_passengers": 3337568
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-04-01",
+        "total_passengers": 3213875
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-05-01",
+        "total_passengers": 3054632
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-06-01",
+        "total_passengers": 3039073
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-07-01",
+        "total_passengers": 3484862
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-08-01",
+        "total_passengers": 3266880
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-09-01",
+        "total_passengers": 3349538
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-10-01",
+        "total_passengers": 3534144
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-11-01",
+        "total_passengers": 3412839
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2015-12-01",
+        "total_passengers": 3692569
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-01-01",
+        "total_passengers": 3675936
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-02-01",
+        "total_passengers": 3315679
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-03-01",
+        "total_passengers": 3525027
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-04-01",
+        "total_passengers": 3441596
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-05-01",
+        "total_passengers": 3210189
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-06-01",
+        "total_passengers": 3196170
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-07-01",
+        "total_passengers": 3679394
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-08-01",
+        "total_passengers": 3419804
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-09-01",
+        "total_passengers": 3532833
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-10-01",
+        "total_passengers": 3659055
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-11-01",
+        "total_passengers": 3566193
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2016-12-01",
+        "total_passengers": 3796045
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-01-01",
+        "total_passengers": 3815496
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-02-01",
+        "total_passengers": 3283913
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-03-01",
+        "total_passengers": 3574611
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-04-01",
+        "total_passengers": 3589165
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-05-01",
+        "total_passengers": 3337694
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-06-01",
+        "total_passengers": 3360019
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-07-01",
+        "total_passengers": 3791267
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-08-01",
+        "total_passengers": 3536884
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-09-01",
+        "total_passengers": 3597194
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-10-01",
+        "total_passengers": 3789628
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-11-01",
+        "total_passengers": 3722359
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2017-12-01",
+        "total_passengers": 3931830
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-01-01",
+        "total_passengers": 3881666
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-02-01",
+        "total_passengers": 3451873
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-03-01",
+        "total_passengers": 3782141
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-04-01",
+        "total_passengers": 3687574
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-05-01",
+        "total_passengers": 3438889
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-06-01",
+        "total_passengers": 3423527
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-07-01",
+        "total_passengers": 3892608
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-08-01",
+        "total_passengers": 3688171
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-09-01",
+        "total_passengers": 3617390
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-10-01",
+        "total_passengers": 3919005
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-11-01",
+        "total_passengers": 3728873
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2018-12-01",
+        "total_passengers": 3918041
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-01-01",
+        "total_passengers": 3945728
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-02-01",
+        "total_passengers": 3403907
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-03-01",
+        "total_passengers": 3660249
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-04-01",
+        "total_passengers": 3684204
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-05-01",
+        "total_passengers": 3517359
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-06-01",
+        "total_passengers": 3400234
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-07-01",
+        "total_passengers": 3838607
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-08-01",
+        "total_passengers": 3679406
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-09-01",
+        "total_passengers": 3643906
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-10-01",
+        "total_passengers": 3968275
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-11-01",
+        "total_passengers": 3738319
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2019-12-01",
+        "total_passengers": 3948651
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-01-01",
+        "total_passengers": 3926988
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-02-01",
+        "total_passengers": 3089664
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-03-01",
+        "total_passengers": 2004323
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-04-01",
+        "total_passengers": 89548
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-05-01",
+        "total_passengers": 92615
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-06-01",
+        "total_passengers": 174623
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-07-01",
+        "total_passengers": 317399
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-08-01",
+        "total_passengers": 128793
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-09-01",
+        "total_passengers": 132080
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-10-01",
+        "total_passengers": 222583
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-11-01",
+        "total_passengers": 347415
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2020-12-01",
+        "total_passengers": 701661
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-01-01",
+        "total_passengers": 228518
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-02-01",
+        "total_passengers": 620323
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-03-01",
+        "total_passengers": 1150506
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-04-01",
+        "total_passengers": 1538090
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-05-01",
+        "total_passengers": 1431292
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-06-01",
+        "total_passengers": 985710
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-07-01",
+        "total_passengers": 99855
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-08-01",
+        "total_passengers": 51169
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-09-01",
+        "total_passengers": 41133
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-10-01",
+        "total_passengers": 64753
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-11-01",
+        "total_passengers": 498415
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2021-12-01",
+        "total_passengers": 1191524
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-01-01",
+        "total_passengers": 1207085
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-02-01",
+        "total_passengers": 1223773
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-03-01",
+        "total_passengers": 1838415
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-04-01",
+        "total_passengers": 2475841
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-05-01",
+        "total_passengers": 2408366
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-06-01",
+        "total_passengers": 2569167
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-07-01",
+        "total_passengers": 2844823
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-08-01",
+        "total_passengers": 2667079
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-09-01",
+        "total_passengers": 2812150
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-10-01",
+        "total_passengers": 2952708
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-11-01",
+        "total_passengers": 2969818
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2022-12-01",
+        "total_passengers": 3086996
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-01-01",
+        "total_passengers": 3133747
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-02-01",
+        "total_passengers": 2746105
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-03-01",
+        "total_passengers": 3181740
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-04-01",
+        "total_passengers": 3091716
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-05-01",
+        "total_passengers": 3019312
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-06-01",
+        "total_passengers": 3065123
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-07-01",
+        "total_passengers": 3380101
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-08-01",
+        "total_passengers": 3255550
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-09-01",
+        "total_passengers": 3373618
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-10-01",
+        "total_passengers": 3474806
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-11-01",
+        "total_passengers": 3414211
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2023-12-01",
+        "total_passengers": 3581744
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-01-01",
+        "total_passengers": 3586146
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-02-01",
+        "total_passengers": 3296725
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-03-01",
+        "total_passengers": 3439307
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-04-01",
+        "total_passengers": 3357918
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-05-01",
+        "total_passengers": 3223549
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-06-01",
+        "total_passengers": 3184900
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-07-01",
+        "total_passengers": 3527111
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-08-01",
+        "total_passengers": 3370641
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-09-01",
+        "total_passengers": 3454181
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-10-01",
+        "total_passengers": 3715663
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-11-01",
+        "total_passengers": 3544748
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2024-12-01",
+        "total_passengers": 3759644
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-01-01",
+        "total_passengers": 3838073
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-02-01",
+        "total_passengers": 3197718
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-03-01",
+        "total_passengers": 3376439
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-04-01",
+        "total_passengers": 3522370
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-05-01",
+        "total_passengers": 3321180
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-06-01",
+        "total_passengers": 3218094
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-07-01",
+        "total_passengers": 3664124
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-08-01",
+        "total_passengers": 3505903
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-09-01",
+        "total_passengers": 3518767
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-10-01",
+        "total_passengers": 3852511
+      },
+      {
+        "airport": "SYDNEY",
+        "date": "2025-11-01",
+        "total_passengers": 3644573
+      }
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "strokeWidth": 2.5
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": "Month"
+    },
+    "y": {
+      "field": "total_passengers",
+      "type": "quantitative",
+      "title": "Passengers",
+      "axis": {
+        "format": ",d"
+      }
+    },
+    "color": {
+      "field": "airport",
+      "type": "nominal",
+      "title": "Airport"
+    },
+    "tooltip": [
+      {
+        "field": "airport",
+        "type": "nominal",
+        "title": "Airport"
+      },
+      {
+        "field": "date",
+        "type": "temporal",
+        "title": "Month",
+        "format": "%b %Y"
+      },
+      {
+        "field": "total_passengers",
+        "type": "quantitative",
+        "title": "Passengers",
+        "format": ",d"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 14
+    }
+  }
+}

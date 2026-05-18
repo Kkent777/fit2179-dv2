@@ -1,0 +1,385 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 500,
+  "title": {
+    "text": "How Efficient Is Airport Traffic?",
+    "subtitle": "Passengers per aircraft movement at top 15 airports, November 2025",
+    "anchor": "start"
+  },
+  "projection": {
+    "type": "mercator",
+    "center": [
+      134,
+      -28
+    ],
+    "scale": 700
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.id == 36"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f5f5f5",
+        "stroke": "#b8b8b8",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "airport": "Sydney",
+            "longitude": 151.1772,
+            "latitude": -33.9461,
+            "passengers": 3644573,
+            "movements": 24519,
+            "passengers_per_movement": 148.64280761858151
+          },
+          {
+            "airport": "Melbourne",
+            "longitude": 144.843,
+            "latitude": -37.6733,
+            "passengers": 3142586,
+            "movements": 19981,
+            "passengers_per_movement": 157.2787147790401
+          },
+          {
+            "airport": "Brisbane",
+            "longitude": 153.1175,
+            "latitude": -27.3842,
+            "passengers": 2114314,
+            "movements": 16513,
+            "passengers_per_movement": 128.03936292617936
+          },
+          {
+            "airport": "Perth",
+            "longitude": 115.9672,
+            "latitude": -31.9403,
+            "passengers": 1232092,
+            "movements": 8492,
+            "passengers_per_movement": 145.08855393311353
+          },
+          {
+            "airport": "Adelaide",
+            "longitude": 138.5306,
+            "latitude": -34.9475,
+            "passengers": 765167,
+            "movements": 6402,
+            "passengers_per_movement": 119.51999375195251
+          },
+          {
+            "airport": "Gold Coast",
+            "longitude": 153.5047,
+            "latitude": -28.1644,
+            "passengers": 522835,
+            "movements": 3126,
+            "passengers_per_movement": 167.25367882277672
+          },
+          {
+            "airport": "Cairns",
+            "longitude": 145.7553,
+            "latitude": -16.8858,
+            "passengers": 365213,
+            "movements": 3631,
+            "passengers_per_movement": 100.58193335169375
+          },
+          {
+            "airport": "Canberra",
+            "longitude": 149.195,
+            "latitude": -35.3069,
+            "passengers": 255711,
+            "movements": 3235,
+            "passengers_per_movement": 79.0451313755796
+          },
+          {
+            "airport": "Hobart",
+            "longitude": 147.5053,
+            "latitude": -42.8361,
+            "passengers": 251307,
+            "movements": 1729,
+            "passengers_per_movement": 145.34817813765181
+          },
+          {
+            "airport": "Sunshine Coast",
+            "longitude": 153.091,
+            "latitude": -26.603,
+            "passengers": 151717,
+            "movements": 948,
+            "passengers_per_movement": 160.03902953586498
+          },
+          {
+            "airport": "Townsville",
+            "longitude": 146.7653,
+            "latitude": -19.2525,
+            "passengers": 137545,
+            "movements": 1936,
+            "passengers_per_movement": 71.04597107438016
+          },
+          {
+            "airport": "Darwin",
+            "longitude": 130.8775,
+            "latitude": -12.4147,
+            "passengers": 136088,
+            "movements": 1928,
+            "passengers_per_movement": 70.5850622406639
+          },
+          {
+            "airport": "Launceston",
+            "longitude": 147.2142,
+            "latitude": -41.5453,
+            "passengers": 125597,
+            "movements": 1194,
+            "passengers_per_movement": 105.19011725293133
+          },
+          {
+            "airport": "Newcastle",
+            "longitude": 151.833,
+            "latitude": -32.795,
+            "passengers": 110701,
+            "movements": 1077,
+            "passengers_per_movement": 102.78644382544104
+          },
+          {
+            "airport": "Mackay",
+            "longitude": 149.181,
+            "latitude": -21.171,
+            "passengers": 79491,
+            "movements": 932,
+            "passengers_per_movement": 85.29077253218884
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "opacity": 0.85,
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "movements",
+          "type": "quantitative",
+          "legend": null,
+          "scale": {
+            "range": [
+              40,
+              1600
+            ]
+          }
+        },
+        "color": {
+          "field": "passengers_per_movement",
+          "type": "quantitative",
+          "title": "Passengers per movement"
+        },
+        "tooltip": [
+          {
+            "field": "airport",
+            "type": "nominal",
+            "title": "Airport"
+          },
+          {
+            "field": "passengers",
+            "type": "quantitative",
+            "title": "Passengers",
+            "format": ",d"
+          },
+          {
+            "field": "movements",
+            "type": "quantitative",
+            "title": "Movements",
+            "format": ",d"
+          },
+          {
+            "field": "passengers_per_movement",
+            "type": "quantitative",
+            "title": "Passengers per movement",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "airport": "Sydney",
+            "longitude": 151.1772,
+            "latitude": -33.9461,
+            "passengers": 3644573,
+            "movements": 24519,
+            "passengers_per_movement": 148.64280761858151
+          },
+          {
+            "airport": "Melbourne",
+            "longitude": 144.843,
+            "latitude": -37.6733,
+            "passengers": 3142586,
+            "movements": 19981,
+            "passengers_per_movement": 157.2787147790401
+          },
+          {
+            "airport": "Brisbane",
+            "longitude": 153.1175,
+            "latitude": -27.3842,
+            "passengers": 2114314,
+            "movements": 16513,
+            "passengers_per_movement": 128.03936292617936
+          },
+          {
+            "airport": "Perth",
+            "longitude": 115.9672,
+            "latitude": -31.9403,
+            "passengers": 1232092,
+            "movements": 8492,
+            "passengers_per_movement": 145.08855393311353
+          },
+          {
+            "airport": "Adelaide",
+            "longitude": 138.5306,
+            "latitude": -34.9475,
+            "passengers": 765167,
+            "movements": 6402,
+            "passengers_per_movement": 119.51999375195251
+          },
+          {
+            "airport": "Gold Coast",
+            "longitude": 153.5047,
+            "latitude": -28.1644,
+            "passengers": 522835,
+            "movements": 3126,
+            "passengers_per_movement": 167.25367882277672
+          },
+          {
+            "airport": "Cairns",
+            "longitude": 145.7553,
+            "latitude": -16.8858,
+            "passengers": 365213,
+            "movements": 3631,
+            "passengers_per_movement": 100.58193335169375
+          },
+          {
+            "airport": "Canberra",
+            "longitude": 149.195,
+            "latitude": -35.3069,
+            "passengers": 255711,
+            "movements": 3235,
+            "passengers_per_movement": 79.0451313755796
+          },
+          {
+            "airport": "Hobart",
+            "longitude": 147.5053,
+            "latitude": -42.8361,
+            "passengers": 251307,
+            "movements": 1729,
+            "passengers_per_movement": 145.34817813765181
+          },
+          {
+            "airport": "Sunshine Coast",
+            "longitude": 153.091,
+            "latitude": -26.603,
+            "passengers": 151717,
+            "movements": 948,
+            "passengers_per_movement": 160.03902953586498
+          },
+          {
+            "airport": "Townsville",
+            "longitude": 146.7653,
+            "latitude": -19.2525,
+            "passengers": 137545,
+            "movements": 1936,
+            "passengers_per_movement": 71.04597107438016
+          },
+          {
+            "airport": "Darwin",
+            "longitude": 130.8775,
+            "latitude": -12.4147,
+            "passengers": 136088,
+            "movements": 1928,
+            "passengers_per_movement": 70.5850622406639
+          },
+          {
+            "airport": "Launceston",
+            "longitude": 147.2142,
+            "latitude": -41.5453,
+            "passengers": 125597,
+            "movements": 1194,
+            "passengers_per_movement": 105.19011725293133
+          },
+          {
+            "airport": "Newcastle",
+            "longitude": 151.833,
+            "latitude": -32.795,
+            "passengers": 110701,
+            "movements": 1077,
+            "passengers_per_movement": 102.78644382544104
+          },
+          {
+            "airport": "Mackay",
+            "longitude": 149.181,
+            "latitude": -21.171,
+            "passengers": 79491,
+            "movements": 932,
+            "passengers_per_movement": 85.29077253218884
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "indexof([\"Sydney\",\"Melbourne\",\"Brisbane\",\"Perth\",\"Adelaide\"], datum.airport) >= 0"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dx": 7,
+        "dy": -7,
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#1f1f1f"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "airport",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 14
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 500,
+  "title": {
+    "text": "Which Cities Have the Highest Air-Travel Intensity?",
+    "subtitle": "Annual airport passengers per resident, Dec 2024 to Nov 2025",
+    "anchor": "start"
+  },
+  "projection": {
+    "type": "mercator",
+    "center": [
+      134,
+      -28
+    ],
+    "scale": 700
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.id == 36"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f5f5f5",
+        "stroke": "#b8b8b8",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "airport": "Cairns",
+            "urban_area": "Cairns",
+            "annual_passengers": 4717433,
+            "population_2025": 164149,
+            "passengers_per_resident": 28.738725182608484,
+            "longitude": 145.7553,
+            "latitude": -16.8858
+          },
+          {
+            "airport": "Darwin",
+            "urban_area": "Darwin",
+            "annual_passengers": 1932419,
+            "population_2025": 145019,
+            "passengers_per_resident": 13.325281514835988,
+            "longitude": 130.8775,
+            "latitude": -12.4147
+          },
+          {
+            "airport": "Hobart",
+            "urban_area": "Hobart",
+            "annual_passengers": 2865827,
+            "population_2025": 233736,
+            "passengers_per_resident": 12.260956805969128,
+            "longitude": 147.5053,
+            "latitude": -42.8361
+          },
+          {
+            "airport": "Brisbane",
+            "urban_area": "Brisbane",
+            "annual_passengers": 24384331,
+            "population_2025": 2745086,
+            "passengers_per_resident": 8.882902393586212,
+            "longitude": 153.1175,
+            "latitude": -27.3842
+          },
+          {
+            "airport": "Sydney",
+            "urban_area": "Sydney",
+            "annual_passengers": 42419396,
+            "population_2025": 5219674,
+            "passengers_per_resident": 8.126828610369154,
+            "longitude": 151.1772,
+            "latitude": -33.9461
+          },
+          {
+            "airport": "Gold Coast",
+            "urban_area": "Gold Coast - Tweed Heads",
+            "annual_passengers": 6182701,
+            "population_2025": 761634,
+            "passengers_per_resident": 8.117679882988417,
+            "longitude": 153.5047,
+            "latitude": -28.1644
+          },
+          {
+            "airport": "Melbourne",
+            "urban_area": "Melbourne",
+            "annual_passengers": 36520298,
+            "population_2025": 5328274,
+            "passengers_per_resident": 6.854057805585824,
+            "longitude": 144.843,
+            "latitude": -37.6733
+          },
+          {
+            "airport": "Perth",
+            "urban_area": "Perth",
+            "annual_passengers": 14550201,
+            "population_2025": 2430757,
+            "passengers_per_resident": 5.9858723023321545,
+            "longitude": 115.9672,
+            "latitude": -31.9403
+          },
+          {
+            "airport": "Adelaide",
+            "urban_area": "Adelaide",
+            "annual_passengers": 8586102,
+            "population_2025": 1470938,
+            "passengers_per_resident": 5.837161049615959,
+            "longitude": 138.5306,
+            "latitude": -34.9475
+          },
+          {
+            "airport": "Canberra",
+            "urban_area": "Canberra - Queanbeyan",
+            "annual_passengers": 2800771,
+            "population_2025": 521049,
+            "passengers_per_resident": 5.375254534602312,
+            "longitude": 149.195,
+            "latitude": -35.3069
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "opacity": 0.85,
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "annual_passengers",
+          "type": "quantitative",
+          "legend": null,
+          "scale": {
+            "range": [
+              80,
+              1400
+            ]
+          }
+        },
+        "color": {
+          "field": "passengers_per_resident",
+          "type": "quantitative",
+          "title": "Passengers per resident"
+        },
+        "tooltip": [
+          {
+            "field": "airport",
+            "type": "nominal",
+            "title": "City"
+          },
+          {
+            "field": "annual_passengers",
+            "type": "quantitative",
+            "title": "Annual passengers",
+            "format": ",d"
+          },
+          {
+            "field": "population_2025",
+            "type": "quantitative",
+            "title": "Population 2025",
+            "format": ",d"
+          },
+          {
+            "field": "passengers_per_resident",
+            "type": "quantitative",
+            "title": "Passengers per resident",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "airport": "Cairns",
+            "urban_area": "Cairns",
+            "annual_passengers": 4717433,
+            "population_2025": 164149,
+            "passengers_per_resident": 28.738725182608484,
+            "longitude": 145.7553,
+            "latitude": -16.8858
+          },
+          {
+            "airport": "Darwin",
+            "urban_area": "Darwin",
+            "annual_passengers": 1932419,
+            "population_2025": 145019,
+            "passengers_per_resident": 13.325281514835988,
+            "longitude": 130.8775,
+            "latitude": -12.4147
+          },
+          {
+            "airport": "Hobart",
+            "urban_area": "Hobart",
+            "annual_passengers": 2865827,
+            "population_2025": 233736,
+            "passengers_per_resident": 12.260956805969128,
+            "longitude": 147.5053,
+            "latitude": -42.8361
+          },
+          {
+            "airport": "Brisbane",
+            "urban_area": "Brisbane",
+            "annual_passengers": 24384331,
+            "population_2025": 2745086,
+            "passengers_per_resident": 8.882902393586212,
+            "longitude": 153.1175,
+            "latitude": -27.3842
+          },
+          {
+            "airport": "Sydney",
+            "urban_area": "Sydney",
+            "annual_passengers": 42419396,
+            "population_2025": 5219674,
+            "passengers_per_resident": 8.126828610369154,
+            "longitude": 151.1772,
+            "latitude": -33.9461
+          },
+          {
+            "airport": "Gold Coast",
+            "urban_area": "Gold Coast - Tweed Heads",
+            "annual_passengers": 6182701,
+            "population_2025": 761634,
+            "passengers_per_resident": 8.117679882988417,
+            "longitude": 153.5047,
+            "latitude": -28.1644
+          },
+          {
+            "airport": "Melbourne",
+            "urban_area": "Melbourne",
+            "annual_passengers": 36520298,
+            "population_2025": 5328274,
+            "passengers_per_resident": 6.854057805585824,
+            "longitude": 144.843,
+            "latitude": -37.6733
+          },
+          {
+            "airport": "Perth",
+            "urban_area": "Perth",
+            "annual_passengers": 14550201,
+            "population_2025": 2430757,
+            "passengers_per_resident": 5.9858723023321545,
+            "longitude": 115.9672,
+            "latitude": -31.9403
+          },
+          {
+            "airport": "Adelaide",
+            "urban_area": "Adelaide",
+            "annual_passengers": 8586102,
+            "population_2025": 1470938,
+            "passengers_per_resident": 5.837161049615959,
+            "longitude": 138.5306,
+            "latitude": -34.9475
+          },
+          {
+            "airport": "Canberra",
+            "urban_area": "Canberra - Queanbeyan",
+            "annual_passengers": 2800771,
+            "population_2025": 521049,
+            "passengers_per_resident": 5.375254534602312,
+            "longitude": 149.195,
+            "latitude": -35.3069
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "dx": 7,
+        "dy": -7,
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#1f1f1f"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "airport",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 14
+    }
+  }
+}

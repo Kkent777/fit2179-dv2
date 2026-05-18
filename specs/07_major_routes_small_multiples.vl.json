@@ -1,0 +1,3206 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Route-level recovery was uneven",
+    "subtitle": "Monthly passengers on four major domestic routes, July 2014 to February 2026",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {
+        "date": "2014-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 295385
+      },
+      {
+        "date": "2014-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 277998
+      },
+      {
+        "date": "2014-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 281565
+      },
+      {
+        "date": "2014-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 312669
+      },
+      {
+        "date": "2014-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 283597
+      },
+      {
+        "date": "2014-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 295935
+      },
+      {
+        "date": "2015-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 270623
+      },
+      {
+        "date": "2015-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 235175
+      },
+      {
+        "date": "2015-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 281811
+      },
+      {
+        "date": "2015-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 273919
+      },
+      {
+        "date": "2015-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 252533
+      },
+      {
+        "date": "2015-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 258853
+      },
+      {
+        "date": "2015-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 307903
+      },
+      {
+        "date": "2015-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 270706
+      },
+      {
+        "date": "2015-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 294709
+      },
+      {
+        "date": "2015-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 310153
+      },
+      {
+        "date": "2015-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 293339
+      },
+      {
+        "date": "2015-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 304032
+      },
+      {
+        "date": "2016-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 285370
+      },
+      {
+        "date": "2016-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 253989
+      },
+      {
+        "date": "2016-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 294255
+      },
+      {
+        "date": "2016-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 275908
+      },
+      {
+        "date": "2016-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 271424
+      },
+      {
+        "date": "2016-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 276902
+      },
+      {
+        "date": "2016-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 313683
+      },
+      {
+        "date": "2016-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 287653
+      },
+      {
+        "date": "2016-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 311849
+      },
+      {
+        "date": "2016-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 309189
+      },
+      {
+        "date": "2016-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 301438
+      },
+      {
+        "date": "2016-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 311579
+      },
+      {
+        "date": "2017-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 293092
+      },
+      {
+        "date": "2017-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 240455
+      },
+      {
+        "date": "2017-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 288883
+      },
+      {
+        "date": "2017-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 291176
+      },
+      {
+        "date": "2017-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 271962
+      },
+      {
+        "date": "2017-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 279450
+      },
+      {
+        "date": "2017-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 324721
+      },
+      {
+        "date": "2017-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 298157
+      },
+      {
+        "date": "2017-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 307122
+      },
+      {
+        "date": "2017-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 328434
+      },
+      {
+        "date": "2017-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 308588
+      },
+      {
+        "date": "2017-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 309031
+      },
+      {
+        "date": "2018-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 291254
+      },
+      {
+        "date": "2018-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 249485
+      },
+      {
+        "date": "2018-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 296549
+      },
+      {
+        "date": "2018-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 284525
+      },
+      {
+        "date": "2018-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 277345
+      },
+      {
+        "date": "2018-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 281817
+      },
+      {
+        "date": "2018-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 336225
+      },
+      {
+        "date": "2018-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 299829
+      },
+      {
+        "date": "2018-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 303208
+      },
+      {
+        "date": "2018-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 331030
+      },
+      {
+        "date": "2018-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 315431
+      },
+      {
+        "date": "2018-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 302663
+      },
+      {
+        "date": "2019-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 296590
+      },
+      {
+        "date": "2019-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 255981
+      },
+      {
+        "date": "2019-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 295315
+      },
+      {
+        "date": "2019-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 307006
+      },
+      {
+        "date": "2019-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 276350
+      },
+      {
+        "date": "2019-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 275212
+      },
+      {
+        "date": "2019-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 330830
+      },
+      {
+        "date": "2019-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 306282
+      },
+      {
+        "date": "2019-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 312075
+      },
+      {
+        "date": "2019-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 331472
+      },
+      {
+        "date": "2019-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 306718
+      },
+      {
+        "date": "2019-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 314850
+      },
+      {
+        "date": "2020-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 308815
+      },
+      {
+        "date": "2020-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 239671
+      },
+      {
+        "date": "2020-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 168894
+      },
+      {
+        "date": "2020-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 8637
+      },
+      {
+        "date": "2020-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 16128
+      },
+      {
+        "date": "2020-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 27098
+      },
+      {
+        "date": "2020-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 6580
+      },
+      {
+        "date": "2020-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 3677
+      },
+      {
+        "date": "2020-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 4401
+      },
+      {
+        "date": "2020-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 6050
+      },
+      {
+        "date": "2020-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 6220
+      },
+      {
+        "date": "2020-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 132589
+      },
+      {
+        "date": "2021-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 95958
+      },
+      {
+        "date": "2021-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 47297
+      },
+      {
+        "date": "2021-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 131340
+      },
+      {
+        "date": "2021-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 136052
+      },
+      {
+        "date": "2021-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 159588
+      },
+      {
+        "date": "2021-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 42825
+      },
+      {
+        "date": "2021-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 45294
+      },
+      {
+        "date": "2021-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 6122
+      },
+      {
+        "date": "2021-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 4268
+      },
+      {
+        "date": "2021-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 4253
+      },
+      {
+        "date": "2021-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 6422
+      },
+      {
+        "date": "2021-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 108020
+      },
+      {
+        "date": "2022-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 156765
+      },
+      {
+        "date": "2022-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 144672
+      },
+      {
+        "date": "2022-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 207655
+      },
+      {
+        "date": "2022-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 272186
+      },
+      {
+        "date": "2022-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 226859
+      },
+      {
+        "date": "2022-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 247280
+      },
+      {
+        "date": "2022-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 265143
+      },
+      {
+        "date": "2022-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 244932
+      },
+      {
+        "date": "2022-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 256263
+      },
+      {
+        "date": "2022-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 273035
+      },
+      {
+        "date": "2022-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 260802
+      },
+      {
+        "date": "2022-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 250883
+      },
+      {
+        "date": "2023-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 255557
+      },
+      {
+        "date": "2023-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 229893
+      },
+      {
+        "date": "2023-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 281636
+      },
+      {
+        "date": "2023-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 274599
+      },
+      {
+        "date": "2023-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 262427
+      },
+      {
+        "date": "2023-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 269160
+      },
+      {
+        "date": "2023-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 289189
+      },
+      {
+        "date": "2023-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 279572
+      },
+      {
+        "date": "2023-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 300430
+      },
+      {
+        "date": "2023-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 301115
+      },
+      {
+        "date": "2023-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 289819
+      },
+      {
+        "date": "2023-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 278450
+      },
+      {
+        "date": "2024-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 265255
+      },
+      {
+        "date": "2024-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 259720
+      },
+      {
+        "date": "2024-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 284344
+      },
+      {
+        "date": "2024-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 277327
+      },
+      {
+        "date": "2024-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 278852
+      },
+      {
+        "date": "2024-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 285859
+      },
+      {
+        "date": "2024-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 307664
+      },
+      {
+        "date": "2024-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 297655
+      },
+      {
+        "date": "2024-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 314912
+      },
+      {
+        "date": "2024-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 322143
+      },
+      {
+        "date": "2024-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 307230
+      },
+      {
+        "date": "2024-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 298302
+      },
+      {
+        "date": "2025-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 306173
+      },
+      {
+        "date": "2025-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 253092
+      },
+      {
+        "date": "2025-03-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 267447
+      },
+      {
+        "date": "2025-04-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 311528
+      },
+      {
+        "date": "2025-05-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 287683
+      },
+      {
+        "date": "2025-06-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 279122
+      },
+      {
+        "date": "2025-07-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 326556
+      },
+      {
+        "date": "2025-08-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 307289
+      },
+      {
+        "date": "2025-09-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 317940
+      },
+      {
+        "date": "2025-10-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 336391
+      },
+      {
+        "date": "2025-11-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 319138
+      },
+      {
+        "date": "2025-12-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 333591
+      },
+      {
+        "date": "2026-01-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 316962
+      },
+      {
+        "date": "2026-02-01",
+        "route": "Brisbane - Melbourne",
+        "passengers": 254370
+      },
+      {
+        "date": "2014-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 392508
+      },
+      {
+        "date": "2014-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 384762
+      },
+      {
+        "date": "2014-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 375136
+      },
+      {
+        "date": "2014-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 404502
+      },
+      {
+        "date": "2014-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 365100
+      },
+      {
+        "date": "2014-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 381546
+      },
+      {
+        "date": "2015-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 337340
+      },
+      {
+        "date": "2015-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 326371
+      },
+      {
+        "date": "2015-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 372575
+      },
+      {
+        "date": "2015-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 362935
+      },
+      {
+        "date": "2015-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 356316
+      },
+      {
+        "date": "2015-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 348947
+      },
+      {
+        "date": "2015-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 406136
+      },
+      {
+        "date": "2015-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 380346
+      },
+      {
+        "date": "2015-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 390503
+      },
+      {
+        "date": "2015-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 401872
+      },
+      {
+        "date": "2015-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 391143
+      },
+      {
+        "date": "2015-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 401446
+      },
+      {
+        "date": "2016-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 361990
+      },
+      {
+        "date": "2016-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 351922
+      },
+      {
+        "date": "2016-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 390934
+      },
+      {
+        "date": "2016-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 385867
+      },
+      {
+        "date": "2016-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 374209
+      },
+      {
+        "date": "2016-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 371664
+      },
+      {
+        "date": "2016-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 420104
+      },
+      {
+        "date": "2016-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 391157
+      },
+      {
+        "date": "2016-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 403375
+      },
+      {
+        "date": "2016-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 403993
+      },
+      {
+        "date": "2016-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 396198
+      },
+      {
+        "date": "2016-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 406716
+      },
+      {
+        "date": "2017-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 372217
+      },
+      {
+        "date": "2017-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 349746
+      },
+      {
+        "date": "2017-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 399571
+      },
+      {
+        "date": "2017-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 384014
+      },
+      {
+        "date": "2017-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 386260
+      },
+      {
+        "date": "2017-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 382389
+      },
+      {
+        "date": "2017-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 424563
+      },
+      {
+        "date": "2017-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 398640
+      },
+      {
+        "date": "2017-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 403898
+      },
+      {
+        "date": "2017-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 419015
+      },
+      {
+        "date": "2017-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 413987
+      },
+      {
+        "date": "2017-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 411956
+      },
+      {
+        "date": "2018-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 364590
+      },
+      {
+        "date": "2018-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 365243
+      },
+      {
+        "date": "2018-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 415257
+      },
+      {
+        "date": "2018-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 389543
+      },
+      {
+        "date": "2018-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 397312
+      },
+      {
+        "date": "2018-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 383912
+      },
+      {
+        "date": "2018-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 435197
+      },
+      {
+        "date": "2018-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 416496
+      },
+      {
+        "date": "2018-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 397239
+      },
+      {
+        "date": "2018-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 430052
+      },
+      {
+        "date": "2018-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 423397
+      },
+      {
+        "date": "2018-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 407240
+      },
+      {
+        "date": "2019-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 373527
+      },
+      {
+        "date": "2019-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 353301
+      },
+      {
+        "date": "2019-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 404452
+      },
+      {
+        "date": "2019-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 397001
+      },
+      {
+        "date": "2019-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 396519
+      },
+      {
+        "date": "2019-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 380079
+      },
+      {
+        "date": "2019-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 431064
+      },
+      {
+        "date": "2019-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 413613
+      },
+      {
+        "date": "2019-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 401748
+      },
+      {
+        "date": "2019-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 447595
+      },
+      {
+        "date": "2019-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 413243
+      },
+      {
+        "date": "2019-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 408902
+      },
+      {
+        "date": "2020-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 377958
+      },
+      {
+        "date": "2020-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 340988
+      },
+      {
+        "date": "2020-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 228371
+      },
+      {
+        "date": "2020-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 14154
+      },
+      {
+        "date": "2020-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 18716
+      },
+      {
+        "date": "2020-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 37009
+      },
+      {
+        "date": "2020-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 94549
+      },
+      {
+        "date": "2020-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 18919
+      },
+      {
+        "date": "2020-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 10864
+      },
+      {
+        "date": "2020-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 10432
+      },
+      {
+        "date": "2020-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 26773
+      },
+      {
+        "date": "2020-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 120935
+      },
+      {
+        "date": "2021-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 22343
+      },
+      {
+        "date": "2021-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 138137
+      },
+      {
+        "date": "2021-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 189944
+      },
+      {
+        "date": "2021-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 204927
+      },
+      {
+        "date": "2021-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 223314
+      },
+      {
+        "date": "2021-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 176439
+      },
+      {
+        "date": "2021-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 11525
+      },
+      {
+        "date": "2021-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 5564
+      },
+      {
+        "date": "2021-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 5126
+      },
+      {
+        "date": "2021-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 6006
+      },
+      {
+        "date": "2021-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 11679
+      },
+      {
+        "date": "2021-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 98227
+      },
+      {
+        "date": "2022-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 135674
+      },
+      {
+        "date": "2022-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 181915
+      },
+      {
+        "date": "2022-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 260602
+      },
+      {
+        "date": "2022-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 321881
+      },
+      {
+        "date": "2022-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 323284
+      },
+      {
+        "date": "2022-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 330843
+      },
+      {
+        "date": "2022-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 350667
+      },
+      {
+        "date": "2022-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 325645
+      },
+      {
+        "date": "2022-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 339791
+      },
+      {
+        "date": "2022-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 349059
+      },
+      {
+        "date": "2022-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 346035
+      },
+      {
+        "date": "2022-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 328879
+      },
+      {
+        "date": "2023-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 307720
+      },
+      {
+        "date": "2023-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 298719
+      },
+      {
+        "date": "2023-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 360823
+      },
+      {
+        "date": "2023-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 338903
+      },
+      {
+        "date": "2023-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 350551
+      },
+      {
+        "date": "2023-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 346867
+      },
+      {
+        "date": "2023-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 373540
+      },
+      {
+        "date": "2023-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 367592
+      },
+      {
+        "date": "2023-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 382006
+      },
+      {
+        "date": "2023-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 380511
+      },
+      {
+        "date": "2023-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 379733
+      },
+      {
+        "date": "2023-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 363667
+      },
+      {
+        "date": "2024-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 316482
+      },
+      {
+        "date": "2024-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 345297
+      },
+      {
+        "date": "2024-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 366620
+      },
+      {
+        "date": "2024-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 336502
+      },
+      {
+        "date": "2024-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 357996
+      },
+      {
+        "date": "2024-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 355148
+      },
+      {
+        "date": "2024-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 383884
+      },
+      {
+        "date": "2024-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 372101
+      },
+      {
+        "date": "2024-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 364980
+      },
+      {
+        "date": "2024-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 404153
+      },
+      {
+        "date": "2024-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 386227
+      },
+      {
+        "date": "2024-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 368935
+      },
+      {
+        "date": "2025-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 334039
+      },
+      {
+        "date": "2025-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 335217
+      },
+      {
+        "date": "2025-03-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 330493
+      },
+      {
+        "date": "2025-04-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 370384
+      },
+      {
+        "date": "2025-05-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 364227
+      },
+      {
+        "date": "2025-06-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 344138
+      },
+      {
+        "date": "2025-07-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 388848
+      },
+      {
+        "date": "2025-08-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 368812
+      },
+      {
+        "date": "2025-09-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 359996
+      },
+      {
+        "date": "2025-10-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 415611
+      },
+      {
+        "date": "2025-11-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 388542
+      },
+      {
+        "date": "2025-12-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 382656
+      },
+      {
+        "date": "2026-01-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 338822
+      },
+      {
+        "date": "2026-02-01",
+        "route": "Brisbane - Sydney",
+        "passengers": 323786
+      },
+      {
+        "date": "2014-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 185589
+      },
+      {
+        "date": "2014-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 171182
+      },
+      {
+        "date": "2014-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 170919
+      },
+      {
+        "date": "2014-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 197645
+      },
+      {
+        "date": "2014-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 179884
+      },
+      {
+        "date": "2014-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 194444
+      },
+      {
+        "date": "2015-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 190959
+      },
+      {
+        "date": "2015-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 155901
+      },
+      {
+        "date": "2015-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 182408
+      },
+      {
+        "date": "2015-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 184530
+      },
+      {
+        "date": "2015-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 163491
+      },
+      {
+        "date": "2015-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 154762
+      },
+      {
+        "date": "2015-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 197992
+      },
+      {
+        "date": "2015-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 166218
+      },
+      {
+        "date": "2015-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 168691
+      },
+      {
+        "date": "2015-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 200241
+      },
+      {
+        "date": "2015-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 177829
+      },
+      {
+        "date": "2015-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 195839
+      },
+      {
+        "date": "2016-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 189061
+      },
+      {
+        "date": "2016-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 158809
+      },
+      {
+        "date": "2016-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 183702
+      },
+      {
+        "date": "2016-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 173225
+      },
+      {
+        "date": "2016-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 154799
+      },
+      {
+        "date": "2016-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 155588
+      },
+      {
+        "date": "2016-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 176408
+      },
+      {
+        "date": "2016-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 158468
+      },
+      {
+        "date": "2016-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 169341
+      },
+      {
+        "date": "2016-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 182839
+      },
+      {
+        "date": "2016-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 172279
+      },
+      {
+        "date": "2016-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 198392
+      },
+      {
+        "date": "2017-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 192229
+      },
+      {
+        "date": "2017-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 145066
+      },
+      {
+        "date": "2017-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 171856
+      },
+      {
+        "date": "2017-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 175969
+      },
+      {
+        "date": "2017-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 155880
+      },
+      {
+        "date": "2017-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 149339
+      },
+      {
+        "date": "2017-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 177484
+      },
+      {
+        "date": "2017-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 155780
+      },
+      {
+        "date": "2017-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 161000
+      },
+      {
+        "date": "2017-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 180013
+      },
+      {
+        "date": "2017-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 175940
+      },
+      {
+        "date": "2017-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 192686
+      },
+      {
+        "date": "2018-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 190757
+      },
+      {
+        "date": "2018-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 148619
+      },
+      {
+        "date": "2018-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 179204
+      },
+      {
+        "date": "2018-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 178163
+      },
+      {
+        "date": "2018-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 164284
+      },
+      {
+        "date": "2018-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 153915
+      },
+      {
+        "date": "2018-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 183462
+      },
+      {
+        "date": "2018-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 164205
+      },
+      {
+        "date": "2018-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 186178
+      },
+      {
+        "date": "2018-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 188916
+      },
+      {
+        "date": "2018-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 180695
+      },
+      {
+        "date": "2018-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 194835
+      },
+      {
+        "date": "2019-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 191992
+      },
+      {
+        "date": "2019-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 154799
+      },
+      {
+        "date": "2019-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 175437
+      },
+      {
+        "date": "2019-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 180883
+      },
+      {
+        "date": "2019-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 160239
+      },
+      {
+        "date": "2019-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 154069
+      },
+      {
+        "date": "2019-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 184545
+      },
+      {
+        "date": "2019-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 168901
+      },
+      {
+        "date": "2019-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 170156
+      },
+      {
+        "date": "2019-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 188376
+      },
+      {
+        "date": "2019-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 183188
+      },
+      {
+        "date": "2019-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 197540
+      },
+      {
+        "date": "2020-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 195966
+      },
+      {
+        "date": "2020-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 154410
+      },
+      {
+        "date": "2020-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 117238
+      },
+      {
+        "date": "2020-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 6132
+      },
+      {
+        "date": "2020-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 8804
+      },
+      {
+        "date": "2020-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 9911
+      },
+      {
+        "date": "2020-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 3986
+      },
+      {
+        "date": "2020-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 2006
+      },
+      {
+        "date": "2020-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 2370
+      },
+      {
+        "date": "2020-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 3076
+      },
+      {
+        "date": "2020-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 5105
+      },
+      {
+        "date": "2020-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 43167
+      },
+      {
+        "date": "2021-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 22370
+      },
+      {
+        "date": "2021-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 6606
+      },
+      {
+        "date": "2021-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 36503
+      },
+      {
+        "date": "2021-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 87023
+      },
+      {
+        "date": "2021-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 64943
+      },
+      {
+        "date": "2021-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 8742
+      },
+      {
+        "date": "2021-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 17791
+      },
+      {
+        "date": "2021-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 5023
+      },
+      {
+        "date": "2021-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 4506
+      },
+      {
+        "date": "2021-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 1717
+      },
+      {
+        "date": "2021-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 2236
+      },
+      {
+        "date": "2021-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 3982
+      },
+      {
+        "date": "2022-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 4655
+      },
+      {
+        "date": "2022-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 17731
+      },
+      {
+        "date": "2022-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 69468
+      },
+      {
+        "date": "2022-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 105877
+      },
+      {
+        "date": "2022-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 116792
+      },
+      {
+        "date": "2022-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 135956
+      },
+      {
+        "date": "2022-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 142928
+      },
+      {
+        "date": "2022-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 132366
+      },
+      {
+        "date": "2022-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 152958
+      },
+      {
+        "date": "2022-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 155605
+      },
+      {
+        "date": "2022-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 143767
+      },
+      {
+        "date": "2022-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 169733
+      },
+      {
+        "date": "2023-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 173411
+      },
+      {
+        "date": "2023-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 133293
+      },
+      {
+        "date": "2023-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 163554
+      },
+      {
+        "date": "2023-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 163165
+      },
+      {
+        "date": "2023-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 144991
+      },
+      {
+        "date": "2023-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 137865
+      },
+      {
+        "date": "2023-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 161103
+      },
+      {
+        "date": "2023-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 147644
+      },
+      {
+        "date": "2023-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 155410
+      },
+      {
+        "date": "2023-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 174966
+      },
+      {
+        "date": "2023-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 179824
+      },
+      {
+        "date": "2023-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 180582
+      },
+      {
+        "date": "2024-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 171980
+      },
+      {
+        "date": "2024-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 159735
+      },
+      {
+        "date": "2024-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 173629
+      },
+      {
+        "date": "2024-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 170457
+      },
+      {
+        "date": "2024-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 157695
+      },
+      {
+        "date": "2024-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 143845
+      },
+      {
+        "date": "2024-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 172225
+      },
+      {
+        "date": "2024-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 160913
+      },
+      {
+        "date": "2024-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 169164
+      },
+      {
+        "date": "2024-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 184411
+      },
+      {
+        "date": "2024-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 177469
+      },
+      {
+        "date": "2024-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 189054
+      },
+      {
+        "date": "2025-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 193287
+      },
+      {
+        "date": "2025-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 150014
+      },
+      {
+        "date": "2025-03-01",
+        "route": "Melbourne - Perth",
+        "passengers": 170769
+      },
+      {
+        "date": "2025-04-01",
+        "route": "Melbourne - Perth",
+        "passengers": 179398
+      },
+      {
+        "date": "2025-05-01",
+        "route": "Melbourne - Perth",
+        "passengers": 164318
+      },
+      {
+        "date": "2025-06-01",
+        "route": "Melbourne - Perth",
+        "passengers": 155172
+      },
+      {
+        "date": "2025-07-01",
+        "route": "Melbourne - Perth",
+        "passengers": 184325
+      },
+      {
+        "date": "2025-08-01",
+        "route": "Melbourne - Perth",
+        "passengers": 161852
+      },
+      {
+        "date": "2025-09-01",
+        "route": "Melbourne - Perth",
+        "passengers": 170210
+      },
+      {
+        "date": "2025-10-01",
+        "route": "Melbourne - Perth",
+        "passengers": 194680
+      },
+      {
+        "date": "2025-11-01",
+        "route": "Melbourne - Perth",
+        "passengers": 187571
+      },
+      {
+        "date": "2025-12-01",
+        "route": "Melbourne - Perth",
+        "passengers": 197634
+      },
+      {
+        "date": "2026-01-01",
+        "route": "Melbourne - Perth",
+        "passengers": 186757
+      },
+      {
+        "date": "2026-02-01",
+        "route": "Melbourne - Perth",
+        "passengers": 147243
+      },
+      {
+        "date": "2014-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 700207
+      },
+      {
+        "date": "2014-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 707012
+      },
+      {
+        "date": "2014-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 688231
+      },
+      {
+        "date": "2014-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 761619
+      },
+      {
+        "date": "2014-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 734701
+      },
+      {
+        "date": "2014-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 688886
+      },
+      {
+        "date": "2015-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 663488
+      },
+      {
+        "date": "2015-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 695373
+      },
+      {
+        "date": "2015-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 768124
+      },
+      {
+        "date": "2015-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 688146
+      },
+      {
+        "date": "2015-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 696844
+      },
+      {
+        "date": "2015-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 662010
+      },
+      {
+        "date": "2015-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 752993
+      },
+      {
+        "date": "2015-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 714015
+      },
+      {
+        "date": "2015-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 706022
+      },
+      {
+        "date": "2015-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 767170
+      },
+      {
+        "date": "2015-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 765870
+      },
+      {
+        "date": "2015-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 733117
+      },
+      {
+        "date": "2016-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 698603
+      },
+      {
+        "date": "2016-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 743202
+      },
+      {
+        "date": "2016-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 775148
+      },
+      {
+        "date": "2016-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 724216
+      },
+      {
+        "date": "2016-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 725447
+      },
+      {
+        "date": "2016-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 690168
+      },
+      {
+        "date": "2016-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 754218
+      },
+      {
+        "date": "2016-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 739254
+      },
+      {
+        "date": "2016-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 749396
+      },
+      {
+        "date": "2016-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 775717
+      },
+      {
+        "date": "2016-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 797669
+      },
+      {
+        "date": "2016-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 731634
+      },
+      {
+        "date": "2017-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 709467
+      },
+      {
+        "date": "2017-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 713450
+      },
+      {
+        "date": "2017-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 804598
+      },
+      {
+        "date": "2017-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 727051
+      },
+      {
+        "date": "2017-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 750576
+      },
+      {
+        "date": "2017-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 721462
+      },
+      {
+        "date": "2017-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 771829
+      },
+      {
+        "date": "2017-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 753958
+      },
+      {
+        "date": "2017-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 742212
+      },
+      {
+        "date": "2017-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 810784
+      },
+      {
+        "date": "2017-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 834347
+      },
+      {
+        "date": "2017-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 757605
+      },
+      {
+        "date": "2018-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 742788
+      },
+      {
+        "date": "2018-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 747641
+      },
+      {
+        "date": "2018-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 827636
+      },
+      {
+        "date": "2018-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 765782
+      },
+      {
+        "date": "2018-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 759895
+      },
+      {
+        "date": "2018-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 725667
+      },
+      {
+        "date": "2018-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 774864
+      },
+      {
+        "date": "2018-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 782224
+      },
+      {
+        "date": "2018-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 739653
+      },
+      {
+        "date": "2018-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 821285
+      },
+      {
+        "date": "2018-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 805760
+      },
+      {
+        "date": "2018-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 746815
+      },
+      {
+        "date": "2019-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 753124
+      },
+      {
+        "date": "2019-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 744375
+      },
+      {
+        "date": "2019-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 816417
+      },
+      {
+        "date": "2019-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 741922
+      },
+      {
+        "date": "2019-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 768109
+      },
+      {
+        "date": "2019-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 701648
+      },
+      {
+        "date": "2019-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 758311
+      },
+      {
+        "date": "2019-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 769529
+      },
+      {
+        "date": "2019-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 747723
+      },
+      {
+        "date": "2019-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 823951
+      },
+      {
+        "date": "2019-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 800100
+      },
+      {
+        "date": "2019-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 756723
+      },
+      {
+        "date": "2020-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 742835
+      },
+      {
+        "date": "2020-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 691944
+      },
+      {
+        "date": "2020-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 416263
+      },
+      {
+        "date": "2020-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 17098
+      },
+      {
+        "date": "2020-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 18998
+      },
+      {
+        "date": "2020-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 59259
+      },
+      {
+        "date": "2020-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 30926
+      },
+      {
+        "date": "2020-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 9891
+      },
+      {
+        "date": "2020-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 10155
+      },
+      {
+        "date": "2020-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 11089
+      },
+      {
+        "date": "2020-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 58399
+      },
+      {
+        "date": "2020-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 182987
+      },
+      {
+        "date": "2021-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 33428
+      },
+      {
+        "date": "2021-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 132147
+      },
+      {
+        "date": "2021-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 341253
+      },
+      {
+        "date": "2021-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 463253
+      },
+      {
+        "date": "2021-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 378734
+      },
+      {
+        "date": "2021-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 75800
+      },
+      {
+        "date": "2021-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 11979
+      },
+      {
+        "date": "2021-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 4698
+      },
+      {
+        "date": "2021-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 4848
+      },
+      {
+        "date": "2021-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 15400
+      },
+      {
+        "date": "2021-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 241328
+      },
+      {
+        "date": "2021-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 416911
+      },
+      {
+        "date": "2022-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 302258
+      },
+      {
+        "date": "2022-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 328026
+      },
+      {
+        "date": "2022-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 513635
+      },
+      {
+        "date": "2022-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 603340
+      },
+      {
+        "date": "2022-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 578758
+      },
+      {
+        "date": "2022-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 603913
+      },
+      {
+        "date": "2022-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 610404
+      },
+      {
+        "date": "2022-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 578412
+      },
+      {
+        "date": "2022-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 620990
+      },
+      {
+        "date": "2022-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 625907
+      },
+      {
+        "date": "2022-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 628511
+      },
+      {
+        "date": "2022-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 582027
+      },
+      {
+        "date": "2023-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 573025
+      },
+      {
+        "date": "2023-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 573180
+      },
+      {
+        "date": "2023-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 689672
+      },
+      {
+        "date": "2023-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 609876
+      },
+      {
+        "date": "2023-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 620569
+      },
+      {
+        "date": "2023-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 601467
+      },
+      {
+        "date": "2023-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 633803
+      },
+      {
+        "date": "2023-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 644390
+      },
+      {
+        "date": "2023-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 645676
+      },
+      {
+        "date": "2023-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 686806
+      },
+      {
+        "date": "2023-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 696915
+      },
+      {
+        "date": "2023-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 649226
+      },
+      {
+        "date": "2024-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 650266
+      },
+      {
+        "date": "2024-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 681740
+      },
+      {
+        "date": "2024-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 709732
+      },
+      {
+        "date": "2024-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 641487
+      },
+      {
+        "date": "2024-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 664654
+      },
+      {
+        "date": "2024-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 615282
+      },
+      {
+        "date": "2024-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 653204
+      },
+      {
+        "date": "2024-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 652747
+      },
+      {
+        "date": "2024-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 662132
+      },
+      {
+        "date": "2024-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 732012
+      },
+      {
+        "date": "2024-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 704459
+      },
+      {
+        "date": "2024-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 671580
+      },
+      {
+        "date": "2025-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 671101
+      },
+      {
+        "date": "2025-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 627930
+      },
+      {
+        "date": "2025-03-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 722964
+      },
+      {
+        "date": "2025-04-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 675129
+      },
+      {
+        "date": "2025-05-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 667503
+      },
+      {
+        "date": "2025-06-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 614999
+      },
+      {
+        "date": "2025-07-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 683933
+      },
+      {
+        "date": "2025-08-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 684904
+      },
+      {
+        "date": "2025-09-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 655101
+      },
+      {
+        "date": "2025-10-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 741565
+      },
+      {
+        "date": "2025-11-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 703840
+      },
+      {
+        "date": "2025-12-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 674539
+      },
+      {
+        "date": "2026-01-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 640750
+      },
+      {
+        "date": "2026-02-01",
+        "route": "Melbourne - Sydney",
+        "passengers": 639839
+      }
+    ]
+  },
+  "vconcat": [
+    {
+      "width": 900,
+      "height": 115,
+      "title": {
+        "text": "Brisbane - Melbourne",
+        "anchor": "start",
+        "fontSize": 13,
+        "dy": -2
+      },
+      "layer": [
+        {
+          "data": {
+            "values": [
+              {
+                "start": "2020-03-01",
+                "end": "2022-02-01"
+              }
+            ]
+          },
+          "mark": {
+            "type": "rect",
+            "opacity": 0.12,
+            "color": "#7aa6c2"
+          },
+          "encoding": {
+            "x": {
+              "field": "start",
+              "type": "temporal"
+            },
+            "x2": {
+              "field": "end"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.route === 'Brisbane - Melbourne'"
+            }
+          ],
+          "mark": {
+            "type": "line",
+            "strokeWidth": 2.2,
+            "color": "#256b8f"
+          },
+          "encoding": {
+            "x": {
+              "field": "date",
+              "type": "temporal",
+              "title": null,
+              "axis": {
+                "format": "%Y",
+                "labelAngle": 0,
+                "tickCount": 8,
+                "labels": false
+              }
+            },
+            "y": {
+              "field": "passengers",
+              "type": "quantitative",
+              "title": "Passengers",
+              "scale": {
+                "zero": true,
+                "nice": true
+              },
+              "axis": {
+                "format": "~s",
+                "tickCount": 4
+              }
+            },
+            "tooltip": [
+              {
+                "field": "route",
+                "type": "nominal",
+                "title": "Route"
+              },
+              {
+                "field": "date",
+                "type": "temporal",
+                "title": "Month",
+                "format": "%b %Y"
+              },
+              {
+                "field": "passengers",
+                "type": "quantitative",
+                "title": "Passengers",
+                "format": ",d"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "height": 115,
+      "title": {
+        "text": "Brisbane - Sydney",
+        "anchor": "start",
+        "fontSize": 13,
+        "dy": -2
+      },
+      "layer": [
+        {
+          "data": {
+            "values": [
+              {
+                "start": "2020-03-01",
+                "end": "2022-02-01"
+              }
+            ]
+          },
+          "mark": {
+            "type": "rect",
+            "opacity": 0.12,
+            "color": "#7aa6c2"
+          },
+          "encoding": {
+            "x": {
+              "field": "start",
+              "type": "temporal"
+            },
+            "x2": {
+              "field": "end"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.route === 'Brisbane - Sydney'"
+            }
+          ],
+          "mark": {
+            "type": "line",
+            "strokeWidth": 2.2,
+            "color": "#256b8f"
+          },
+          "encoding": {
+            "x": {
+              "field": "date",
+              "type": "temporal",
+              "title": null,
+              "axis": {
+                "format": "%Y",
+                "labelAngle": 0,
+                "tickCount": 8,
+                "labels": false
+              }
+            },
+            "y": {
+              "field": "passengers",
+              "type": "quantitative",
+              "title": "Passengers",
+              "scale": {
+                "zero": true,
+                "nice": true
+              },
+              "axis": {
+                "format": "~s",
+                "tickCount": 4
+              }
+            },
+            "tooltip": [
+              {
+                "field": "route",
+                "type": "nominal",
+                "title": "Route"
+              },
+              {
+                "field": "date",
+                "type": "temporal",
+                "title": "Month",
+                "format": "%b %Y"
+              },
+              {
+                "field": "passengers",
+                "type": "quantitative",
+                "title": "Passengers",
+                "format": ",d"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "height": 115,
+      "title": {
+        "text": "Melbourne - Perth",
+        "anchor": "start",
+        "fontSize": 13,
+        "dy": -2
+      },
+      "layer": [
+        {
+          "data": {
+            "values": [
+              {
+                "start": "2020-03-01",
+                "end": "2022-02-01"
+              }
+            ]
+          },
+          "mark": {
+            "type": "rect",
+            "opacity": 0.12,
+            "color": "#7aa6c2"
+          },
+          "encoding": {
+            "x": {
+              "field": "start",
+              "type": "temporal"
+            },
+            "x2": {
+              "field": "end"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.route === 'Melbourne - Perth'"
+            }
+          ],
+          "mark": {
+            "type": "line",
+            "strokeWidth": 2.2,
+            "color": "#256b8f"
+          },
+          "encoding": {
+            "x": {
+              "field": "date",
+              "type": "temporal",
+              "title": null,
+              "axis": {
+                "format": "%Y",
+                "labelAngle": 0,
+                "tickCount": 8,
+                "labels": false
+              }
+            },
+            "y": {
+              "field": "passengers",
+              "type": "quantitative",
+              "title": "Passengers",
+              "scale": {
+                "zero": true,
+                "nice": true
+              },
+              "axis": {
+                "format": "~s",
+                "tickCount": 4
+              }
+            },
+            "tooltip": [
+              {
+                "field": "route",
+                "type": "nominal",
+                "title": "Route"
+              },
+              {
+                "field": "date",
+                "type": "temporal",
+                "title": "Month",
+                "format": "%b %Y"
+              },
+              {
+                "field": "passengers",
+                "type": "quantitative",
+                "title": "Passengers",
+                "format": ",d"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "height": 115,
+      "title": {
+        "text": "Melbourne - Sydney",
+        "anchor": "start",
+        "fontSize": 13,
+        "dy": -2
+      },
+      "layer": [
+        {
+          "data": {
+            "values": [
+              {
+                "start": "2020-03-01",
+                "end": "2022-02-01"
+              }
+            ]
+          },
+          "mark": {
+            "type": "rect",
+            "opacity": 0.12,
+            "color": "#7aa6c2"
+          },
+          "encoding": {
+            "x": {
+              "field": "start",
+              "type": "temporal"
+            },
+            "x2": {
+              "field": "end"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.route === 'Melbourne - Sydney'"
+            }
+          ],
+          "mark": {
+            "type": "line",
+            "strokeWidth": 2.2,
+            "color": "#256b8f"
+          },
+          "encoding": {
+            "x": {
+              "field": "date",
+              "type": "temporal",
+              "title": "Month",
+              "axis": {
+                "format": "%Y",
+                "labelAngle": 0,
+                "tickCount": 8,
+                "labels": true
+              }
+            },
+            "y": {
+              "field": "passengers",
+              "type": "quantitative",
+              "title": "Passengers",
+              "scale": {
+                "zero": true,
+                "nice": true
+              },
+              "axis": {
+                "format": "~s",
+                "tickCount": 4
+              }
+            },
+            "tooltip": [
+              {
+                "field": "route",
+                "type": "nominal",
+                "title": "Route"
+              },
+              {
+                "field": "date",
+                "type": "temporal",
+                "title": "Month",
+                "format": "%b %Y"
+              },
+              {
+                "field": "passengers",
+                "type": "quantitative",
+                "title": "Passengers",
+                "format": ",d"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "spacing": 18,
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 10,
+      "titleFontSize": 11,
+      "gridColor": "#e8eef3"
+    },
+    "title": {
+      "fontSize": 20,
+      "subtitleFontSize": 13
+    }
+  }
+}

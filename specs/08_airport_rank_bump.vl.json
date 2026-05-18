@@ -1,0 +1,710 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 420,
+  "title": {
+    "text": "How the Airport Hierarchy Changed Over Time",
+    "subtitle": "Annual rank by average monthly passengers, 2009 to 2025",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {
+        "year": 2009,
+        "airport": "ADELAIDE",
+        "total_passengers": 570145.5833333334,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2009,
+        "airport": "BRISBANE",
+        "total_passengers": 1559424.5833333333,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2009,
+        "airport": "MELBOURNE",
+        "total_passengers": 2073797.5,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2009,
+        "airport": "PERTH",
+        "total_passengers": 801314.5,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2009,
+        "airport": "SYDNEY",
+        "total_passengers": 2749836.8333333335,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2010,
+        "airport": "ADELAIDE",
+        "total_passengers": 607553.5833333334,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2010,
+        "airport": "BRISBANE",
+        "total_passengers": 1635037.3333333333,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2010,
+        "airport": "MELBOURNE",
+        "total_passengers": 2282897.0,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2010,
+        "airport": "PERTH",
+        "total_passengers": 871130.1666666666,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2010,
+        "airport": "SYDNEY",
+        "total_passengers": 2970861.75,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2011,
+        "airport": "ADELAIDE",
+        "total_passengers": 585117.25,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2011,
+        "airport": "BRISBANE",
+        "total_passengers": 1694487.5,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2011,
+        "airport": "MELBOURNE",
+        "total_passengers": 2305625.3333333335,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2011,
+        "airport": "PERTH",
+        "total_passengers": 947125.0,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2011,
+        "airport": "SYDNEY",
+        "total_passengers": 2972827.75,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2012,
+        "airport": "ADELAIDE",
+        "total_passengers": 588907.6666666666,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2012,
+        "airport": "BRISBANE",
+        "total_passengers": 1756063.5,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2012,
+        "airport": "MELBOURNE",
+        "total_passengers": 2409799.3333333335,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2012,
+        "airport": "PERTH",
+        "total_passengers": 1051528.25,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2012,
+        "airport": "SYDNEY",
+        "total_passengers": 3084005.8333333335,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2013,
+        "airport": "ADELAIDE",
+        "total_passengers": 614489.5,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2013,
+        "airport": "BRISBANE",
+        "total_passengers": 1787069.8333333333,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2013,
+        "airport": "MELBOURNE",
+        "total_passengers": 2518368.9166666665,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2013,
+        "airport": "PERTH",
+        "total_passengers": 1075142.6666666667,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2013,
+        "airport": "SYDNEY",
+        "total_passengers": 3179212.1666666665,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2014,
+        "airport": "ADELAIDE",
+        "total_passengers": 641572.0,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2014,
+        "airport": "BRISBANE",
+        "total_passengers": 1828984.75,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2014,
+        "airport": "MELBOURNE",
+        "total_passengers": 2615566.0833333335,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2014,
+        "airport": "PERTH",
+        "total_passengers": 1078243.8333333333,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2014,
+        "airport": "SYDNEY",
+        "total_passengers": 3227745.1666666665,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2015,
+        "airport": "ADELAIDE",
+        "total_passengers": 639264.0833333334,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2015,
+        "airport": "BRISBANE",
+        "total_passengers": 1835458.0,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2015,
+        "airport": "MELBOURNE",
+        "total_passengers": 2732517.75,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2015,
+        "airport": "PERTH",
+        "total_passengers": 1049530.4166666667,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2015,
+        "airport": "SYDNEY",
+        "total_passengers": 3317403.9166666665,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2016,
+        "airport": "ADELAIDE",
+        "total_passengers": 660014.4166666666,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2016,
+        "airport": "BRISBANE",
+        "total_passengers": 1875466.3333333333,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2016,
+        "airport": "MELBOURNE",
+        "total_passengers": 2864599.0833333335,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2016,
+        "airport": "PERTH",
+        "total_passengers": 1042055.0833333334,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2016,
+        "airport": "SYDNEY",
+        "total_passengers": 3501493.4166666665,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2017,
+        "airport": "ADELAIDE",
+        "total_passengers": 675994.5,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2017,
+        "airport": "BRISBANE",
+        "total_passengers": 1912438.9166666667,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2017,
+        "airport": "MELBOURNE",
+        "total_passengers": 2963293.3333333335,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2017,
+        "airport": "PERTH",
+        "total_passengers": 1030877.6666666666,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2017,
+        "airport": "SYDNEY",
+        "total_passengers": 3610838.3333333335,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2018,
+        "airport": "ADELAIDE",
+        "total_passengers": 695525.25,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2018,
+        "airport": "BRISBANE",
+        "total_passengers": 1955563.5833333333,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2018,
+        "airport": "MELBOURNE",
+        "total_passengers": 3076385.75,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2018,
+        "airport": "PERTH",
+        "total_passengers": 1039809.9166666666,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2018,
+        "airport": "SYDNEY",
+        "total_passengers": 3702479.8333333335,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2019,
+        "airport": "ADELAIDE",
+        "total_passengers": 709680.9166666666,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2019,
+        "airport": "BRISBANE",
+        "total_passengers": 2000475.5,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2019,
+        "airport": "MELBOURNE",
+        "total_passengers": 3094524.25,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2019,
+        "airport": "PERTH",
+        "total_passengers": 1042793.0,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2019,
+        "airport": "SYDNEY",
+        "total_passengers": 3702403.75,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2020,
+        "airport": "ADELAIDE",
+        "total_passengers": 215784.41666666666,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2020,
+        "airport": "BRISBANE",
+        "total_passengers": 647924.0,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2020,
+        "airport": "MELBOURNE",
+        "total_passengers": 741449.3333333334,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2020,
+        "airport": "PERTH",
+        "total_passengers": 327173.1666666667,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2020,
+        "airport": "SYDNEY",
+        "total_passengers": 935641.0,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2021,
+        "airport": "ADELAIDE",
+        "total_passengers": 255566.25,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2021,
+        "airport": "BRISBANE",
+        "total_passengers": 658887.75,
+        "rank": 1.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2021,
+        "airport": "MELBOURNE",
+        "total_passengers": 596689.6666666666,
+        "rank": 3.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2021,
+        "airport": "PERTH",
+        "total_passengers": 328732.4166666667,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2021,
+        "airport": "SYDNEY",
+        "total_passengers": 658440.6666666666,
+        "rank": 2.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2022,
+        "airport": "ADELAIDE",
+        "total_passengers": 534736.3333333334,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2022,
+        "airport": "BRISBANE",
+        "total_passengers": 1408647.3333333333,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2022,
+        "airport": "MELBOURNE",
+        "total_passengers": 2143113.1666666665,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2022,
+        "airport": "PERTH",
+        "total_passengers": 700850.25,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2022,
+        "airport": "SYDNEY",
+        "total_passengers": 2421351.75,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2023,
+        "airport": "ADELAIDE",
+        "total_passengers": 666457.1666666666,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2023,
+        "airport": "BRISBANE",
+        "total_passengers": 1765713.75,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2023,
+        "airport": "MELBOURNE",
+        "total_passengers": 2769380.1666666665,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2023,
+        "airport": "PERTH",
+        "total_passengers": 1013706.4166666666,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2023,
+        "airport": "SYDNEY",
+        "total_passengers": 3226481.0833333335,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2024,
+        "airport": "ADELAIDE",
+        "total_passengers": 695969.6666666666,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2024,
+        "airport": "BRISBANE",
+        "total_passengers": 1937776.75,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2024,
+        "airport": "MELBOURNE",
+        "total_passengers": 2960001.0,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2024,
+        "airport": "PERTH",
+        "total_passengers": 1131858.0833333333,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2024,
+        "airport": "SYDNEY",
+        "total_passengers": 3455044.4166666665,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      },
+      {
+        "year": 2025,
+        "airport": "ADELAIDE",
+        "total_passengers": 713573.9090909091,
+        "rank": 5.0,
+        "airport_name": "Adelaide"
+      },
+      {
+        "year": 2025,
+        "airport": "BRISBANE",
+        "total_passengers": 2025751.3636363635,
+        "rank": 3.0,
+        "airport_name": "Brisbane"
+      },
+      {
+        "year": 2025,
+        "airport": "MELBOURNE",
+        "total_passengers": 3026406.6363636362,
+        "rank": 2.0,
+        "airport_name": "Melbourne"
+      },
+      {
+        "year": 2025,
+        "airport": "PERTH",
+        "total_passengers": 1209880.2727272727,
+        "rank": 4.0,
+        "airport_name": "Perth"
+      },
+      {
+        "year": 2025,
+        "airport": "SYDNEY",
+        "total_passengers": 3514522.909090909,
+        "rank": 1.0,
+        "airport_name": "Sydney"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "rank",
+          "type": "quantitative",
+          "title": "Rank",
+          "scale": {
+            "domain": [
+              5.5,
+              0.5
+            ]
+          },
+          "axis": {
+            "values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        },
+        "color": {
+          "field": "airport_name",
+          "type": "nominal",
+          "title": "Airport"
+        },
+        "detail": {
+          "field": "airport_name"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 60
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "rank",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "airport_name",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "airport_name",
+            "type": "nominal",
+            "title": "Airport"
+          },
+          {
+            "field": "rank",
+            "type": "quantitative",
+            "title": "Rank",
+            "format": ".0f"
+          },
+          {
+            "field": "total_passengers",
+            "type": "quantitative",
+            "title": "Avg monthly passengers",
+            "format": ",.0f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 14
+    }
+  }
+}

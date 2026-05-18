@@ -1,0 +1,219 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": {
+    "step": 28
+  },
+  "title": {
+    "text": "Top 15 Domestic Air Routes in Australia",
+    "subtitle": "By passengers, December 2025",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {
+        "route": "Melbourne - Sydney",
+        "passengers": 674539,
+        "rpks": 478715119,
+        "available_seats": 769480,
+        "asks": 546123517,
+        "load_factor": 87.6569318292148,
+        "trips": 4396
+      },
+      {
+        "route": "Brisbane - Sydney",
+        "passengers": 382656,
+        "rpks": 288139968,
+        "available_seats": 435027,
+        "asks": 327575331,
+        "load_factor": 87.9614368763318,
+        "trips": 2588
+      },
+      {
+        "route": "Brisbane - Melbourne",
+        "passengers": 333591,
+        "rpks": 461204119,
+        "available_seats": 392580,
+        "asks": 542723684,
+        "load_factor": 84.9795453186819,
+        "trips": 2384
+      },
+      {
+        "route": "Gold Coast - Sydney",
+        "passengers": 233904,
+        "rpks": 159054720,
+        "available_seats": 264677,
+        "asks": 179980360,
+        "load_factor": 88.373375850565,
+        "trips": 1494
+      },
+      {
+        "route": "Gold Coast - Melbourne",
+        "passengers": 219171,
+        "rpks": 292056580,
+        "available_seats": 252829,
+        "asks": 336869526,
+        "load_factor": 86.6972395716198,
+        "trips": 1393
+      },
+      {
+        "route": "Adelaide - Melbourne",
+        "passengers": 215285,
+        "rpks": 138428255,
+        "available_seats": 253603,
+        "asks": 163066729,
+        "load_factor": 84.8905572883602,
+        "trips": 1515
+      },
+      {
+        "route": "Melbourne - Perth",
+        "passengers": 197634,
+        "rpks": 534797604,
+        "available_seats": 224481,
+        "asks": 607445586,
+        "load_factor": 88.0404132198271,
+        "trips": 1253
+      },
+      {
+        "route": "Adelaide - Sydney",
+        "passengers": 175970,
+        "rpks": 205356990,
+        "available_seats": 213078,
+        "asks": 248662026,
+        "load_factor": 82.5847811599508,
+        "trips": 1255
+      },
+      {
+        "route": "Perth - Sydney",
+        "passengers": 159485,
+        "rpks": 523748740,
+        "available_seats": 185609,
+        "asks": 609539956,
+        "load_factor": 85.9252514694869,
+        "trips": 1010
+      },
+      {
+        "route": "Hobart - Melbourne",
+        "passengers": 140616,
+        "rpks": 86900688,
+        "available_seats": 170678,
+        "asks": 105479004,
+        "load_factor": 82.386716507107,
+        "trips": 944
+      },
+      {
+        "route": "Brisbane - Cairns",
+        "passengers": 109919,
+        "rpks": 152897329,
+        "available_seats": 123172,
+        "asks": 171332252,
+        "load_factor": 89.2402494073329,
+        "trips": 881
+      },
+      {
+        "route": "Brisbane - Perth",
+        "passengers": 104073,
+        "rpks": 376223895,
+        "available_seats": 123492,
+        "asks": 446423580,
+        "load_factor": 84.2750947429793,
+        "trips": 702
+      },
+      {
+        "route": "Hobart - Sydney",
+        "passengers": 88455,
+        "rpks": 91904745,
+        "available_seats": 110282,
+        "asks": 114582998,
+        "load_factor": 80.208012186939,
+        "trips": 597
+      },
+      {
+        "route": "Brisbane - Townsville",
+        "passengers": 86398,
+        "rpks": 96074576,
+        "available_seats": 104074,
+        "asks": 115730288,
+        "load_factor": 83.0159309721929,
+        "trips": 770
+      },
+      {
+        "route": "Launceston - Melbourne",
+        "passengers": 83514,
+        "rpks": 39752664,
+        "available_seats": 102054,
+        "asks": 48577704,
+        "load_factor": 81.8331471573873,
+        "trips": 768
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 4
+  },
+  "encoding": {
+    "y": {
+      "field": "route",
+      "type": "nominal",
+      "sort": "-x",
+      "title": null,
+      "axis": {
+        "labelLimit": 220
+      }
+    },
+    "x": {
+      "field": "passengers",
+      "type": "quantitative",
+      "title": "Passengers",
+      "axis": {
+        "format": ",d",
+        "grid": true
+      }
+    },
+    "tooltip": [
+      {
+        "field": "route",
+        "type": "nominal",
+        "title": "Route"
+      },
+      {
+        "field": "passengers",
+        "type": "quantitative",
+        "title": "Passengers",
+        "format": ",d"
+      },
+      {
+        "field": "available_seats",
+        "type": "quantitative",
+        "title": "Available seats",
+        "format": ",d"
+      },
+      {
+        "field": "load_factor",
+        "type": "quantitative",
+        "title": "Load factor",
+        "format": ".1f"
+      },
+      {
+        "field": "trips",
+        "type": "quantitative",
+        "title": "Trips",
+        "format": ",d"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 18,
+      "subtitleFontSize": 12
+    }
+  }
+}

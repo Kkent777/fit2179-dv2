@@ -1,0 +1,248 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 480,
+  "title": {
+    "text": "Airport Traffic Intensity in Australia",
+    "subtitle": "Passengers vs aircraft movements, November 2025 (top 20 airports)",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {
+        "airport": "SYDNEY",
+        "total_passengers": 3644573,
+        "dom_total": 2206344,
+        "total_movements": 24519,
+        "label": "SYDNEY"
+      },
+      {
+        "airport": "MELBOURNE",
+        "total_passengers": 3142586,
+        "dom_total": 2128607,
+        "total_movements": 19981,
+        "label": "MELBOURNE"
+      },
+      {
+        "airport": "BRISBANE",
+        "total_passengers": 2114314,
+        "dom_total": 1518803,
+        "total_movements": 16513,
+        "label": "BRISBANE"
+      },
+      {
+        "airport": "PERTH",
+        "total_passengers": 1232092,
+        "dom_total": 788134,
+        "total_movements": 8492,
+        "label": "PERTH"
+      },
+      {
+        "airport": "ADELAIDE",
+        "total_passengers": 765167,
+        "dom_total": 662688,
+        "total_movements": 6402,
+        "label": "ADELAIDE"
+      },
+      {
+        "airport": "GOLD COAST",
+        "total_passengers": 522835,
+        "dom_total": 467662,
+        "total_movements": 3126,
+        "label": "GOLD COAST"
+      },
+      {
+        "airport": "CAIRNS",
+        "total_passengers": 365213,
+        "dom_total": 312916,
+        "total_movements": 3631,
+        "label": "CAIRNS"
+      },
+      {
+        "airport": "CANBERRA",
+        "total_passengers": 255711,
+        "dom_total": 253738,
+        "total_movements": 3235,
+        "label": "CANBERRA"
+      },
+      {
+        "airport": "HOBART",
+        "total_passengers": 251307,
+        "dom_total": 247576,
+        "total_movements": 1729,
+        "label": ""
+      },
+      {
+        "airport": "SUNSHINE COAST",
+        "total_passengers": 151717,
+        "dom_total": 147850,
+        "total_movements": 948,
+        "label": ""
+      },
+      {
+        "airport": "TOWNSVILLE",
+        "total_passengers": 137545,
+        "dom_total": 137545,
+        "total_movements": 1936,
+        "label": ""
+      },
+      {
+        "airport": "DARWIN",
+        "total_passengers": 136088,
+        "dom_total": 114294,
+        "total_movements": 1928,
+        "label": ""
+      },
+      {
+        "airport": "LAUNCESTON",
+        "total_passengers": 125597,
+        "dom_total": 125597,
+        "total_movements": 1194,
+        "label": ""
+      },
+      {
+        "airport": "NEWCASTLE",
+        "total_passengers": 110701,
+        "dom_total": 105970,
+        "total_movements": 1077,
+        "label": ""
+      },
+      {
+        "airport": "MACKAY",
+        "total_passengers": 79491,
+        "dom_total": 79491,
+        "total_movements": 932,
+        "label": ""
+      },
+      {
+        "airport": "KARRATHA",
+        "total_passengers": 59683,
+        "dom_total": 59683,
+        "total_movements": 534,
+        "label": ""
+      },
+      {
+        "airport": "ROCKHAMPTON",
+        "total_passengers": 54871,
+        "dom_total": 54871,
+        "total_movements": 767,
+        "label": ""
+      },
+      {
+        "airport": "PROSERPINE",
+        "total_passengers": 50298,
+        "dom_total": 50298,
+        "total_movements": 309,
+        "label": ""
+      },
+      {
+        "airport": "BALLINA",
+        "total_passengers": 50147,
+        "dom_total": 50147,
+        "total_movements": 344,
+        "label": ""
+      },
+      {
+        "airport": "HAMILTON ISLAND",
+        "total_passengers": 41981,
+        "dom_total": 41981,
+        "total_movements": 298,
+        "label": ""
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "opacity": 0.8,
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "total_movements",
+          "type": "quantitative",
+          "title": "Aircraft movements",
+          "axis": {
+            "format": ",d"
+          }
+        },
+        "y": {
+          "field": "total_passengers",
+          "type": "quantitative",
+          "title": "Passengers",
+          "axis": {
+            "format": ",d"
+          }
+        },
+        "size": {
+          "field": "total_passengers",
+          "type": "quantitative",
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "airport",
+            "type": "nominal",
+            "title": "Airport"
+          },
+          {
+            "field": "total_passengers",
+            "type": "quantitative",
+            "title": "Passengers",
+            "format": ",d"
+          },
+          {
+            "field": "total_movements",
+            "type": "quantitative",
+            "title": "Aircraft movements",
+            "format": ",d"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.label != ''"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "dy": -6,
+        "fontSize": 11
+      },
+      "encoding": {
+        "x": {
+          "field": "total_movements",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "total_passengers",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 14
+    }
+  }
+}

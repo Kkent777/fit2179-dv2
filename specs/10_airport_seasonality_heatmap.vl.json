@@ -1,0 +1,354 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 220,
+  "title": {
+    "text": "Seasonality Across Major Airports",
+    "subtitle": "Monthly total passengers in 2025",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {
+        "airport_name": "Adelaide",
+        "month_name": "Jan",
+        "total_passengers": 725247
+      },
+      {
+        "airport_name": "Adelaide",
+        "month_name": "Feb",
+        "total_passengers": 633248
+      },
+      {
+        "airport_name": "Adelaide",
+        "month_name": "Mar",
+        "total_passengers": 710095
+      },
+      {
+        "airport_name": "Adelaide",
+        "month_name": "Apr",
+        "total_passengers": 730332
+      },
+      {
+        "airport_name": "Adelaide",
+        "month_name": "May",
+        "total_passengers": 675413
+      },
+      {
+        "airport_name": "Adelaide",
+        "month_name": "Jun",
+        "total_passengers": 654611
+      },
+      {
+        "airport_name": "Adelaide",
+        "month_name": "Jul",
+        "total_passengers": 737128
+      },
+      {
+        "airport_name": "Adelaide",
+        "month_name": "Aug",
+        "total_passengers": 709676
+      },
+      {
+        "airport_name": "Adelaide",
+        "month_name": "Sep",
+        "total_passengers": 717780
+      },
+      {
+        "airport_name": "Adelaide",
+        "month_name": "Oct",
+        "total_passengers": 790616
+      },
+      {
+        "airport_name": "Adelaide",
+        "month_name": "Nov",
+        "total_passengers": 765167
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "Jan",
+        "total_passengers": 2045598
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "Feb",
+        "total_passengers": 1748448
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "Mar",
+        "total_passengers": 1775492
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "Apr",
+        "total_passengers": 2029014
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "May",
+        "total_passengers": 1971467
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "Jun",
+        "total_passengers": 1962689
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "Jul",
+        "total_passengers": 2198975
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "Aug",
+        "total_passengers": 2090963
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "Sep",
+        "total_passengers": 2103123
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "Oct",
+        "total_passengers": 2243182
+      },
+      {
+        "airport_name": "Brisbane",
+        "month_name": "Nov",
+        "total_passengers": 2114314
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "Jan",
+        "total_passengers": 3384398
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "Feb",
+        "total_passengers": 2723472
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "Mar",
+        "total_passengers": 2921349
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "Apr",
+        "total_passengers": 3084766
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "May",
+        "total_passengers": 2820650
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "Jun",
+        "total_passengers": 2778724
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "Jul",
+        "total_passengers": 3168864
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "Aug",
+        "total_passengers": 2968794
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "Sep",
+        "total_passengers": 3041129
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "Oct",
+        "total_passengers": 3255741
+      },
+      {
+        "airport_name": "Melbourne",
+        "month_name": "Nov",
+        "total_passengers": 3142586
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "Jan",
+        "total_passengers": 1289470
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "Feb",
+        "total_passengers": 1049464
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "Mar",
+        "total_passengers": 1130850
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "Apr",
+        "total_passengers": 1241755
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "May",
+        "total_passengers": 1158203
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "Jun",
+        "total_passengers": 1149637
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "Jul",
+        "total_passengers": 1290634
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "Aug",
+        "total_passengers": 1179265
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "Sep",
+        "total_passengers": 1241431
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "Oct",
+        "total_passengers": 1345882
+      },
+      {
+        "airport_name": "Perth",
+        "month_name": "Nov",
+        "total_passengers": 1232092
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "Jan",
+        "total_passengers": 3838073
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "Feb",
+        "total_passengers": 3197718
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "Mar",
+        "total_passengers": 3376439
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "Apr",
+        "total_passengers": 3522370
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "May",
+        "total_passengers": 3321180
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "Jun",
+        "total_passengers": 3218094
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "Jul",
+        "total_passengers": 3664124
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "Aug",
+        "total_passengers": 3505903
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "Sep",
+        "total_passengers": 3518767
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "Oct",
+        "total_passengers": 3852511
+      },
+      {
+        "airport_name": "Sydney",
+        "month_name": "Nov",
+        "total_passengers": 3644573
+      }
+    ]
+  },
+  "mark": {
+    "type": "rect"
+  },
+  "encoding": {
+    "x": {
+      "field": "month_name",
+      "type": "ordinal",
+      "title": "Month",
+      "sort": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ]
+    },
+    "y": {
+      "field": "airport_name",
+      "type": "nominal",
+      "title": null
+    },
+    "color": {
+      "field": "total_passengers",
+      "type": "quantitative",
+      "title": "Passengers"
+    },
+    "tooltip": [
+      {
+        "field": "airport_name",
+        "type": "nominal",
+        "title": "Airport"
+      },
+      {
+        "field": "month_name",
+        "type": "ordinal",
+        "title": "Month"
+      },
+      {
+        "field": "total_passengers",
+        "type": "quantitative",
+        "title": "Passengers",
+        "format": ",d"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 14
+    }
+  }
+}

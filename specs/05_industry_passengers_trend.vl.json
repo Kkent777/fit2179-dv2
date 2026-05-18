@@ -1,0 +1,624 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 760,
+  "height": 340,
+  "title": {
+    "text": "Domestic Airline Passengers in Australia",
+    "subtitle": "Industry totals by month, July 2014 to February 2026",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {
+        "month": "2014-07-01",
+        "passengers": 5050363
+      },
+      {
+        "month": "2014-08-01",
+        "passengers": 4843363
+      },
+      {
+        "month": "2014-09-01",
+        "passengers": 4857166
+      },
+      {
+        "month": "2014-10-01",
+        "passengers": 5286444
+      },
+      {
+        "month": "2014-11-01",
+        "passengers": 4811097
+      },
+      {
+        "month": "2014-12-01",
+        "passengers": 4931163
+      },
+      {
+        "month": "2015-01-01",
+        "passengers": 4671622
+      },
+      {
+        "month": "2015-02-01",
+        "passengers": 4220452
+      },
+      {
+        "month": "2015-03-01",
+        "passengers": 4832657
+      },
+      {
+        "month": "2015-04-01",
+        "passengers": 4760733
+      },
+      {
+        "month": "2015-05-01",
+        "passengers": 4534651
+      },
+      {
+        "month": "2015-06-01",
+        "passengers": 4467707
+      },
+      {
+        "month": "2015-07-01",
+        "passengers": 5154630
+      },
+      {
+        "month": "2015-08-01",
+        "passengers": 4799488
+      },
+      {
+        "month": "2015-09-01",
+        "passengers": 4904998
+      },
+      {
+        "month": "2015-10-01",
+        "passengers": 5199136
+      },
+      {
+        "month": "2015-11-01",
+        "passengers": 4950606
+      },
+      {
+        "month": "2015-12-01",
+        "passengers": 5058441
+      },
+      {
+        "month": "2016-01-01",
+        "passengers": 4823544
+      },
+      {
+        "month": "2016-02-01",
+        "passengers": 4466668
+      },
+      {
+        "month": "2016-03-01",
+        "passengers": 4978550
+      },
+      {
+        "month": "2016-04-01",
+        "passengers": 4842785
+      },
+      {
+        "month": "2016-05-01",
+        "passengers": 4673297
+      },
+      {
+        "month": "2016-06-01",
+        "passengers": 4614311
+      },
+      {
+        "month": "2016-07-01",
+        "passengers": 5191861
+      },
+      {
+        "month": "2016-08-01",
+        "passengers": 4891187
+      },
+      {
+        "month": "2016-09-01",
+        "passengers": 5064249
+      },
+      {
+        "month": "2016-10-01",
+        "passengers": 5244558
+      },
+      {
+        "month": "2016-11-01",
+        "passengers": 5059011
+      },
+      {
+        "month": "2016-12-01",
+        "passengers": 5142945
+      },
+      {
+        "month": "2017-01-01",
+        "passengers": 4976994
+      },
+      {
+        "month": "2017-02-01",
+        "passengers": 4357102
+      },
+      {
+        "month": "2017-03-01",
+        "passengers": 5006527
+      },
+      {
+        "month": "2017-04-01",
+        "passengers": 4943013
+      },
+      {
+        "month": "2017-05-01",
+        "passengers": 4748648
+      },
+      {
+        "month": "2017-06-01",
+        "passengers": 4699794
+      },
+      {
+        "month": "2017-07-01",
+        "passengers": 5307405
+      },
+      {
+        "month": "2017-08-01",
+        "passengers": 4983145
+      },
+      {
+        "month": "2017-09-01",
+        "passengers": 5073889
+      },
+      {
+        "month": "2017-10-01",
+        "passengers": 5423449
+      },
+      {
+        "month": "2017-11-01",
+        "passengers": 5227105
+      },
+      {
+        "month": "2017-12-01",
+        "passengers": 5248587
+      },
+      {
+        "month": "2018-01-01",
+        "passengers": 5080227
+      },
+      {
+        "month": "2018-02-01",
+        "passengers": 4534840
+      },
+      {
+        "month": "2018-03-01",
+        "passengers": 5226827
+      },
+      {
+        "month": "2018-04-01",
+        "passengers": 5084663
+      },
+      {
+        "month": "2018-05-01",
+        "passengers": 4866754
+      },
+      {
+        "month": "2018-06-01",
+        "passengers": 4722609
+      },
+      {
+        "month": "2018-07-01",
+        "passengers": 5442842
+      },
+      {
+        "month": "2018-08-01",
+        "passengers": 5187661
+      },
+      {
+        "month": "2018-09-01",
+        "passengers": 5083169
+      },
+      {
+        "month": "2018-10-01",
+        "passengers": 5500983
+      },
+      {
+        "month": "2018-11-01",
+        "passengers": 5235228
+      },
+      {
+        "month": "2018-12-01",
+        "passengers": 5146512
+      },
+      {
+        "month": "2019-01-01",
+        "passengers": 5070214
+      },
+      {
+        "month": "2019-02-01",
+        "passengers": 4501753
+      },
+      {
+        "month": "2019-03-01",
+        "passengers": 5064976
+      },
+      {
+        "month": "2019-04-01",
+        "passengers": 5151508
+      },
+      {
+        "month": "2019-05-01",
+        "passengers": 4886567
+      },
+      {
+        "month": "2019-06-01",
+        "passengers": 4710385
+      },
+      {
+        "month": "2019-07-01",
+        "passengers": 5455578
+      },
+      {
+        "month": "2019-08-01",
+        "passengers": 5196622
+      },
+      {
+        "month": "2019-09-01",
+        "passengers": 5191883
+      },
+      {
+        "month": "2019-10-01",
+        "passengers": 5644833
+      },
+      {
+        "month": "2019-11-01",
+        "passengers": 5257549
+      },
+      {
+        "month": "2019-12-01",
+        "passengers": 5257721
+      },
+      {
+        "month": "2020-01-01",
+        "passengers": 5096792
+      },
+      {
+        "month": "2020-02-01",
+        "passengers": 4365877
+      },
+      {
+        "month": "2020-03-01",
+        "passengers": 3073845
+      },
+      {
+        "month": "2020-04-01",
+        "passengers": 145895
+      },
+      {
+        "month": "2020-05-01",
+        "passengers": 176408
+      },
+      {
+        "month": "2020-06-01",
+        "passengers": 379657
+      },
+      {
+        "month": "2020-07-01",
+        "passengers": 732986
+      },
+      {
+        "month": "2020-08-01",
+        "passengers": 579802
+      },
+      {
+        "month": "2020-09-01",
+        "passengers": 699714
+      },
+      {
+        "month": "2020-10-01",
+        "passengers": 909374
+      },
+      {
+        "month": "2020-11-01",
+        "passengers": 1107078
+      },
+      {
+        "month": "2020-12-01",
+        "passengers": 2178128
+      },
+      {
+        "month": "2021-01-01",
+        "passengers": 1649907
+      },
+      {
+        "month": "2021-02-01",
+        "passengers": 1624120
+      },
+      {
+        "month": "2021-03-01",
+        "passengers": 2800293
+      },
+      {
+        "month": "2021-04-01",
+        "passengers": 3529380
+      },
+      {
+        "month": "2021-05-01",
+        "passengers": 3390870
+      },
+      {
+        "month": "2021-06-01",
+        "passengers": 2354655
+      },
+      {
+        "month": "2021-07-01",
+        "passengers": 1349665
+      },
+      {
+        "month": "2021-08-01",
+        "passengers": 731070
+      },
+      {
+        "month": "2021-09-01",
+        "passengers": 997815
+      },
+      {
+        "month": "2021-10-01",
+        "passengers": 1052069
+      },
+      {
+        "month": "2021-11-01",
+        "passengers": 1521194
+      },
+      {
+        "month": "2021-12-01",
+        "passengers": 2549920
+      },
+      {
+        "month": "2022-01-01",
+        "passengers": 2558416
+      },
+      {
+        "month": "2022-02-01",
+        "passengers": 2439681
+      },
+      {
+        "month": "2022-03-01",
+        "passengers": 3603138
+      },
+      {
+        "month": "2022-04-01",
+        "passengers": 4662038
+      },
+      {
+        "month": "2022-05-01",
+        "passengers": 4365139
+      },
+      {
+        "month": "2022-06-01",
+        "passengers": 4526091
+      },
+      {
+        "month": "2022-07-01",
+        "passengers": 4816510
+      },
+      {
+        "month": "2022-08-01",
+        "passengers": 4462833
+      },
+      {
+        "month": "2022-09-01",
+        "passengers": 4682067
+      },
+      {
+        "month": "2022-10-01",
+        "passengers": 4851329
+      },
+      {
+        "month": "2022-11-01",
+        "passengers": 4667010
+      },
+      {
+        "month": "2022-12-01",
+        "passengers": 4563278
+      },
+      {
+        "month": "2023-01-01",
+        "passengers": 4497489
+      },
+      {
+        "month": "2023-02-01",
+        "passengers": 4001958
+      },
+      {
+        "month": "2023-03-01",
+        "passengers": 4828800
+      },
+      {
+        "month": "2023-04-01",
+        "passengers": 4701092
+      },
+      {
+        "month": "2023-05-01",
+        "passengers": 4634188
+      },
+      {
+        "month": "2023-06-01",
+        "passengers": 4589042
+      },
+      {
+        "month": "2023-07-01",
+        "passengers": 5008662
+      },
+      {
+        "month": "2023-08-01",
+        "passengers": 4891363
+      },
+      {
+        "month": "2023-09-01",
+        "passengers": 4985290
+      },
+      {
+        "month": "2023-10-01",
+        "passengers": 5188632
+      },
+      {
+        "month": "2023-11-01",
+        "passengers": 5042390
+      },
+      {
+        "month": "2023-12-01",
+        "passengers": 4904418
+      },
+      {
+        "month": "2024-01-01",
+        "passengers": 4795552
+      },
+      {
+        "month": "2024-02-01",
+        "passengers": 4569367
+      },
+      {
+        "month": "2024-03-01",
+        "passengers": 4975848
+      },
+      {
+        "month": "2024-04-01",
+        "passengers": 4926302
+      },
+      {
+        "month": "2024-05-01",
+        "passengers": 4743644
+      },
+      {
+        "month": "2024-06-01",
+        "passengers": 4596562
+      },
+      {
+        "month": "2024-07-01",
+        "passengers": 5151300
+      },
+      {
+        "month": "2024-08-01",
+        "passengers": 4954131
+      },
+      {
+        "month": "2024-09-01",
+        "passengers": 5017354
+      },
+      {
+        "month": "2024-10-01",
+        "passengers": 5372841
+      },
+      {
+        "month": "2024-11-01",
+        "passengers": 5089710
+      },
+      {
+        "month": "2024-12-01",
+        "passengers": 5095635
+      },
+      {
+        "month": "2025-01-01",
+        "passengers": 5095207
+      },
+      {
+        "month": "2025-02-01",
+        "passengers": 4351135
+      },
+      {
+        "month": "2025-03-01",
+        "passengers": 4747111
+      },
+      {
+        "month": "2025-04-01",
+        "passengers": 5085821
+      },
+      {
+        "month": "2025-05-01",
+        "passengers": 4839802
+      },
+      {
+        "month": "2025-06-01",
+        "passengers": 4704089
+      },
+      {
+        "month": "2025-07-01",
+        "passengers": 5354369
+      },
+      {
+        "month": "2025-08-01",
+        "passengers": 5065908
+      },
+      {
+        "month": "2025-09-01",
+        "passengers": 5125507
+      },
+      {
+        "month": "2025-10-01",
+        "passengers": 5572786
+      },
+      {
+        "month": "2025-11-01",
+        "passengers": 5198284
+      },
+      {
+        "month": "2025-12-01",
+        "passengers": 5300654
+      },
+      {
+        "month": "2026-01-01",
+        "passengers": 5053364
+      },
+      {
+        "month": "2026-02-01",
+        "passengers": 4411134
+      }
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "point": false
+  },
+  "encoding": {
+    "x": {
+      "field": "month",
+      "type": "temporal",
+      "title": null,
+      "axis": {
+        "format": "%Y",
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "passengers",
+      "type": "quantitative",
+      "title": "Passengers",
+      "axis": {
+        "format": ",d"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "month",
+        "type": "temporal",
+        "title": "Month",
+        "format": "%b %Y"
+      },
+      {
+        "field": "passengers",
+        "type": "quantitative",
+        "title": "Passengers",
+        "format": ",d"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 14
+    }
+  }
+}

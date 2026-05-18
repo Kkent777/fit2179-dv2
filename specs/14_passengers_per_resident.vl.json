@@ -1,0 +1,173 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": {
+    "step": 32
+  },
+  "title": {
+    "text": "Air Travel Intensity by Urban Area",
+    "subtitle": "Annual airport passengers per resident, Dec 2024 to Nov 2025 vs 2025 population",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {
+        "airport": "Cairns",
+        "urban_area": "Cairns",
+        "annual_passengers": 4717433,
+        "population_2025": 164149,
+        "passengers_per_resident": 28.738725182608484
+      },
+      {
+        "airport": "Darwin",
+        "urban_area": "Darwin",
+        "annual_passengers": 1932419,
+        "population_2025": 145019,
+        "passengers_per_resident": 13.325281514835988
+      },
+      {
+        "airport": "Hobart",
+        "urban_area": "Hobart",
+        "annual_passengers": 2865827,
+        "population_2025": 233736,
+        "passengers_per_resident": 12.260956805969128
+      },
+      {
+        "airport": "Brisbane",
+        "urban_area": "Brisbane",
+        "annual_passengers": 24384331,
+        "population_2025": 2745086,
+        "passengers_per_resident": 8.882902393586212
+      },
+      {
+        "airport": "Sydney",
+        "urban_area": "Sydney",
+        "annual_passengers": 42419396,
+        "population_2025": 5219674,
+        "passengers_per_resident": 8.126828610369154
+      },
+      {
+        "airport": "Gold Coast",
+        "urban_area": "Gold Coast - Tweed Heads",
+        "annual_passengers": 6182701,
+        "population_2025": 761634,
+        "passengers_per_resident": 8.117679882988417
+      },
+      {
+        "airport": "Melbourne",
+        "urban_area": "Melbourne",
+        "annual_passengers": 36520298,
+        "population_2025": 5328274,
+        "passengers_per_resident": 6.854057805585824
+      },
+      {
+        "airport": "Perth",
+        "urban_area": "Perth",
+        "annual_passengers": 14550201,
+        "population_2025": 2430757,
+        "passengers_per_resident": 5.9858723023321545
+      },
+      {
+        "airport": "Adelaide",
+        "urban_area": "Adelaide",
+        "annual_passengers": 8586102,
+        "population_2025": 1470938,
+        "passengers_per_resident": 5.837161049615959
+      },
+      {
+        "airport": "Canberra",
+        "urban_area": "Canberra - Queanbeyan",
+        "annual_passengers": 2800771,
+        "population_2025": 521049,
+        "passengers_per_resident": 5.375254534602312
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusEnd": 3
+      },
+      "encoding": {
+        "y": {
+          "field": "airport",
+          "type": "nominal",
+          "sort": "-x",
+          "title": null
+        },
+        "x": {
+          "field": "passengers_per_resident",
+          "type": "quantitative",
+          "title": "Passengers per resident",
+          "axis": {
+            "format": ".1f"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "airport",
+            "type": "nominal",
+            "title": "Airport / urban area"
+          },
+          {
+            "field": "annual_passengers",
+            "type": "quantitative",
+            "title": "Annual passengers",
+            "format": ",d"
+          },
+          {
+            "field": "population_2025",
+            "type": "quantitative",
+            "title": "Population (2025)",
+            "format": ",d"
+          },
+          {
+            "field": "passengers_per_resident",
+            "type": "quantitative",
+            "title": "Passengers per resident",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 6,
+        "baseline": "middle",
+        "fontSize": 11
+      },
+      "encoding": {
+        "y": {
+          "field": "airport",
+          "type": "nominal",
+          "sort": "-x"
+        },
+        "x": {
+          "field": "passengers_per_resident",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "passengers_per_resident",
+          "type": "quantitative",
+          "format": ".2f"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 14
+    }
+  }
+}

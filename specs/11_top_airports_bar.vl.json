@@ -1,0 +1,122 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": {
+    "step": 28
+  },
+  "title": {
+    "text": "Top 15 Airports in Australia",
+    "subtitle": "By total passengers, November 2025",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {
+        "airport": "SYDNEY",
+        "passengers": 3644573
+      },
+      {
+        "airport": "MELBOURNE",
+        "passengers": 3142586
+      },
+      {
+        "airport": "BRISBANE",
+        "passengers": 2114314
+      },
+      {
+        "airport": "PERTH",
+        "passengers": 1232092
+      },
+      {
+        "airport": "ADELAIDE",
+        "passengers": 765167
+      },
+      {
+        "airport": "GOLD COAST",
+        "passengers": 522835
+      },
+      {
+        "airport": "CAIRNS",
+        "passengers": 365213
+      },
+      {
+        "airport": "CANBERRA",
+        "passengers": 255711
+      },
+      {
+        "airport": "HOBART",
+        "passengers": 251307
+      },
+      {
+        "airport": "SUNSHINE COAST",
+        "passengers": 151717
+      },
+      {
+        "airport": "TOWNSVILLE",
+        "passengers": 137545
+      },
+      {
+        "airport": "DARWIN",
+        "passengers": 136088
+      },
+      {
+        "airport": "LAUNCESTON",
+        "passengers": 125597
+      },
+      {
+        "airport": "NEWCASTLE",
+        "passengers": 110701
+      },
+      {
+        "airport": "MACKAY",
+        "passengers": 79491
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 3
+  },
+  "encoding": {
+    "y": {
+      "field": "airport",
+      "type": "nominal",
+      "sort": "-x",
+      "title": null
+    },
+    "x": {
+      "field": "passengers",
+      "type": "quantitative",
+      "title": "Passengers",
+      "axis": {
+        "format": ",d"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "airport",
+        "type": "nominal",
+        "title": "Airport"
+      },
+      {
+        "field": "passengers",
+        "type": "quantitative",
+        "title": "Passengers",
+        "format": ",d"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 14
+    }
+  }
+}

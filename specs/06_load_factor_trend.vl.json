@@ -1,0 +1,697 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 360,
+  "title": {
+    "text": "Domestic Airline Load Factor in Australia",
+    "subtitle": "Industry totals by month, July 2014 to February 2026",
+    "anchor": "start"
+  },
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "start": "2020-03-01",
+            "end": "2021-12-01"
+          }
+        ]
+      },
+      "mark": {
+        "type": "rect",
+        "opacity": 0.12
+      },
+      "encoding": {
+        "x": {
+          "field": "start",
+          "type": "temporal"
+        },
+        "x2": {
+          "field": "end"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "month": "2014-07-01",
+            "load_factor": 78.335
+          },
+          {
+            "month": "2014-08-01",
+            "load_factor": 77.257
+          },
+          {
+            "month": "2014-09-01",
+            "load_factor": 76.463
+          },
+          {
+            "month": "2014-10-01",
+            "load_factor": 79.96
+          },
+          {
+            "month": "2014-11-01",
+            "load_factor": 78.693
+          },
+          {
+            "month": "2014-12-01",
+            "load_factor": 77.381
+          },
+          {
+            "month": "2015-01-01",
+            "load_factor": 75.673
+          },
+          {
+            "month": "2015-02-01",
+            "load_factor": 74.696
+          },
+          {
+            "month": "2015-03-01",
+            "load_factor": 75.945
+          },
+          {
+            "month": "2015-04-01",
+            "load_factor": 76.135
+          },
+          {
+            "month": "2015-05-01",
+            "load_factor": 72.919
+          },
+          {
+            "month": "2015-06-01",
+            "load_factor": 72.808
+          },
+          {
+            "month": "2015-07-01",
+            "load_factor": 79.383
+          },
+          {
+            "month": "2015-08-01",
+            "load_factor": 76.079
+          },
+          {
+            "month": "2015-09-01",
+            "load_factor": 76.929
+          },
+          {
+            "month": "2015-10-01",
+            "load_factor": 79.557
+          },
+          {
+            "month": "2015-11-01",
+            "load_factor": 79.121
+          },
+          {
+            "month": "2015-12-01",
+            "load_factor": 78.172
+          },
+          {
+            "month": "2016-01-01",
+            "load_factor": 76.949
+          },
+          {
+            "month": "2016-02-01",
+            "load_factor": 74.065
+          },
+          {
+            "month": "2016-03-01",
+            "load_factor": 76.911
+          },
+          {
+            "month": "2016-04-01",
+            "load_factor": 77.101
+          },
+          {
+            "month": "2016-05-01",
+            "load_factor": 76.837
+          },
+          {
+            "month": "2016-06-01",
+            "load_factor": 77.618
+          },
+          {
+            "month": "2016-07-01",
+            "load_factor": 80.574
+          },
+          {
+            "month": "2016-08-01",
+            "load_factor": 76.061
+          },
+          {
+            "month": "2016-09-01",
+            "load_factor": 78.562
+          },
+          {
+            "month": "2016-10-01",
+            "load_factor": 80.004
+          },
+          {
+            "month": "2016-11-01",
+            "load_factor": 79.293
+          },
+          {
+            "month": "2016-12-01",
+            "load_factor": 79.375
+          },
+          {
+            "month": "2017-01-01",
+            "load_factor": 79.082
+          },
+          {
+            "month": "2017-02-01",
+            "load_factor": 75.243
+          },
+          {
+            "month": "2017-03-01",
+            "load_factor": 77.355
+          },
+          {
+            "month": "2017-04-01",
+            "load_factor": 79.533
+          },
+          {
+            "month": "2017-05-01",
+            "load_factor": 77.121
+          },
+          {
+            "month": "2017-06-01",
+            "load_factor": 77.403
+          },
+          {
+            "month": "2017-07-01",
+            "load_factor": 82.186
+          },
+          {
+            "month": "2017-08-01",
+            "load_factor": 78.041
+          },
+          {
+            "month": "2017-09-01",
+            "load_factor": 80.382
+          },
+          {
+            "month": "2017-10-01",
+            "load_factor": 82.269
+          },
+          {
+            "month": "2017-11-01",
+            "load_factor": 81.95
+          },
+          {
+            "month": "2017-12-01",
+            "load_factor": 81.041
+          },
+          {
+            "month": "2018-01-01",
+            "load_factor": 79.487
+          },
+          {
+            "month": "2018-02-01",
+            "load_factor": 77.966
+          },
+          {
+            "month": "2018-03-01",
+            "load_factor": 80.397
+          },
+          {
+            "month": "2018-04-01",
+            "load_factor": 79.61
+          },
+          {
+            "month": "2018-05-01",
+            "load_factor": 78.147
+          },
+          {
+            "month": "2018-06-01",
+            "load_factor": 78.597
+          },
+          {
+            "month": "2018-07-01",
+            "load_factor": 83.194
+          },
+          {
+            "month": "2018-08-01",
+            "load_factor": 81.058
+          },
+          {
+            "month": "2018-09-01",
+            "load_factor": 81.39
+          },
+          {
+            "month": "2018-10-01",
+            "load_factor": 82.397
+          },
+          {
+            "month": "2018-11-01",
+            "load_factor": 83.281
+          },
+          {
+            "month": "2018-12-01",
+            "load_factor": 80.621
+          },
+          {
+            "month": "2019-01-01",
+            "load_factor": 78.929
+          },
+          {
+            "month": "2019-02-01",
+            "load_factor": 77.284
+          },
+          {
+            "month": "2019-03-01",
+            "load_factor": 78.739
+          },
+          {
+            "month": "2019-04-01",
+            "load_factor": 80.323
+          },
+          {
+            "month": "2019-05-01",
+            "load_factor": 77.361
+          },
+          {
+            "month": "2019-06-01",
+            "load_factor": 78.254
+          },
+          {
+            "month": "2019-07-01",
+            "load_factor": 82.252
+          },
+          {
+            "month": "2019-08-01",
+            "load_factor": 82.456
+          },
+          {
+            "month": "2019-09-01",
+            "load_factor": 81.823
+          },
+          {
+            "month": "2019-10-01",
+            "load_factor": 84.469
+          },
+          {
+            "month": "2019-11-01",
+            "load_factor": 83.818
+          },
+          {
+            "month": "2019-12-01",
+            "load_factor": 82.519
+          },
+          {
+            "month": "2020-01-01",
+            "load_factor": 82.031
+          },
+          {
+            "month": "2020-02-01",
+            "load_factor": 75.488
+          },
+          {
+            "month": "2020-03-01",
+            "load_factor": 62.727
+          },
+          {
+            "month": "2020-04-01",
+            "load_factor": 28.232
+          },
+          {
+            "month": "2020-05-01",
+            "load_factor": 40.087
+          },
+          {
+            "month": "2020-06-01",
+            "load_factor": 53.278
+          },
+          {
+            "month": "2020-07-01",
+            "load_factor": 59.051
+          },
+          {
+            "month": "2020-08-01",
+            "load_factor": 51.665
+          },
+          {
+            "month": "2020-09-01",
+            "load_factor": 56.103
+          },
+          {
+            "month": "2020-10-01",
+            "load_factor": 60.9
+          },
+          {
+            "month": "2020-11-01",
+            "load_factor": 62.044
+          },
+          {
+            "month": "2020-12-01",
+            "load_factor": 65.814
+          },
+          {
+            "month": "2021-01-01",
+            "load_factor": 59.861
+          },
+          {
+            "month": "2021-02-01",
+            "load_factor": 58.88
+          },
+          {
+            "month": "2021-03-01",
+            "load_factor": 66.727
+          },
+          {
+            "month": "2021-04-01",
+            "load_factor": 70.653
+          },
+          {
+            "month": "2021-05-01",
+            "load_factor": 68.256
+          },
+          {
+            "month": "2021-06-01",
+            "load_factor": 62.777
+          },
+          {
+            "month": "2021-07-01",
+            "load_factor": 50.604
+          },
+          {
+            "month": "2021-08-01",
+            "load_factor": 45.505
+          },
+          {
+            "month": "2021-09-01",
+            "load_factor": 54.86
+          },
+          {
+            "month": "2021-10-01",
+            "load_factor": 54.001
+          },
+          {
+            "month": "2021-11-01",
+            "load_factor": 57.443
+          },
+          {
+            "month": "2021-12-01",
+            "load_factor": 55.762
+          },
+          {
+            "month": "2022-01-01",
+            "load_factor": 59.191
+          },
+          {
+            "month": "2022-02-01",
+            "load_factor": 68.429
+          },
+          {
+            "month": "2022-03-01",
+            "load_factor": 72.675
+          },
+          {
+            "month": "2022-04-01",
+            "load_factor": 78.433
+          },
+          {
+            "month": "2022-05-01",
+            "load_factor": 74.546
+          },
+          {
+            "month": "2022-06-01",
+            "load_factor": 79.933
+          },
+          {
+            "month": "2022-07-01",
+            "load_factor": 85.76
+          },
+          {
+            "month": "2022-08-01",
+            "load_factor": 80.969
+          },
+          {
+            "month": "2022-09-01",
+            "load_factor": 85.679
+          },
+          {
+            "month": "2022-10-01",
+            "load_factor": 85.271
+          },
+          {
+            "month": "2022-11-01",
+            "load_factor": 83.128
+          },
+          {
+            "month": "2022-12-01",
+            "load_factor": 79.891
+          },
+          {
+            "month": "2023-01-01",
+            "load_factor": 77.823
+          },
+          {
+            "month": "2023-02-01",
+            "load_factor": 77.192
+          },
+          {
+            "month": "2023-03-01",
+            "load_factor": 81.788
+          },
+          {
+            "month": "2023-04-01",
+            "load_factor": 79.654
+          },
+          {
+            "month": "2023-05-01",
+            "load_factor": 76.7
+          },
+          {
+            "month": "2023-06-01",
+            "load_factor": 78.3
+          },
+          {
+            "month": "2023-07-01",
+            "load_factor": 82.8
+          },
+          {
+            "month": "2023-08-01",
+            "load_factor": 79.734
+          },
+          {
+            "month": "2023-09-01",
+            "load_factor": 81.615
+          },
+          {
+            "month": "2023-10-01",
+            "load_factor": 82.609
+          },
+          {
+            "month": "2023-11-01",
+            "load_factor": 85.171
+          },
+          {
+            "month": "2023-12-01",
+            "load_factor": 81.6
+          },
+          {
+            "month": "2024-01-01",
+            "load_factor": 77.149
+          },
+          {
+            "month": "2024-02-01",
+            "load_factor": 80.625
+          },
+          {
+            "month": "2024-03-01",
+            "load_factor": 80.399
+          },
+          {
+            "month": "2024-04-01",
+            "load_factor": 77.557
+          },
+          {
+            "month": "2024-05-01",
+            "load_factor": 78.287
+          },
+          {
+            "month": "2024-06-01",
+            "load_factor": 78.826
+          },
+          {
+            "month": "2024-07-01",
+            "load_factor": 81.476
+          },
+          {
+            "month": "2024-08-01",
+            "load_factor": 83.297
+          },
+          {
+            "month": "2024-09-01",
+            "load_factor": 83.79
+          },
+          {
+            "month": "2024-10-01",
+            "load_factor": 86.564
+          },
+          {
+            "month": "2024-11-01",
+            "load_factor": 86.989
+          },
+          {
+            "month": "2024-12-01",
+            "load_factor": 83.816
+          },
+          {
+            "month": "2025-01-01",
+            "load_factor": 84.143
+          },
+          {
+            "month": "2025-02-01",
+            "load_factor": 80.501
+          },
+          {
+            "month": "2025-03-01",
+            "load_factor": 80.67
+          },
+          {
+            "month": "2025-04-01",
+            "load_factor": 82.747
+          },
+          {
+            "month": "2025-05-01",
+            "load_factor": 80.731
+          },
+          {
+            "month": "2025-06-01",
+            "load_factor": 80.101
+          },
+          {
+            "month": "2025-07-01",
+            "load_factor": 83.391
+          },
+          {
+            "month": "2025-08-01",
+            "load_factor": 82.276
+          },
+          {
+            "month": "2025-09-01",
+            "load_factor": 81.444
+          },
+          {
+            "month": "2025-10-01",
+            "load_factor": 85.591
+          },
+          {
+            "month": "2025-11-01",
+            "load_factor": 85.15
+          },
+          {
+            "month": "2025-12-01",
+            "load_factor": 82.614
+          },
+          {
+            "month": "2026-01-01",
+            "load_factor": 81.052
+          },
+          {
+            "month": "2026-02-01",
+            "load_factor": 79.257
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "point": false
+      },
+      "encoding": {
+        "x": {
+          "field": "month",
+          "type": "temporal",
+          "title": "Month",
+          "axis": {
+            "format": "%Y",
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "load_factor",
+          "type": "quantitative",
+          "title": "Load factor (%)",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ],
+            "nice": false
+          },
+          "axis": {
+            "values": [
+              0,
+              25,
+              50,
+              75,
+              100
+            ],
+            "format": ".0f"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "month",
+            "type": "temporal",
+            "title": "Month",
+            "format": "%b %Y"
+          },
+          {
+            "field": "load_factor",
+            "type": "quantitative",
+            "title": "Load factor",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "month": "2020-04-01",
+            "load_factor": 71.5,
+            "label": "COVID disruption period"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "dy": -8,
+        "fontSize": 12
+      },
+      "encoding": {
+        "x": {
+          "field": "month",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "load_factor",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 22,
+      "subtitleFontSize": 14
+    }
+  }
+}

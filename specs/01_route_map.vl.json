@@ -1,0 +1,2802 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 500,
+  "title": {
+    "text": "Top Domestic Air Routes Across Australia",
+    "subtitle": "Top 10 routes by passengers, December 2025",
+    "anchor": "start"
+  },
+  "projection": {
+    "type": "mercator",
+    "center": [
+      134,
+      -28
+    ],
+    "scale": 720
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.id == 36"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f7f7f5",
+        "stroke": "#b9b9b9",
+        "strokeWidth": 1.2
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 0,
+            "lon": 144.843,
+            "lat": -37.6733,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 1,
+            "lon": 145.0771591666667,
+            "lat": -37.467414375000004,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 2,
+            "lon": 145.31390666666664,
+            "lat": -37.2659275,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 3,
+            "lon": 145.55324249999998,
+            "lat": -37.068839374999996,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 4,
+            "lon": 145.79516666666666,
+            "lat": -36.87615,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 5,
+            "lon": 146.03967916666664,
+            "lat": -36.687859374999995,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 6,
+            "lon": 146.28678000000002,
+            "lat": -36.503967499999995,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 7,
+            "lon": 146.53646916666662,
+            "lat": -36.324474374999994,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 8,
+            "lon": 146.78874666666667,
+            "lat": -36.14938000000001,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 9,
+            "lon": 147.0436125,
+            "lat": -35.978684375,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 10,
+            "lon": 147.30106666666666,
+            "lat": -35.81238749999999,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 11,
+            "lon": 147.56110916666668,
+            "lat": -35.65048937500001,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 12,
+            "lon": 147.82374,
+            "lat": -35.49299,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 13,
+            "lon": 148.08895916666665,
+            "lat": -35.339889375,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 14,
+            "lon": 148.35676666666666,
+            "lat": -35.1911875,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 15,
+            "lon": 148.6271625,
+            "lat": -35.046884375,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 16,
+            "lon": 148.90014666666667,
+            "lat": -34.90698,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 17,
+            "lon": 149.17571916666668,
+            "lat": -34.771474375,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 18,
+            "lon": 149.45388000000003,
+            "lat": -34.640367499999996,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 19,
+            "lon": 149.73462916666665,
+            "lat": -34.513659375,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 20,
+            "lon": 150.01796666666667,
+            "lat": -34.39135,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 21,
+            "lon": 150.3038925,
+            "lat": -34.273439375,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 22,
+            "lon": 150.59240666666665,
+            "lat": -34.1599275,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 23,
+            "lon": 150.88350916666667,
+            "lat": -34.050814375,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Melbourne - Sydney",
+            "seq": 24,
+            "lon": 151.1772,
+            "lat": -33.9461,
+            "passengers": 674539,
+            "available_seats": 769480,
+            "load_factor": 87.6569318292148,
+            "rank": 1
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 0,
+            "lon": 153.1175,
+            "lat": -27.3842,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 1,
+            "lon": 153.0890582291667,
+            "lat": -27.673107951388893,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 2,
+            "lon": 153.05605958333337,
+            "lat": -27.960668472222217,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 3,
+            "lon": 153.0185040625,
+            "lat": -28.2468815625,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 4,
+            "lon": 152.9763916666667,
+            "lat": -28.531747222222226,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 5,
+            "lon": 152.92972239583332,
+            "lat": -28.815265451388886,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 6,
+            "lon": 152.87849625,
+            "lat": -29.09743625,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 7,
+            "lon": 152.82271322916665,
+            "lat": -29.37825961805555,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 8,
+            "lon": 152.76237333333336,
+            "lat": -29.657735555555558,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 9,
+            "lon": 152.69747656250004,
+            "lat": -29.935864062500002,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 10,
+            "lon": 152.62802291666665,
+            "lat": -30.212645138888885,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 11,
+            "lon": 152.55401239583335,
+            "lat": -30.488078784722227,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 12,
+            "lon": 152.475445,
+            "lat": -30.762165000000003,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 13,
+            "lon": 152.39232072916667,
+            "lat": -31.03490378472222,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 14,
+            "lon": 152.30463958333337,
+            "lat": -31.306295138888892,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 15,
+            "lon": 152.21240156250002,
+            "lat": -31.576339062500004,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 16,
+            "lon": 152.11560666666668,
+            "lat": -31.845035555555555,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 17,
+            "lon": 152.01425489583335,
+            "lat": -32.11238461805556,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 18,
+            "lon": 151.90834625000002,
+            "lat": -32.37838625,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 19,
+            "lon": 151.79788072916668,
+            "lat": -32.64304045138889,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 20,
+            "lon": 151.68285833333334,
+            "lat": -32.90634722222222,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 21,
+            "lon": 151.5632790625,
+            "lat": -33.16830656250001,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 22,
+            "lon": 151.43914291666667,
+            "lat": -33.42891847222222,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 23,
+            "lon": 151.31044989583333,
+            "lat": -33.68818295138889,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Sydney",
+            "seq": 24,
+            "lon": 151.1772,
+            "lat": -33.9461,
+            "passengers": 382656,
+            "available_seats": 435027,
+            "load_factor": 87.9614368763318,
+            "rank": 2
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 0,
+            "lon": 153.1175,
+            "lat": -27.3842,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 1,
+            "lon": 152.83846508333338,
+            "lat": -27.865777361111114,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 2,
+            "lon": 152.553714,
+            "lat": -28.342757777777773,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 3,
+            "lon": 152.26324675,
+            "lat": -28.81514125,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 4,
+            "lon": 151.96706333333336,
+            "lat": -29.28292777777778,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 5,
+            "lon": 151.66516375,
+            "lat": -29.746117361111107,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 6,
+            "lon": 151.357548,
+            "lat": -30.204710000000002,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 7,
+            "lon": 151.04421608333334,
+            "lat": -30.658705694444443,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 8,
+            "lon": 150.725168,
+            "lat": -31.108104444444447,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 9,
+            "lon": 150.40040375,
+            "lat": -31.552906250000003,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 10,
+            "lon": 150.06992333333332,
+            "lat": -31.99311111111111,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 11,
+            "lon": 149.73372675000002,
+            "lat": -32.42871902777778,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 12,
+            "lon": 149.391814,
+            "lat": -32.85973,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 13,
+            "lon": 149.04418508333333,
+            "lat": -33.28614402777778,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 14,
+            "lon": 148.69084,
+            "lat": -33.70796111111111,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 15,
+            "lon": 148.33177875,
+            "lat": -34.12518125,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 16,
+            "lon": 147.96700133333334,
+            "lat": -34.53780444444445,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 17,
+            "lon": 147.59650775,
+            "lat": -34.945830694444446,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 18,
+            "lon": 147.220298,
+            "lat": -35.34926,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 19,
+            "lon": 146.83837208333335,
+            "lat": -35.748092361111105,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 20,
+            "lon": 146.45073,
+            "lat": -36.14232777777778,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 21,
+            "lon": 146.05737175,
+            "lat": -36.531966249999996,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 22,
+            "lon": 145.6582973333333,
+            "lat": -36.917007777777776,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 23,
+            "lon": 145.25350675,
+            "lat": -37.29745236111111,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Brisbane - Melbourne",
+            "seq": 24,
+            "lon": 144.843,
+            "lat": -37.6733,
+            "passengers": 333591,
+            "available_seats": 392580,
+            "load_factor": 84.9795453186819,
+            "rank": 3
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 0,
+            "lon": 153.5047,
+            "lat": -28.1644,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 1,
+            "lon": 153.45389413194448,
+            "lat": -28.423891840277786,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 2,
+            "lon": 153.39907319444444,
+            "lat": -28.681767361111106,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 3,
+            "lon": 153.34023718750004,
+            "lat": -28.938026562500006,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 4,
+            "lon": 153.27738611111113,
+            "lat": -29.192669444444448,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 5,
+            "lon": 153.21051996527777,
+            "lat": -29.44569600694444,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 6,
+            "lon": 153.13963875000002,
+            "lat": -29.69710625,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 7,
+            "lon": 153.0647424652778,
+            "lat": -29.946900173611112,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 8,
+            "lon": 152.98583111111117,
+            "lat": -30.195077777777783,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 9,
+            "lon": 152.9029046875,
+            "lat": -30.441639062500002,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 10,
+            "lon": 152.81596319444446,
+            "lat": -30.686584027777776,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 11,
+            "lon": 152.7250066319445,
+            "lat": -30.929912673611117,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 12,
+            "lon": 152.63003500000002,
+            "lat": -31.171625000000002,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 13,
+            "lon": 152.53104829861113,
+            "lat": -31.411721006944447,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 14,
+            "lon": 152.42804652777778,
+            "lat": -31.65020069444445,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 15,
+            "lon": 152.32102968750002,
+            "lat": -31.887064062500002,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 16,
+            "lon": 152.2099977777778,
+            "lat": -32.12231111111112,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 17,
+            "lon": 152.09495079861114,
+            "lat": -32.35594184027778,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 18,
+            "lon": 151.97588875000002,
+            "lat": -32.587956250000005,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 19,
+            "lon": 151.85281163194446,
+            "lat": -32.81835434027778,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 20,
+            "lon": 151.72571944444445,
+            "lat": -33.047136111111115,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 21,
+            "lon": 151.5946121875,
+            "lat": -33.2743015625,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 22,
+            "lon": 151.4594898611111,
+            "lat": -33.49985069444445,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 23,
+            "lon": 151.32035246527778,
+            "lat": -33.72378350694444,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Sydney",
+            "seq": 24,
+            "lon": 151.1772,
+            "lat": -33.9461,
+            "passengers": 233904,
+            "available_seats": 264677,
+            "load_factor": 88.373375850565,
+            "rank": 4
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 0,
+            "lon": 153.5047,
+            "lat": -28.1644,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 1,
+            "lon": 153.20454713888896,
+            "lat": -28.61594280555556,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 2,
+            "lon": 152.89911155555555,
+            "lat": -29.062673555555552,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 3,
+            "lon": 152.58839325000002,
+            "lat": -29.50459225,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 4,
+            "lon": 152.27239222222227,
+            "lat": -29.94169888888889,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 5,
+            "lon": 151.95110847222224,
+            "lat": -30.37399347222222,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 6,
+            "lon": 151.62454200000002,
+            "lat": -30.801476,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 7,
+            "lon": 151.29269280555556,
+            "lat": -31.22414647222222,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 8,
+            "lon": 150.9555608888889,
+            "lat": -31.64200488888889,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 9,
+            "lon": 150.61314625,
+            "lat": -32.05505125,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 10,
+            "lon": 150.2654488888889,
+            "lat": -32.46328555555555,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 11,
+            "lon": 149.9124688055556,
+            "lat": -32.866707805555556,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 12,
+            "lon": 149.55420600000002,
+            "lat": -33.265318,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 13,
+            "lon": 149.19066047222225,
+            "lat": -33.65911613888889,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 14,
+            "lon": 148.8218322222222,
+            "lat": -34.04810222222223,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 15,
+            "lon": 148.44772125000003,
+            "lat": -34.43227625,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 16,
+            "lon": 148.06832755555558,
+            "lat": -34.81163822222222,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 17,
+            "lon": 147.6836511388889,
+            "lat": -35.186188138888895,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 18,
+            "lon": 147.29369200000002,
+            "lat": -35.555926,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 19,
+            "lon": 146.8984501388889,
+            "lat": -35.92085180555556,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 20,
+            "lon": 146.49792555555555,
+            "lat": -36.280965555555554,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 21,
+            "lon": 146.09211825,
+            "lat": -36.636267249999996,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 22,
+            "lon": 145.6810282222222,
+            "lat": -36.98675688888889,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 23,
+            "lon": 145.26465547222222,
+            "lat": -37.332434472222225,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Gold Coast - Melbourne",
+            "seq": 24,
+            "lon": 144.843,
+            "lat": -37.6733,
+            "passengers": 219171,
+            "available_seats": 252829,
+            "load_factor": 86.6972395716198,
+            "rank": 5
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 0,
+            "lon": 138.5306,
+            "lat": -34.9475,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 1,
+            "lon": 138.81538520833337,
+            "lat": -35.01066347222223,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 2,
+            "lon": 139.09827749999997,
+            "lat": -35.07821055555554,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 3,
+            "lon": 139.37927687500002,
+            "lat": -35.15014125,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 4,
+            "lon": 139.65838333333335,
+            "lat": -35.22645555555556,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 5,
+            "lon": 139.935596875,
+            "lat": -35.30715347222222,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 6,
+            "lon": 140.2109175,
+            "lat": -35.39223500000001,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 7,
+            "lon": 140.4843452083333,
+            "lat": -35.48170013888889,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 8,
+            "lon": 140.75588,
+            "lat": -35.575548888888896,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 9,
+            "lon": 141.02552187499998,
+            "lat": -35.67378125,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 10,
+            "lon": 141.2932708333333,
+            "lat": -35.776397222222215,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 11,
+            "lon": 141.559126875,
+            "lat": -35.88339680555556,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 12,
+            "lon": 141.82309,
+            "lat": -35.994780000000006,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 13,
+            "lon": 142.08516020833332,
+            "lat": -36.11054680555556,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 14,
+            "lon": 142.34533750000003,
+            "lat": -36.230697222222226,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 15,
+            "lon": 142.603621875,
+            "lat": -36.35523125,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 16,
+            "lon": 142.8600133333333,
+            "lat": -36.48414888888889,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 17,
+            "lon": 143.114511875,
+            "lat": -36.61745013888889,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 18,
+            "lon": 143.3671175,
+            "lat": -36.755134999999996,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 19,
+            "lon": 143.61783020833332,
+            "lat": -36.89720347222222,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 20,
+            "lon": 143.86665,
+            "lat": -37.04365555555555,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 21,
+            "lon": 144.113576875,
+            "lat": -37.19449125,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 22,
+            "lon": 144.35861083333333,
+            "lat": -37.34971055555555,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 23,
+            "lon": 144.60175187500002,
+            "lat": -37.509313472222225,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Adelaide - Melbourne",
+            "seq": 24,
+            "lon": 144.843,
+            "lat": -37.6733,
+            "passengers": 215285,
+            "available_seats": 253603,
+            "load_factor": 84.8905572883602,
+            "rank": 6
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 0,
+            "lon": 144.843,
+            "lat": -37.6733,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 1,
+            "lon": 143.61237104166668,
+            "lat": -37.572788208333336,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 2,
+            "lon": 142.38413083333333,
+            "lat": -37.46024483333333,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 3,
+            "lon": 141.15827937499998,
+            "lat": -37.335669875,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 4,
+            "lon": 139.93481666666668,
+            "lat": -37.199063333333335,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 5,
+            "lon": 138.71374270833334,
+            "lat": -37.05042520833333,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 6,
+            "lon": 137.4950575,
+            "lat": -36.88975549999999,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 7,
+            "lon": 136.27876104166666,
+            "lat": -36.71705420833333,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 8,
+            "lon": 135.06485333333336,
+            "lat": -36.532321333333336,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 9,
+            "lon": 133.853334375,
+            "lat": -36.335556874999995,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 10,
+            "lon": 132.64420416666667,
+            "lat": -36.12676083333333,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 11,
+            "lon": 131.43746270833336,
+            "lat": -35.90593320833334,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 12,
+            "lon": 130.23311,
+            "lat": -35.673074,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 13,
+            "lon": 129.0311460416667,
+            "lat": -35.42818320833333,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 14,
+            "lon": 127.83157083333334,
+            "lat": -35.171260833333335,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 15,
+            "lon": 126.63438437500001,
+            "lat": -34.902306875,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 16,
+            "lon": 125.43958666666668,
+            "lat": -34.621321333333334,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 17,
+            "lon": 124.24717770833334,
+            "lat": -34.32830420833333,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 18,
+            "lon": 123.0571575,
+            "lat": -34.0232555,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 19,
+            "lon": 121.86952604166666,
+            "lat": -33.706175208333335,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 20,
+            "lon": 120.68428333333335,
+            "lat": -33.37706333333333,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 21,
+            "lon": 119.50142937500001,
+            "lat": -33.035919875000005,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 22,
+            "lon": 118.32096416666667,
+            "lat": -32.68274483333333,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 23,
+            "lon": 117.14288770833335,
+            "lat": -32.31753820833334,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Melbourne - Perth",
+            "seq": 24,
+            "lon": 115.9672,
+            "lat": -31.9403,
+            "passengers": 197634,
+            "available_seats": 224481,
+            "load_factor": 88.0404132198271,
+            "rank": 7
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 0,
+            "lon": 138.5306,
+            "lat": -34.9475,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 1,
+            "lon": 139.05114383333336,
+            "lat": -34.824977277777776,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 2,
+            "lon": 139.57224399999998,
+            "lat": -34.70948044444444,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 3,
+            "lon": 140.0939005,
+            "lat": -34.6010095,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 4,
+            "lon": 140.61611333333335,
+            "lat": -34.49956444444445,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 5,
+            "lon": 141.1388825,
+            "lat": -34.40514527777778,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 6,
+            "lon": 141.66220800000002,
+            "lat": -34.317752,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 7,
+            "lon": 142.1860898333333,
+            "lat": -34.23738461111111,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 8,
+            "lon": 142.710528,
+            "lat": -34.16404311111111,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 9,
+            "lon": 143.23552250000003,
+            "lat": -34.0977275,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 10,
+            "lon": 143.76107333333334,
+            "lat": -34.03843777777777,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 11,
+            "lon": 144.28718050000003,
+            "lat": -33.986173944444445,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 12,
+            "lon": 144.81384400000002,
+            "lat": -33.940936,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 13,
+            "lon": 145.34106383333335,
+            "lat": -33.902723944444446,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 14,
+            "lon": 145.86884000000003,
+            "lat": -33.871537777777775,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 15,
+            "lon": 146.3971725,
+            "lat": -33.8473775,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 16,
+            "lon": 146.92606133333334,
+            "lat": -33.83024311111111,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 17,
+            "lon": 147.4555065,
+            "lat": -33.820134611111115,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 18,
+            "lon": 147.985508,
+            "lat": -33.817052000000004,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 19,
+            "lon": 148.51606583333333,
+            "lat": -33.820995277777776,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 20,
+            "lon": 149.04718000000003,
+            "lat": -33.831964444444445,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 21,
+            "lon": 149.5788505,
+            "lat": -33.849959500000004,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 22,
+            "lon": 150.11107733333333,
+            "lat": -33.87498044444445,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 23,
+            "lon": 150.64386050000002,
+            "lat": -33.90702727777778,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Adelaide - Sydney",
+            "seq": 24,
+            "lon": 151.1772,
+            "lat": -33.9461,
+            "passengers": 175970,
+            "available_seats": 213078,
+            "load_factor": 82.5847811599508,
+            "rank": 8
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 0,
+            "lon": 115.9672,
+            "lat": -31.9403,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 1,
+            "lon": 117.44389445833336,
+            "lat": -31.855160416666674,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 2,
+            "lon": 118.91975316666667,
+            "lat": -31.78469166666666,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 3,
+            "lon": 120.39477612500002,
+            "lat": -31.728893750000005,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 4,
+            "lon": 121.86896333333335,
+            "lat": -31.68776666666667,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 5,
+            "lon": 123.34231479166667,
+            "lat": -31.661310416666662,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 6,
+            "lon": 124.81483050000001,
+            "lat": -31.649525,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 7,
+            "lon": 126.28651045833334,
+            "lat": -31.652410416666665,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 8,
+            "lon": 127.75735466666669,
+            "lat": -31.66996666666667,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 9,
+            "lon": 129.227363125,
+            "lat": -31.702193750000006,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 10,
+            "lon": 130.69653583333331,
+            "lat": -31.74909166666666,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 11,
+            "lon": 132.16487279166668,
+            "lat": -31.81066041666667,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 12,
+            "lon": 133.632374,
+            "lat": -31.886900000000004,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 13,
+            "lon": 135.09903945833332,
+            "lat": -31.977810416666667,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 14,
+            "lon": 136.56486916666668,
+            "lat": -32.08339166666667,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 15,
+            "lon": 138.02986312500002,
+            "lat": -32.203643750000005,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 16,
+            "lon": 139.49402133333334,
+            "lat": -32.338566666666665,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 17,
+            "lon": 140.9573437916667,
+            "lat": -32.48816041666667,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 18,
+            "lon": 142.41983050000002,
+            "lat": -32.652425,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 19,
+            "lon": 143.88148145833333,
+            "lat": -32.83136041666667,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 20,
+            "lon": 145.3422966666667,
+            "lat": -33.02496666666667,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 21,
+            "lon": 146.802276125,
+            "lat": -33.23324375,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 22,
+            "lon": 148.26141983333332,
+            "lat": -33.45619166666667,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 23,
+            "lon": 149.71972779166668,
+            "lat": -33.69381041666667,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Perth - Sydney",
+            "seq": 24,
+            "lon": 151.1772,
+            "lat": -33.9461,
+            "passengers": 159485,
+            "available_seats": 185609,
+            "load_factor": 85.9252514694869,
+            "rank": 9
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 0,
+            "lon": 147.5053,
+            "lat": -42.8361,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 1,
+            "lon": 147.43560152777783,
+            "lat": -42.59972190972223,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 2,
+            "lon": 147.36231777777778,
+            "lat": -42.365192638888885,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 3,
+            "lon": 147.28544875,
+            "lat": -42.132512187500005,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 4,
+            "lon": 147.20499444444445,
+            "lat": -41.901680555555565,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 5,
+            "lon": 147.1209548611111,
+            "lat": -41.67269774305555,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 6,
+            "lon": 147.03332999999998,
+            "lat": -41.44556375,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 7,
+            "lon": 146.9421198611111,
+            "lat": -41.22027857638888,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 8,
+            "lon": 146.84732444444444,
+            "lat": -40.996842222222234,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 9,
+            "lon": 146.74894375,
+            "lat": -40.775254687499995,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 10,
+            "lon": 146.64697777777775,
+            "lat": -40.55551597222221,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 11,
+            "lon": 146.5414265277778,
+            "lat": -40.337626076388894,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 12,
+            "lon": 146.43229,
+            "lat": -40.121584999999996,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 13,
+            "lon": 146.31956819444443,
+            "lat": -39.90739274305555,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 14,
+            "lon": 146.2032611111111,
+            "lat": -39.69504930555556,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 15,
+            "lon": 146.08336874999998,
+            "lat": -39.4845546875,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 16,
+            "lon": 145.95989111111112,
+            "lat": -39.27590888888889,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 17,
+            "lon": 145.83282819444446,
+            "lat": -39.069111909722224,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 18,
+            "lon": 145.70218,
+            "lat": -38.864163749999996,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 19,
+            "lon": 145.5679465277778,
+            "lat": -38.66106440972222,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 20,
+            "lon": 145.43012777777778,
+            "lat": -38.45981388888889,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 21,
+            "lon": 145.28872374999997,
+            "lat": -38.260412187499995,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 22,
+            "lon": 145.14373444444442,
+            "lat": -38.062859305555556,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 23,
+            "lon": 144.99515986111112,
+            "lat": -37.86715524305556,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          },
+          {
+            "route": "Hobart - Melbourne",
+            "seq": 24,
+            "lon": 144.843,
+            "lat": -37.6733,
+            "passengers": 140616,
+            "available_seats": 170678,
+            "load_factor": 82.386716507107,
+            "rank": 10
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "strokeCap": "round",
+        "strokeJoin": "round",
+        "opacity": 0.68
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "detail": {
+          "field": "route"
+        },
+        "order": {
+          "field": "seq"
+        },
+        "size": {
+          "field": "passengers",
+          "type": "quantitative",
+          "legend": null,
+          "scale": {
+            "range": [
+              1.5,
+              7.5
+            ]
+          }
+        },
+        "color": {
+          "field": "rank",
+          "type": "quantitative",
+          "legend": null,
+          "scale": {
+            "range": [
+              "#9fb9d9",
+              "#4C78A8"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "route",
+            "type": "nominal",
+            "title": "Route"
+          },
+          {
+            "field": "passengers",
+            "type": "quantitative",
+            "title": "Passengers",
+            "format": ",d"
+          },
+          {
+            "field": "available_seats",
+            "type": "quantitative",
+            "title": "Available seats",
+            "format": ",d"
+          },
+          {
+            "field": "load_factor",
+            "type": "quantitative",
+            "title": "Load factor (%)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "airport": "Sydney",
+            "lon": 151.1772,
+            "lat": -33.9461,
+            "connections": 5,
+            "label": "Sydney"
+          },
+          {
+            "airport": "Melbourne",
+            "lon": 144.843,
+            "lat": -37.6733,
+            "connections": 6,
+            "label": "Melbourne"
+          },
+          {
+            "airport": "Brisbane",
+            "lon": 153.1175,
+            "lat": -27.3842,
+            "connections": 2,
+            "label": "Brisbane"
+          },
+          {
+            "airport": "Gold Coast",
+            "lon": 153.5047,
+            "lat": -28.1644,
+            "connections": 2,
+            "label": ""
+          },
+          {
+            "airport": "Adelaide",
+            "lon": 138.5306,
+            "lat": -34.9475,
+            "connections": 2,
+            "label": "Adelaide"
+          },
+          {
+            "airport": "Perth",
+            "lon": 115.9672,
+            "lat": -31.9403,
+            "connections": 2,
+            "label": "Perth"
+          },
+          {
+            "airport": "Hobart",
+            "lon": 147.5053,
+            "lat": -42.8361,
+            "connections": 1,
+            "label": "Hobart"
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "filled": true,
+        "color": "#2d2d2d",
+        "stroke": "white",
+        "strokeWidth": 1.4,
+        "opacity": 0.95
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "connections",
+          "type": "quantitative",
+          "legend": null,
+          "scale": {
+            "range": [
+              45,
+              240
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "airport",
+            "type": "nominal",
+            "title": "Airport"
+          },
+          {
+            "field": "connections",
+            "type": "quantitative",
+            "title": "Top-route connections"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "airport": "Sydney",
+            "lon": 151.1772,
+            "lat": -33.9461,
+            "connections": 5,
+            "label": "Sydney"
+          },
+          {
+            "airport": "Melbourne",
+            "lon": 144.843,
+            "lat": -37.6733,
+            "connections": 6,
+            "label": "Melbourne"
+          },
+          {
+            "airport": "Brisbane",
+            "lon": 153.1175,
+            "lat": -27.3842,
+            "connections": 2,
+            "label": "Brisbane"
+          },
+          {
+            "airport": "Gold Coast",
+            "lon": 153.5047,
+            "lat": -28.1644,
+            "connections": 2,
+            "label": ""
+          },
+          {
+            "airport": "Adelaide",
+            "lon": 138.5306,
+            "lat": -34.9475,
+            "connections": 2,
+            "label": "Adelaide"
+          },
+          {
+            "airport": "Perth",
+            "lon": 115.9672,
+            "lat": -31.9403,
+            "connections": 2,
+            "label": "Perth"
+          },
+          {
+            "airport": "Hobart",
+            "lon": 147.5053,
+            "lat": -42.8361,
+            "connections": 1,
+            "label": "Hobart"
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "datum.label != \"\""
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dx": 7,
+        "dy": -7,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#1f1f1f"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "title": {
+      "fontSize": 24,
+      "subtitleFontSize": 14
+    }
+  }
+}

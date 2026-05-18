@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Australia in Flight</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231f6f8b'/%3E%3Cpath d='M12 35l40-18-16 35-5-15-19-2z' fill='white'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to story</a>
+
+  <header class="site-header" id="top">
+    <nav class="top-nav" aria-label="Page sections">
+      <a class="nav-brand" href="#top">Australia in Flight</a>
+      <div class="nav-links">
+        <a href="#read-guide">Guide</a>
+        <a href="#part-1">Routes</a>
+        <a href="#part-2">Recovery</a>
+        <a href="#part-3">Hierarchy</a>
+        <a href="#part-4">Regions</a>
+        <a href="#part-5">Seasonality</a>
+        <a href="#conclusion">Conclusion</a>
+        <a href="#sources">Sources</a>
+      </div>
+    </nav>
+
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-grid">
+        <div>
+          <p class="kicker">FIT2179 Data Visualisation 2</p>
+          <h1 id="page-title">Australia in Flight</h1>
+          <p class="subtitle">How domestic air routes connect capitals, regions, and remote Australia.</p>
+          <p class="hero-copy">
+            This story examines Australian domestic aviation as a connected system rather than a set of separate airports.
+            It moves from route concentration to recovery, then from airport dominance to regional dependence, showing how
+            the same network can look very different when scale, time, capacity, and population are compared together.
+          </p>
+        </div>
+        <aside class="hero-aside" aria-label="Story at a glance">
+          <p class="eyebrow">Story arc</p>
+          <ol>
+            <li><span>1</span> A small number of route corridors carry a disproportionate share of demand.</li>
+            <li><span>2</span> The disruption was severe, but recovery mostly rebuilt the same hierarchy.</li>
+            <li><span>3</span> Smaller airports matter when traffic is compared with capacity and population.</li>
+            <li><span>4</span> Seasonal patterns add a final layer to how demand returns and concentrates.</li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="summary-grid" aria-label="Project summary">
+      <article>
+        <h2>Core Question</h2>
+        <p>Which routes and airports dominate domestic aviation, and where does air travel matter most locally?</p>
+      </article>
+      <article>
+        <h2>Analytical Lens</h2>
+        <p>The page compares route volume, airport scale, load factor, movements, and population-adjusted intensity.</p>
+      </article>
+      <article>
+        <h2>Reading Style</h2>
+        <p>Read vertically. Each section pairs one anchor chart with supporting charts that test the same claim.</p>
+      </article>
+      <article>
+        <h2>Data Base</h2>
+        <p>BITRE domestic aviation datasets, with ABS population context for intensity measures.</p>
+      </article>
+    </section>
+
+    <section id="read-guide" class="info-panel info-panel--wide" aria-labelledby="read-guide-title">
+      <div>
+        <p class="eyebrow">How to read this page</p>
+        <h2 id="read-guide-title">Follow the story from concentration to dependence.</h2>
+      </div>
+      <div class="guide-grid">
+        <p>
+          Anchor charts establish the main claim of each section. Supporting charts sit beside or below them to explain
+          whether that claim is driven by geography, route rank, capacity use, time, or local population.
+        </p>
+        <p>
+          The surrounding text is the main narrative layer. Chart titles inside Vega-Lite are reduced at embed time so
+          the page can read like a curated story rather than fifteen separate specification outputs.
+        </p>
+      </div>
+    </section>
+  </header>
+
+  <main id="main-content">
+    <section id="part-1" class="story-section" aria-labelledby="part-1-title">
+      <div class="section-intro">
+        <p class="section-number">Part 1 · Network concentration and route structure</p>
+        <h2 id="part-1-title">The route network is broad, but demand is sharply concentrated.</h2>
+        <p>
+          Australia's domestic aviation map looks national, yet passenger demand is clustered around a few high-volume
+          corridors. The map shows the physical network, while the ranked route and capacity views explain why the
+          eastern capital-city spine dominates the story.
+        </p>
+        <p class="section-takeaway"><strong>Takeaway:</strong> The network connects distant places, but its traffic weight is carried by a narrow set of capital-city routes.</p>
+      </div>
+
+      <div class="chart-layout chart-layout--anchor">
+        <article class="chart-card chart-card--major">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 1 · Anchor</p>
+              <h3>Major routes form a capital-city spine</h3>
+            </div>
+            <a href="specs/01_route_map.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">This map sets up the whole page: the network reaches across the continent, but the densest traffic paths cluster around the eastern capitals and major interstate links.</p>
+          <div id="chart-01" class="chart" data-spec="specs/01_route_map.vl.json"></div>
+        </article>
+      </div>
+
+      <div class="chart-layout chart-layout--paired">
+        <article class="chart-card">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 2 · Supporting</p>
+              <h3>Sydney-Melbourne sits well above the rest</h3>
+            </div>
+            <a href="specs/02_top_routes_bar.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">The rank view turns the map into a clearer comparison, showing how quickly traffic falls after the leading domestic corridors.</p>
+          <div id="chart-02" class="chart" data-spec="specs/02_top_routes_bar.vl.json"></div>
+        </article>
+
+        <article class="chart-card">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 3 · Supporting</p>
+              <h3>Capacity reveals how tightly routes are used</h3>
+            </div>
+            <a href="specs/03_route_capacity_dumbbell.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">Seats and passengers are read together here: high demand matters most when capacity is also being used efficiently.</p>
+          <div id="chart-03" class="chart" data-spec="specs/03_route_capacity_dumbbell.vl.json"></div>
+        </article>
+      </div>
+
+      <aside class="interpretation-block">
+        <h3>What this group adds</h3>
+        <p>
+          The route story is not simply that big cities fly more. It is that geography, population, and airline capacity
+          reinforce each other, producing a few corridors that act like the backbone of the domestic system.
+        </p>
+      </aside>
+    </section>
+
+    <section id="part-2" class="story-section" aria-labelledby="part-2-title">
+      <div class="section-intro">
+        <p class="section-number">Part 2 · Shock and recovery over time</p>
+        <h2 id="part-2-title">The disruption changed volume faster than it changed structure.</h2>
+        <p>
+          The time-series charts show the most dramatic movement in the page: domestic travel collapses, capacity adjusts,
+          and then passengers return unevenly. The important point is not only the size of the fall, but the way recovery
+          remained tied to the same route system introduced above.
+        </p>
+        <p class="section-takeaway"><strong>Takeaway:</strong> Recovery was real, but it rebuilt demand around familiar corridors rather than creating a new domestic map.</p>
+      </div>
+
+      <div class="chart-layout chart-layout--anchor">
+        <article class="chart-card chart-card--major">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 5 · Anchor</p>
+              <h3>Passenger volumes show the scale of disruption</h3>
+            </div>
+            <a href="specs/05_industry_passengers_trend.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">This national trend anchors the recovery section because it makes the system-wide shock visible before the page separates capacity and route-level variation.</p>
+          <div id="chart-05" class="chart" data-spec="specs/05_industry_passengers_trend.vl.json"></div>
+        </article>
+      </div>
+
+      <div class="chart-layout chart-layout--anchor">
+        <article class="chart-card chart-card--wide chart-card--fit-tall">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 6 · Supporting</p>
+              <h3>Load factor shows how capacity adjusted</h3>
+            </div>
+            <a href="specs/06_load_factor_trend.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">Load factor explains whether airlines filled the capacity they restored, adding an operational layer to the passenger recovery curve.</p>
+          <div id="chart-06" class="chart" data-spec="specs/06_load_factor_trend.vl.json"></div>
+        </article>
+      </div>
+
+      <div class="chart-layout chart-layout--annotation-row">
+        <aside class="interpretation-block interpretation-block--blue interpretation-block--slim">
+          <h3>Reading the recovery</h3>
+          <p>
+            Passengers, seats, and load factor should be read together. A route can regain passengers while still operating
+            differently if capacity returns at another pace, which is why the recovery section pairs volume with utilisation.
+          </p>
+        </aside>
+      </div>
+
+      <div class="chart-layout chart-layout--anchor">
+        <article class="chart-card chart-card--wide">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 7 · Supporting</p>
+              <h3>Route-level recovery was uneven</h3>
+            </div>
+            <a href="specs/07_major_routes_small_multiples.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">The small multiples prevent the national trend from hiding corridor differences, showing recovery as a set of related route stories.</p>
+          <div id="chart-07" class="chart" data-spec="specs/07_major_routes_small_multiples.vl.json"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="part-3" class="story-section" aria-labelledby="part-3-title">
+      <div class="section-intro">
+        <p class="section-number">Part 3 · Airport hierarchy and concentration</p>
+        <h2 id="part-3-title">Airport dominance is persistent, even when rankings move.</h2>
+        <p>
+          The next group shifts from routes to airports. It asks whether airport importance changed meaningfully through
+          disruption, or whether the largest hubs simply absorbed the same shock at different speeds.
+        </p>
+        <p class="section-takeaway"><strong>Takeaway:</strong> The largest airports remain central because route concentration, passenger scale, and hub geography reinforce one another.</p>
+      </div>
+
+      <div class="chart-layout chart-layout--anchor">
+        <article class="chart-card chart-card--major">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 9 · Anchor</p>
+              <h3>The largest airports shared the shock, not the same rebound</h3>
+            </div>
+            <a href="specs/09_top5_airports_trend.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">The top-airport trend is the anchor because it links the recovery story to airport hierarchy: the same shock appears across hubs, but rebound paths are not identical.</p>
+          <div id="chart-09" class="chart" data-spec="specs/09_top5_airports_trend.vl.json"></div>
+        </article>
+      </div>
+
+      <div class="chart-layout chart-layout--text-pair chart-layout--reverse">
+        <article class="chart-card">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 11 · Supporting</p>
+              <h3>Passenger scale is concentrated in major airports</h3>
+            </div>
+            <a href="specs/11_top_airports_bar.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">This chart explains why the largest airport lines matter: the system's passenger base is not evenly distributed.</p>
+          <div id="chart-11" class="chart" data-spec="specs/11_top_airports_bar.vl.json"></div>
+        </article>
+
+        <div class="note-stack" aria-label="Airport hierarchy notes">
+          <aside class="interpretation-block interpretation-block--annotation">
+            <h3>Why hierarchy matters</h3>
+            <p>
+              A stable hierarchy can still contain disruption. The major airports remain dominant, but their recovery lines
+              and rank movements show that local route mix, state conditions, and travel demand still shape outcomes.
+            </p>
+          </aside>
+          <aside class="interpretation-block interpretation-block--annotation">
+            <h3>What to notice</h3>
+            <p>
+              Sydney and Melbourne dominate the airport scale story, Brisbane follows as the next major tier, and the
+              remaining airports fall away quickly. The pattern is concentrated rather than evenly spread nationally.
+            </p>
+          </aside>
+        </div>
+      </div>
+
+      <div class="chart-layout chart-layout--anchor">
+        <article class="chart-card chart-card--wide">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 8 · Supporting</p>
+              <h3>Airport rankings shifted, but only so far</h3>
+            </div>
+            <a href="specs/08_airport_rank_bump.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">The bump chart is kept full-width because rank paths and labels need horizontal room; it adds movement to the hierarchy story without compressing the comparison.</p>
+          <div id="chart-08" class="chart" data-spec="specs/08_airport_rank_bump.vl.json"></div>
+        </article>
+      </div>
+
+      <div class="chart-layout chart-layout--map-annotation">
+        <article class="chart-card chart-card--wide">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 4 · Supporting</p>
+              <h3>Airport traffic is anchored by major hubs</h3>
+            </div>
+            <a href="specs/04_airport_concentration_map.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">The airport map places the hierarchy back into geography, showing how capital-city dominance sits within a wider national airport network.</p>
+          <div id="chart-04" class="chart" data-spec="specs/04_airport_concentration_map.vl.json"></div>
+        </article>
+
+        <div class="note-stack" aria-label="Airport map notes">
+          <aside class="interpretation-block interpretation-block--annotation">
+            <h3>Map reading note</h3>
+            <p>
+              The airport map is useful after the rank charts because it reminds the reader that hierarchy is spatial.
+              Major hubs dominate passenger volume, but the domestic system still depends on a broader spread of regional
+              and interstate airports.
+            </p>
+          </aside>
+          <aside class="interpretation-block interpretation-block--annotation">
+            <h3>Spatial takeaway</h3>
+            <p>
+              The airport system is geographically widespread, but the largest traffic still clusters around a few hubs,
+              especially the east coast capitals. Geography expands the network; demand concentrates it.
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="part-4" class="story-section" aria-labelledby="part-4-title">
+      <div class="section-intro">
+        <p class="section-number">Part 4 · Regional dependence and travel intensity</p>
+        <h2 id="part-4-title">Smaller places can matter more once the denominator changes.</h2>
+        <p>
+          Passenger totals privilege major hubs, so this section changes the comparison. By looking at passengers per
+          resident, movements, and efficiency, the page highlights places where aviation has a heavier local role even
+          when total traffic is much smaller.
+        </p>
+        <p class="section-takeaway"><strong>Takeaway:</strong> Scale shows where the system is biggest; intensity shows where the system is most locally important.</p>
+      </div>
+
+      <div class="chart-layout chart-layout--paired">
+        <article class="chart-card chart-card--pair">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 12 · Supporting</p>
+              <h3>Intensity compares airport traffic with local population</h3>
+            </div>
+            <a href="specs/12_airport_intensity_scatter.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">The scatterplot tests whether airport scale and local population move together, making outliers more visible than a total-passenger chart.</p>
+          <div id="chart-12" class="chart" data-spec="specs/12_airport_intensity_scatter.vl.json"></div>
+        </article>
+
+        <article class="chart-card chart-card--pair">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 14 · Supporting</p>
+              <h3>Passengers per resident reveal dependence</h3>
+            </div>
+            <a href="specs/14_passengers_per_resident.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">The per-resident view gives the regional story a simple interpretation: airport traffic can be large relative to the population it serves.</p>
+          <div id="chart-14" class="chart" data-spec="specs/14_passengers_per_resident.vl.json"></div>
+        </article>
+      </div>
+
+      <div class="chart-layout chart-layout--anchor">
+        <article class="chart-card chart-card--wide">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 13 · Supporting</p>
+              <h3>Efficiency varies by airport role and location</h3>
+            </div>
+            <a href="specs/13_airport_efficiency_map.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">Efficiency adds capacity context by comparing passengers with aircraft movements, rather than treating every airport movement as equivalent.</p>
+          <div id="chart-13" class="chart" data-spec="specs/13_airport_efficiency_map.vl.json"></div>
+        </article>
+      </div>
+
+      <div class="chart-layout chart-layout--anchor">
+        <article class="chart-card chart-card--major">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 15 · Anchor</p>
+              <h3>Air travel intensity highlights regional reliance</h3>
+            </div>
+            <a href="specs/15_air_travel_intensity_map.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">This feature map converts the dependence story back into geography, revealing places that stand out after population and airport role are considered.</p>
+          <div id="chart-15" class="chart" data-spec="specs/15_air_travel_intensity_map.vl.json"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="part-5" class="story-section" aria-labelledby="part-5-title">
+      <div class="section-intro">
+        <p class="section-number">Part 5 · Seasonality and behavioural patterns</p>
+        <h2 id="part-5-title">Seasonality shows that recovery was also a calendar story.</h2>
+        <p>
+          The final visual section narrows the focus from long-term hierarchy to month-by-month behaviour. Seasonal
+          rhythm matters because airports do not only recover by returning to a previous total; they also return through
+          travel calendars, holiday peaks, and repeated demand cycles.
+        </p>
+        <p class="section-takeaway"><strong>Takeaway:</strong> Seasonal structure helps separate normal travel rhythm from the exceptional disruption visible in the recovery charts.</p>
+      </div>
+
+      <div class="chart-layout chart-layout--anchor">
+        <aside class="interpretation-block interpretation-block--feature">
+          <h3>Why this chart comes last</h3>
+          <p>
+            The heatmap is not just a supporting detail. It closes the analysis by showing that airport demand has both
+            structural hierarchy and behavioural rhythm: who dominates, who depends, and when passengers move.
+          </p>
+        </aside>
+      </div>
+
+      <div class="chart-layout chart-layout--anchor">
+        <article class="chart-card chart-card--major">
+          <div class="chart-header">
+            <div>
+              <p class="chart-number">Chart 10 · Anchor</p>
+              <h3>Seasonality remained part of the recovery story</h3>
+            </div>
+            <a href="specs/10_airport_seasonality_heatmap.vl.json">JSON spec</a>
+          </div>
+          <p class="caption">The heatmap shows month-by-month patterns beside disruption, helping distinguish recurring seasonal behaviour from unusual shocks.</p>
+          <div id="chart-10" class="chart" data-spec="specs/10_airport_seasonality_heatmap.vl.json"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="conclusion" class="conclusion-section" aria-labelledby="conclusion-title">
+      <div>
+        <p class="section-number">Conclusion</p>
+        <h2 id="conclusion-title">The same aviation system tells different stories at different scales.</h2>
+      </div>
+      <div class="conclusion-grid">
+        <article>
+          <h3>Concentration</h3>
+          <p>Domestic aviation is anchored by a small set of routes and airports, especially the major capital-city corridors.</p>
+        </article>
+        <article>
+          <h3>Resilience</h3>
+          <p>The shock was severe, but the recovery largely preserved the underlying route and airport hierarchy.</p>
+        </article>
+        <article>
+          <h3>Dependence</h3>
+          <p>Population-adjusted and efficiency measures reveal regional places that matter more than total traffic suggests.</p>
+        </article>
+        <article>
+          <h3>Rhythm</h3>
+          <p>Seasonality reminds us that air travel is not only spatial; it also follows recurring monthly demand patterns.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="method" class="method-section" aria-labelledby="method-title">
+      <div class="section-intro section-intro--compact">
+        <p class="section-number">Method and notes</p>
+        <h2 id="method-title">What the measures mean</h2>
+        <p>
+          These notes explain the main comparisons used in the story without turning the page into a technical appendix.
+        </p>
+      </div>
+      <div class="method-grid">
+        <article>
+          <h3>Passengers</h3>
+          <p>Total domestic passenger movements reported in the route and airport datasets. They are used to show scale, concentration, and recovery.</p>
+        </article>
+        <article>
+          <h3>Available seats and load factor</h3>
+          <p>Available seats approximate capacity. Load factor compares passengers with seats, showing how tightly capacity was used.</p>
+        </article>
+        <article>
+          <h3>Passengers per resident</h3>
+          <p>Annual airport passengers divided by the relevant local population. A high value suggests many trips relative to the resident base.</p>
+        </article>
+        <article>
+          <h3>Airport efficiency</h3>
+          <p>In this page, efficiency refers to passengers carried per aircraft movement, a compact comparison of traffic handled per take-off or landing.</p>
+        </article>
+        <article>
+          <h3>Time ranges</h3>
+          <p>The story uses the time ranges available in the prepared BITRE extracts for route, airport, and industry trend charts.</p>
+        </article>
+        <article>
+          <h3>Interpretation note</h3>
+          <p>Population-adjusted measures do not mean residents took every trip; they show airport activity intensity relative to nearby population.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="sources" class="page-footer">
+    <section class="footer-card footer-card--hero">
+      <p class="eyebrow">Author and submission</p>
+      <h2>Chenglin Li · 34909109 · FIT2179 Data Visualisation 2 · 2026S1</h2>
+      <p>
+        Australia in Flight is a single-page data story built for GitHub Pages using HTML, CSS, JavaScript, Vega,
+        Vega-Lite, and vegaEmbed.
+      </p>
+    </section>
+
+    <section class="footer-card footer-card--wide">
+      <h2>Sources</h2>
+      <p>
+        Main data comes from Bureau of Infrastructure and Transport Research Economics (BITRE) domestic airline activity,
+        route, airport traffic, and time-series datasets. Population context is drawn from the Australian Bureau of
+        Statistics (ABS). Map geometry is loaded through Vega-Lite compatible public sources.
+      </p>
+    </section>
+
+    <section class="footer-card">
+      <h2>Submission notes</h2>
+      <p>
+        The project keeps the original fifteen Vega-Lite visualisations as the core evidence, with page-level grouping,
+        captions, method notes, and navigation added to support a coherent narrative reading.
+      </p>
+    </section>
+
+    <section class="footer-card">
+      <h2>What this page shows</h2>
+      <p>
+        Australia's domestic aviation network is concentrated, resilient, and regionally uneven. The largest corridors
+        dominate scale, while intensity measures reveal local dependence beyond the major hubs.
+      </p>
+    </section>
+
+    <section class="footer-card footer-card--wide">
+      <h2>Vega-Lite specifications</h2>
+      <div class="spec-list" aria-label="JSON specification links">
+        <a href="specs/01_route_map.vl.json">01 Route map</a>
+        <a href="specs/02_top_routes_bar.vl.json">02 Top routes</a>
+        <a href="specs/03_route_capacity_dumbbell.vl.json">03 Capacity</a>
+        <a href="specs/04_airport_concentration_map.vl.json">04 Airport map</a>
+        <a href="specs/05_industry_passengers_trend.vl.json">05 Passengers</a>
+        <a href="specs/06_load_factor_trend.vl.json">06 Load factor</a>
+        <a href="specs/07_major_routes_small_multiples.vl.json">07 Route recovery</a>
+        <a href="specs/08_airport_rank_bump.vl.json">08 Airport rank</a>
+        <a href="specs/09_top5_airports_trend.vl.json">09 Top airports</a>
+        <a href="specs/10_airport_seasonality_heatmap.vl.json">10 Seasonality</a>
+        <a href="specs/11_top_airports_bar.vl.json">11 Airport scale</a>
+        <a href="specs/12_airport_intensity_scatter.vl.json">12 Intensity scatter</a>
+        <a href="specs/13_airport_efficiency_map.vl.json">13 Efficiency map</a>
+        <a href="specs/14_passengers_per_resident.vl.json">14 Per resident</a>
+        <a href="specs/15_air_travel_intensity_map.vl.json">15 Intensity map</a>
+      </div>
+    </section>
+  </footer>
+
+  <a class="back-to-top" href="#top" aria-label="Back to top">Top</a>
+
+  <script defer src="main.js"></script>
+</body>
+</html>
