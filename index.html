@@ -285,6 +285,13 @@
               first few airports, not only which airport is first.
             </p>
           </aside>
+          <aside class="interpretation-block interpretation-block--annotation">
+            <h3>Distribution pattern</h3>
+            <p>
+              The visual pattern is top-heavy: a few airports dominate the system, while the long lower tail contributes
+              much smaller passenger volumes.
+            </p>
+          </aside>
         </div>
       </div>
 
@@ -530,10 +537,16 @@
     <section class="footer-card footer-card--wide">
       <h2>What this page shows</h2>
       <p>
-        This page shows how Australia’s domestic aviation network is shaped by concentration, disruption, hierarchy, and
-        regional dependence. It compares route volume, airport scale, load factor, efficiency, and population-adjusted
-        intensity to show both where traffic is heaviest and where air travel matters most locally.
+        This page combines multiple views of Australia’s domestic aviation system to show how traffic is shaped by
+        concentration, disruption, hierarchy, and regional dependence.
       </p>
+      <div class="show-list" aria-label="Story view groups">
+        <p><strong>Network concentration</strong> — Route map, Top routes, and Capacity comparison show where traffic is heaviest.</p>
+        <p><strong>Shock and recovery</strong> — Industry passengers, Load factor, and Route recovery trace how demand and utilisation changed through disruption.</p>
+        <p><strong>Airport hierarchy</strong> — Airport rank, Top airports, and Airport map show how a small number of hubs dominate national scale.</p>
+        <p><strong>Regional dependence</strong> — Intensity scatter, Efficiency map, and Passengers per resident show where air travel matters most relative to local population.</p>
+        <p><strong>Seasonality</strong> — The seasonality heatmap shows how monthly airport patterns differ across the network.</p>
+      </div>
     </section>
 
     <section class="footer-card footer-card--wide">
@@ -558,10 +571,6 @@
         <a href="data/airport_intensity_population.csv">
           <strong>airport_intensity_population.csv</strong>
           <span>Passenger intensity by resident population for the airport-city pairings.</span>
-        </a>
-        <a href="data/README_data.md">
-          <strong>README_data.md</strong>
-          <span>Source notes and chart support mapping for each public data file.</span>
         </a>
       </div>
     </section>
