@@ -599,6 +599,10 @@ h1 {
   box-shadow: none;
 }
 
+.chart-layout--annotation-row .interpretation-block--slim {
+  max-width: none;
+}
+
 .conclusion-section {
   display: grid;
   grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.4fr);
@@ -666,8 +670,15 @@ h1 {
 .spec-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   gap: 8px;
   margin-top: 12px;
+  max-width: 100%;
+}
+
+.footer-card--full .spec-list {
+  width: 100%;
 }
 
 .data-list {
