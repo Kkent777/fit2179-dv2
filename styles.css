@@ -196,7 +196,7 @@ h1 {
   background: linear-gradient(180deg, #ffffff, #f3f8fb);
 }
 
-.hero-aside ol {
+.hero-aside ul {
   display: grid;
   gap: 12px;
   margin: 0;

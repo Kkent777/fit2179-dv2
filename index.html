@@ -43,12 +43,12 @@
         </div>
         <aside class="hero-aside" aria-label="Story at a glance">
           <p class="eyebrow">Story arc</p>
-          <ol>
+          <ul>
             <li><span>1</span> A small number of route corridors carry a disproportionate share of demand.</li>
             <li><span>2</span> The disruption was severe, but recovery mostly rebuilt the same hierarchy.</li>
             <li><span>3</span> Smaller airports matter when traffic is compared with capacity and population.</li>
             <li><span>4</span> Seasonal patterns add a final layer to how demand returns and concentrates.</li>
-          </ol>
+          </ul>
         </aside>
       </div>
     </section>
@@ -67,7 +67,7 @@
         <p>Read vertically. Each section pairs one anchor chart with supporting charts that test the same claim.</p>
       </article>
       <article>
-        <h2>Data Base</h2>
+        <h2>Data sources</h2>
         <p>BITRE domestic aviation datasets, with ABS population context for intensity measures.</p>
       </article>
     </section>
@@ -557,19 +557,19 @@
       <div class="data-list" aria-label="Cleaned data file links">
         <a href="data/routes_dec2025.csv">
           <strong>routes_dec2025.csv</strong>
-          <span>December 2025 route passengers, seats, load factor, and trips.</span>
+          <span>Route-level December 2025 traffic data derived from BITRE domestic airline activity. Supports the route map, top routes ranking, and capacity comparison charts.</span>
         </a>
         <a href="data/routes_monthly_2014_2026.csv">
           <strong>routes_monthly_2014_2026.csv</strong>
-          <span>Monthly city-pair route records from July 2014 to February 2026.</span>
+          <span>Monthly route-level time series derived from BITRE route datasets. Supports the recovery, load factor, and route trend charts.</span>
         </a>
         <a href="data/airports_nov2025.csv">
           <strong>airports_nov2025.csv</strong>
-          <span>November 2025 airport passengers, movements, and year-ended totals.</span>
+          <span>Airport passenger totals, movements, and year-ended totals for November 2025 from BITRE airport traffic data. Supports airport ranking and concentration views.</span>
         </a>
         <a href="data/airport_intensity_population.csv">
           <strong>airport_intensity_population.csv</strong>
-          <span>Passenger intensity by resident population for the airport-city pairings.</span>
+          <span>Combined airport traffic and ABS population context. Supports passengers-per-resident, efficiency, and air-travel intensity comparisons.</span>
         </a>
       </div>
     </section>
@@ -580,18 +580,18 @@
         <a href="specs/01_route_map.vl.json">01 Route map</a>
         <a href="specs/02_top_routes_bar.vl.json">02 Top routes</a>
         <a href="specs/03_route_capacity_dumbbell.vl.json">03 Capacity</a>
-        <a href="specs/04_airport_concentration_map.vl.json">04 Airport map</a>
-        <a href="specs/05_industry_passengers_trend.vl.json">05 Passengers</a>
-        <a href="specs/06_load_factor_trend.vl.json">06 Load factor</a>
-        <a href="specs/07_major_routes_small_multiples.vl.json">07 Route recovery</a>
-        <a href="specs/08_airport_rank_bump.vl.json">08 Airport rank</a>
-        <a href="specs/09_top5_airports_trend.vl.json">09 Top airports</a>
-        <a href="specs/10_airport_seasonality_heatmap.vl.json">10 Seasonality</a>
-        <a href="specs/11_top_airports_bar.vl.json">11 Airport scale</a>
-        <a href="specs/12_airport_intensity_scatter.vl.json">12 Intensity scatter</a>
+        <a href="specs/05_industry_passengers_trend.vl.json">04 Passengers</a>
+        <a href="specs/06_load_factor_trend.vl.json">05 Load factor</a>
+        <a href="specs/07_major_routes_small_multiples.vl.json">06 Route recovery</a>
+        <a href="specs/09_top5_airports_trend.vl.json">07 Top airports trend</a>
+        <a href="specs/11_top_airports_bar.vl.json">08 Airport passenger scale</a>
+        <a href="specs/08_airport_rank_bump.vl.json">09 Airport rank</a>
+        <a href="specs/04_airport_concentration_map.vl.json">10 Airport map</a>
+        <a href="specs/12_airport_intensity_scatter.vl.json">11 Intensity scatter</a>
+        <a href="specs/14_passengers_per_resident.vl.json">12 Per resident</a>
         <a href="specs/13_airport_efficiency_map.vl.json">13 Efficiency map</a>
-        <a href="specs/14_passengers_per_resident.vl.json">14 Per resident</a>
-        <a href="specs/15_air_travel_intensity_map.vl.json">15 Intensity map</a>
+        <a href="specs/15_air_travel_intensity_map.vl.json">14 Intensity map</a>
+        <a href="specs/10_airport_seasonality_heatmap.vl.json">15 Seasonality</a>
       </div>
     </section>
   </footer>
