@@ -96,9 +96,9 @@
         <p class="section-number">Part 1 · Network concentration and route structure</p>
         <h2 id="part-1-title">The route network is broad, but demand is sharply concentrated.</h2>
         <p>
-          Australia's domestic aviation map looks national, yet passenger demand is clustered around a few high-volume
-          corridors. The map shows the physical network, while the ranked route and capacity views explain why the
-          eastern capital-city spine dominates the story.
+          Australia's domestic aviation map covers long distances, yet passenger demand is concentrated into a small
+          number of high-volume corridors. The map establishes the spatial network, while the ranked route and capacity
+          views show how volume, seats, and utilisation separate the busiest links from the rest.
         </p>
         <p class="section-takeaway"><strong>Takeaway:</strong> The network connects distant places, but its traffic weight is carried by a narrow set of capital-city routes.</p>
       </div>
@@ -112,7 +112,7 @@
             </div>
             <a href="specs/01_route_map.vl.json">JSON spec</a>
           </div>
-          <p class="caption">This map sets up the whole page: the network reaches across the continent, but the densest traffic paths cluster around the eastern capitals and major interstate links.</p>
+          <p class="caption">This map sets up the network shape first: it shows where major corridors sit geographically before the next charts compare their traffic scale.</p>
           <div id="chart-01" class="chart" data-spec="specs/01_route_map.vl.json"></div>
         </article>
       </div>
@@ -126,7 +126,7 @@
             </div>
             <a href="specs/02_top_routes_bar.vl.json">JSON spec</a>
           </div>
-          <p class="caption">The rank view turns the map into a clearer comparison, showing how quickly traffic falls after the leading domestic corridors.</p>
+          <p class="caption">The rank view shifts from geography to route concentration, making the passenger gap between the leading corridor and the rest easier to read.</p>
           <div id="chart-02" class="chart" data-spec="specs/02_top_routes_bar.vl.json"></div>
         </article>
 
@@ -146,8 +146,8 @@
       <aside class="interpretation-block">
         <h3>What this group adds</h3>
         <p>
-          The route story is not simply that big cities fly more. It is that geography, population, and airline capacity
-          reinforce each other, producing a few corridors that act like the backbone of the domestic system.
+          The route story is not only about city size. Geography, population, and airline scheduling combine to create
+          corridors where high passenger totals and high seat supply reinforce each other.
         </p>
       </aside>
     </section>
@@ -157,9 +157,9 @@
         <p class="section-number">Part 2 · Shock and recovery over time</p>
         <h2 id="part-2-title">The disruption changed volume faster than it changed structure.</h2>
         <p>
-          The time-series charts show the most dramatic movement in the page: domestic travel collapses, capacity adjusts,
-          and then passengers return unevenly. The important point is not only the size of the fall, but the way recovery
-          remained tied to the same route system introduced above.
+          The time-series charts separate the shock into demand, capacity use, and route-level timing. Passenger totals
+          show the scale of the collapse, load factor shows how full aircraft were, and the route view shows that rebound
+          timing varied even within the major corridor network.
         </p>
         <p class="section-takeaway"><strong>Takeaway:</strong> Recovery was real, but it rebuilt demand around familiar corridors rather than creating a new domestic map.</p>
       </div>
@@ -173,7 +173,7 @@
             </div>
             <a href="specs/05_industry_passengers_trend.vl.json">JSON spec</a>
           </div>
-          <p class="caption">This national trend anchors the recovery section because it makes the system-wide shock visible before the page separates capacity and route-level variation.</p>
+          <p class="caption">This national trend anchors the recovery section by showing the aggregate passenger shock before capacity use and individual corridors are examined.</p>
           <div id="chart-05" class="chart" data-spec="specs/05_industry_passengers_trend.vl.json"></div>
         </article>
       </div>
@@ -187,7 +187,7 @@
             </div>
             <a href="specs/06_load_factor_trend.vl.json">JSON spec</a>
           </div>
-          <p class="caption">Load factor explains whether airlines filled the capacity they restored, adding an operational layer to the passenger recovery curve.</p>
+          <p class="caption">Load factor adds an operational reading of recovery: it compares passenger demand with available seats rather than counting travellers alone.</p>
           <div id="chart-06" class="chart" data-spec="specs/06_load_factor_trend.vl.json"></div>
         </article>
       </div>
@@ -196,9 +196,9 @@
         <aside class="interpretation-block interpretation-block--blue interpretation-block--slim interpretation-block--compact-note">
           <h3>Reading the recovery</h3>
           <p>
-            Passengers, seats, and load factor should be read together, because recovery in demand did not always match
-            recovery in utilisation. The route-level view makes those differences visible by showing where rebound was
-            fast, slow, or uneven across the disruption period.
+            Passengers, seats, and load factor should be read together, because demand returned at different times and
+            not always with the same utilisation. The route-level view shows which corridors rebounded earlier, which
+            stayed volatile, and which recovered more gradually after the disruption period.
           </p>
         </aside>
       </div>
@@ -212,7 +212,7 @@
             </div>
             <a href="specs/07_major_routes_small_multiples.vl.json">JSON spec</a>
           </div>
-          <p class="caption">The small multiples prevent the national trend from hiding corridor differences, showing recovery as a set of related route stories.</p>
+          <p class="caption">The small multiples keep each corridor separate, so timing and rebound strength can be compared route by route instead of averaged into one national line.</p>
           <div id="chart-07" class="chart" data-spec="specs/07_major_routes_small_multiples.vl.json"></div>
         </article>
       </div>
@@ -223,8 +223,8 @@
         <p class="section-number">Part 3 · Airport hierarchy and concentration</p>
         <h2 id="part-3-title">Airport dominance is persistent, even when rankings move.</h2>
         <p>
-          The next group shifts from routes to airports. It asks whether airport importance changed meaningfully through
-          disruption, or whether the largest hubs simply absorbed the same shock at different speeds.
+          The next group shifts the unit of analysis from route corridors to airports. It tests whether disruption changed
+          the airport hierarchy itself, or mainly changed the timing and scale of recovery within an already tiered system.
         </p>
         <p class="section-takeaway"><strong>Takeaway:</strong> The largest airports remain central because route concentration, passenger scale, and hub geography reinforce one another.</p>
       </div>
@@ -238,7 +238,7 @@
             </div>
             <a href="specs/09_top5_airports_trend.vl.json">JSON spec</a>
           </div>
-          <p class="caption">The top-airport trend is the anchor because it links the recovery story to airport hierarchy: the same shock appears across hubs, but rebound paths are not identical.</p>
+          <p class="caption">The top-airport trend links recovery to hierarchy by comparing whether the major hubs move together or diverge after the shock.</p>
           <div id="chart-09" class="chart" data-spec="specs/09_top5_airports_trend.vl.json"></div>
         </article>
       </div>
@@ -252,7 +252,7 @@
             </div>
             <a href="specs/11_top_airports_bar.vl.json">JSON spec</a>
           </div>
-          <p class="caption">This chart explains why the largest airport lines matter: the system's passenger base is not evenly distributed.</p>
+          <p class="caption">This chart gives the hierarchy a denominator by comparing passenger totals across airports rather than only tracing their lines over time.</p>
           <div id="chart-11" class="chart" data-spec="specs/11_top_airports_bar.vl.json"></div>
         </article>
 
@@ -260,36 +260,36 @@
           <aside class="interpretation-block interpretation-block--annotation">
             <h3>Why hierarchy matters</h3>
             <p>
-              A stable hierarchy can still contain disruption. The major airports remain dominant, but their recovery lines
-              and rank movements show that local route mix, state conditions, and travel demand still shape outcomes.
+              Airport hierarchy matters because shocks do not affect all hubs through the same route mix. A major airport
+              can keep its broad position while still recovering at a different pace from its peers.
             </p>
           </aside>
           <aside class="interpretation-block interpretation-block--annotation">
             <h3>What to notice</h3>
             <p>
-              Sydney and Melbourne dominate the airport scale story, Brisbane follows as the next major tier, and the
-              remaining airports fall away quickly. The pattern is concentrated rather than evenly spread nationally.
+              Focus on the size gaps between bars. The first few airports are separated by large absolute passenger
+              differences, while many lower-ranked airports sit much closer together.
             </p>
           </aside>
           <aside class="interpretation-block interpretation-block--annotation">
             <h3>Scale takeaway</h3>
             <p>
-              Passenger traffic is not spread evenly across the airport network. After Sydney and Melbourne, the scale
-              drops quickly, showing that a small number of major hubs carry a disproportionate share of domestic aviation demand.
+              This chart adds a scale baseline before the page changes denominator. It shows what the airport system
+              looks like when every passenger is counted equally, regardless of local population.
             </p>
           </aside>
           <aside class="interpretation-block interpretation-block--annotation">
             <h3>How to read this chart</h3>
             <p>
-              Read the bars as a hierarchy rather than just a ranking. The important pattern is the steep fall after the
-              first few airports, not only which airport is first.
+              Read the bars as a size distribution rather than a leaderboard. The key evidence is the step down between
+              tiers, not only which airport appears at the top.
             </p>
           </aside>
           <aside class="interpretation-block interpretation-block--annotation">
             <h3>Distribution pattern</h3>
             <p>
-              The visual pattern is top-heavy: a few airports dominate the system, while the long lower tail contributes
-              much smaller passenger volumes.
+              The lower tail is still operationally important, but it contributes far smaller volumes. This prepares the
+              later shift from total scale to local dependence.
             </p>
           </aside>
         </div>
@@ -304,7 +304,7 @@
             </div>
             <a href="specs/08_airport_rank_bump.vl.json">JSON spec</a>
           </div>
-          <p class="caption">The bump chart is kept full-width because rank paths and labels need horizontal room; it adds movement to the hierarchy story without compressing the comparison.</p>
+          <p class="caption">The bump chart shows that the hierarchy is mostly stable, with the clearest rank disturbance appearing briefly around the COVID disruption period.</p>
           <div id="chart-08" class="chart" data-spec="specs/08_airport_rank_bump.vl.json"></div>
         </article>
       </div>
@@ -318,7 +318,7 @@
             </div>
             <a href="specs/04_airport_concentration_map.vl.json">JSON spec</a>
           </div>
-          <p class="caption">The airport map places the hierarchy back into geography, showing how capital-city dominance sits within a wider national airport network.</p>
+          <p class="caption">The airport map translates the hierarchy into spatial form, showing where high-volume hubs sit within the wider national airport network.</p>
           <div id="chart-04" class="chart" data-spec="specs/04_airport_concentration_map.vl.json"></div>
         </article>
 
@@ -326,23 +326,22 @@
           <aside class="interpretation-block interpretation-block--annotation">
             <h3>Map reading note</h3>
             <p>
-              The airport map is useful after the rank charts because it reminds the reader that hierarchy is spatial.
-              Major hubs dominate passenger volume, but the domestic system still depends on a broader spread of regional
-              and interstate airports.
+              Read each symbol as a combination of scale and position. Marker size shows passenger volume, while location
+              shows whether that volume belongs to a capital hub, coastal centre, or regional access point.
             </p>
           </aside>
           <aside class="interpretation-block interpretation-block--annotation">
             <h3>Spatial takeaway</h3>
             <p>
-              The airport system is geographically widespread, but the largest traffic still clusters around a few hubs,
-              especially the east coast capitals. Geography expands the network; demand concentrates it.
+              The map adds spatial hierarchy rather than another rank order. It shows that national coverage depends on
+              many airport locations, even when the largest volumes sit in a smaller set of hubs.
             </p>
           </aside>
           <aside class="interpretation-block interpretation-block--annotation">
             <h3>Why the map helps</h3>
             <p>
-              The ranking and bar charts show scale clearly, but the map restores geography to the story. It shows that
-              the network is nationally distributed even though the heaviest traffic remains concentrated around a few east-coast hubs.
+              Compared with the bar chart, the map makes distance and regional coverage visible. That helps distinguish
+              airports that are similar in rank but play different geographic roles.
             </p>
           </aside>
         </div>
@@ -354,9 +353,9 @@
         <p class="section-number">Part 4 · Regional dependence and travel intensity</p>
         <h2 id="part-4-title">Smaller places can matter more once the denominator changes.</h2>
         <p>
-          Passenger totals privilege major hubs, so this section changes the comparison. By looking at passengers per
-          resident, movements, and efficiency, the page highlights places where aviation has a heavier local role even
-          when total traffic is much smaller.
+          Passenger totals privilege major hubs, so this section changes the denominator. By comparing passengers with
+          residents and aircraft movements, the page identifies airports where aviation has a heavier local role even
+          when the total number of travellers is smaller.
         </p>
         <p class="section-takeaway"><strong>Takeaway:</strong> Scale shows where the system is biggest; intensity shows where the system is most locally important.</p>
       </div>
@@ -370,7 +369,7 @@
             </div>
             <a href="specs/12_airport_intensity_scatter.vl.json">JSON spec</a>
           </div>
-          <p class="caption">The scatterplot tests whether airport scale and local population move together, making outliers more visible than a total-passenger chart.</p>
+          <p class="caption">The scatterplot compares traffic with movements, making airports with unusually high passenger throughput easier to separate from the main cluster.</p>
           <div id="chart-12" class="chart" data-spec="specs/12_airport_intensity_scatter.vl.json"></div>
         </article>
 
@@ -382,7 +381,7 @@
             </div>
             <a href="specs/14_passengers_per_resident.vl.json">JSON spec</a>
           </div>
-          <p class="caption">The per-resident view gives the regional story a simple interpretation: airport traffic can be large relative to the population it serves.</p>
+          <p class="caption">The per-resident view changes the comparison from national scale to local exposure, so smaller cities can appear more aviation-intensive.</p>
           <div id="chart-14" class="chart" data-spec="specs/14_passengers_per_resident.vl.json"></div>
         </article>
       </div>
@@ -396,7 +395,7 @@
             </div>
             <a href="specs/13_airport_efficiency_map.vl.json">JSON spec</a>
           </div>
-          <p class="caption">Efficiency adds capacity context by comparing passengers with aircraft movements, rather than treating every airport movement as equivalent.</p>
+          <p class="caption">Efficiency compares passengers with aircraft movements, distinguishing airports that handle similar movement counts but different passenger loads.</p>
           <div id="chart-13" class="chart" data-spec="specs/13_airport_efficiency_map.vl.json"></div>
         </article>
       </div>
@@ -410,7 +409,7 @@
             </div>
             <a href="specs/15_air_travel_intensity_map.vl.json">JSON spec</a>
           </div>
-          <p class="caption">This feature map converts the dependence story back into geography, revealing places that stand out after population and airport role are considered.</p>
+          <p class="caption">This feature map locates the intensity measure, showing where high passengers-per-resident values sit within the national airport network.</p>
           <div id="chart-15" class="chart" data-spec="specs/15_air_travel_intensity_map.vl.json"></div>
         </article>
       </div>
@@ -421,9 +420,9 @@
         <p class="section-number">Part 5 · Seasonality and behavioural patterns</p>
         <h2 id="part-5-title">Seasonality shows that recovery was also a calendar story.</h2>
         <p>
-          The final visual section narrows the focus from long-term hierarchy to month-by-month behaviour. Seasonal
-          rhythm matters because airports do not only recover by returning to a previous total; they also return through
-          travel calendars, holiday peaks, and repeated demand cycles.
+          The final visual section shifts from long-term hierarchy to month-by-month behaviour. Seasonal rhythm matters
+          because airports do not only recover by reaching a previous annual total; they also re-enter travel calendars,
+          holiday peaks, and repeated demand cycles.
         </p>
         <p class="section-takeaway"><strong>Takeaway:</strong> Seasonal structure helps separate normal travel rhythm from the exceptional disruption visible in the recovery charts.</p>
       </div>
@@ -432,8 +431,8 @@
         <aside class="interpretation-block interpretation-block--feature">
           <h3>Why this chart comes last</h3>
           <p>
-            The heatmap is not just a supporting detail. It closes the analysis by showing that airport demand has both
-            structural hierarchy and behavioural rhythm: who dominates, who depends, and when passengers move.
+            The heatmap closes the analysis by adding timing to the earlier spatial and scale comparisons. It shows
+            whether airport demand is steady through the year or shaped by recurring monthly peaks.
           </p>
         </aside>
       </div>
@@ -447,7 +446,7 @@
             </div>
             <a href="specs/10_airport_seasonality_heatmap.vl.json">JSON spec</a>
           </div>
-          <p class="caption">The heatmap shows month-by-month patterns beside disruption, helping distinguish recurring seasonal behaviour from unusual shocks.</p>
+          <p class="caption">The heatmap compares months across airports, helping separate recurring seasonal peaks from the exceptional disruption seen in the recovery charts.</p>
           <div id="chart-10" class="chart" data-spec="specs/10_airport_seasonality_heatmap.vl.json"></div>
         </article>
       </div>
@@ -461,19 +460,19 @@
       <div class="conclusion-grid">
         <article>
           <h3>Concentration</h3>
-          <p>Domestic aviation is anchored by a small set of routes and airports, especially the major capital-city corridors.</p>
+          <p>A small set of routes and airports carries much of the passenger load, especially along major capital-city corridors.</p>
         </article>
         <article>
           <h3>Resilience</h3>
-          <p>The shock was severe, but the recovery largely preserved the underlying route and airport hierarchy.</p>
+          <p>The shock reduced volumes sharply, but recovery largely returned demand to the existing route and airport tiers.</p>
         </article>
         <article>
           <h3>Dependence</h3>
-          <p>Population-adjusted and efficiency measures reveal regional places that matter more than total traffic suggests.</p>
+          <p>Population-adjusted and movement-based measures reveal airports whose local role is larger than raw totals suggest.</p>
         </article>
         <article>
           <h3>Rhythm</h3>
-          <p>Seasonality reminds us that air travel is not only spatial; it also follows recurring monthly demand patterns.</p>
+          <p>Seasonality adds a calendar layer, showing that airport demand also follows repeated monthly travel cycles.</p>
         </article>
       </div>
     </section>
@@ -489,11 +488,11 @@
       <div class="method-grid">
         <article>
           <h3>Passengers</h3>
-          <p>Total domestic passenger movements reported in the route and airport datasets. They are used to show scale, concentration, and recovery.</p>
+          <p>Total passenger movements reported in the route and airport datasets. They are used to compare scale, rank, and recovery timing.</p>
         </article>
         <article>
           <h3>Available seats and load factor</h3>
-          <p>Available seats approximate capacity. Load factor compares passengers with seats, showing how tightly capacity was used.</p>
+          <p>Available seats approximate capacity. Load factor compares passengers with seats, showing whether restored capacity was being filled.</p>
         </article>
         <article>
           <h3>Passengers per resident</h3>
@@ -509,7 +508,7 @@
         </article>
         <article>
           <h3>Interpretation note</h3>
-          <p>Population-adjusted measures do not mean residents took every trip; they show airport activity intensity relative to nearby population.</p>
+          <p>Population-adjusted measures do not mean residents took every trip; they compare airport activity with the size of the nearby population base.</p>
         </article>
       </div>
     </section>
@@ -537,15 +536,15 @@
     <section class="footer-card footer-card--wide">
       <h2>What this page shows</h2>
       <p>
-        This page combines multiple views of Australia’s domestic aviation system to show how traffic is shaped by
-        concentration, disruption, hierarchy, and regional dependence.
+        This page combines route, airport, time-series, map, and population-adjusted views of Australia’s domestic
+        aviation system to show how traffic changes when the comparison frame changes.
       </p>
       <div class="show-list" aria-label="Story view groups">
-        <p><strong>Network concentration</strong> — Route map, Top routes, and Capacity comparison show where traffic is heaviest.</p>
-        <p><strong>Shock and recovery</strong> — Industry passengers, Load factor, and Route recovery trace how demand and utilisation changed through disruption.</p>
-        <p><strong>Airport hierarchy</strong> — Airport rank, Top airports, and Airport map show how a small number of hubs dominate national scale.</p>
-        <p><strong>Regional dependence</strong> — Intensity scatter, Efficiency map, and Passengers per resident show where air travel matters most relative to local population.</p>
-        <p><strong>Seasonality</strong> — The seasonality heatmap shows how monthly airport patterns differ across the network.</p>
+        <p><strong>Network concentration</strong> — Route map, Top routes, and Capacity comparison identify the busiest corridors and how strongly they are used.</p>
+        <p><strong>Shock and recovery</strong> — Industry passengers, Load factor, and Route recovery separate demand change from utilisation change.</p>
+        <p><strong>Airport hierarchy</strong> — Airport rank, Top airports, and Airport map compare scale, rank movement, and geographic position.</p>
+        <p><strong>Regional dependence</strong> — Intensity scatter, Efficiency map, and Passengers per resident shift the focus from total volume to local exposure.</p>
+        <p><strong>Seasonality</strong> — The seasonality heatmap compares recurring monthly patterns across airports.</p>
       </div>
     </section>
 
